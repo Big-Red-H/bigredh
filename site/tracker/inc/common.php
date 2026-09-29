@@ -97,7 +97,7 @@ function page_header($title, $query = '', $front = false)
 <title><?php echo h($full); ?></title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body bgcolor="#7F99B3" text="#000000" link="#333399" vlink="#333399" alink="#6666FF" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
+<body bgcolor="#7F99B3" text="#000000" link="#22228A" vlink="#22228A" alink="#6666FF" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr><td align="center" valign="top">
 <table class="frame" width="760" cellpadding="0" cellspacing="0" border="0">

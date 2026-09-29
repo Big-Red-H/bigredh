@@ -64,7 +64,7 @@ To keep your server out of the file index, make a folder named <b>noindex</b> an
 </tr>
 <?php foreach ($listed as $s) {
     $f = isset($files[$s['key']]) ? $files[$s['key']] : null;
-    $color = $s['online'] ? '#000000' : '#888888';
+    $color = $s['online'] ? '#000000' : '#5A5A5A';
     ?>
 <tr<?php echo $s['online'] ? '' : ' class="offline"'; ?>>
 <td><font size="2" color="<?php echo $color; ?>"><b><?php echo h($s['name']); ?></b><?php echo $s['online'] ? '' : ' <i>(not answering)</i>'; ?></font></td>

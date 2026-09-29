@@ -3,20 +3,25 @@
 :root { color-scheme: only light; }
 body { background-color: #7F99B3; color: #000; margin: 0; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; }
 td, p, li { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; }
-a { color: #333399; }
+a { color: #22228A; }
 a:hover, a:active { color: #6666FF; }
 img { border: 0; }
 p { line-height: 1.5; }
 .heading { margin: 18px 0 6px 0; border-bottom: 1px solid #C9D2DC; padding-bottom: 3px; }
 .nav { margin: 6px 0 10px 0; border-top: 1px solid #BBBBBB; border-bottom: 1px solid #BBBBBB; }
 .stats { margin: 8px 0; border: 1px solid #C9D2DC; }
-.dim, .dim a { color: #777777; }
+.dim, .dim a { color: #4A4A4A; }
 table.list { border-collapse: collapse; border: 1px solid #C9D2DC; }
 table.list th { text-align: left; background: #DDDDDD; border-bottom: 1px solid #BBBBBB; padding: 4px; }
 table.list td { padding: 4px; vertical-align: top; border-bottom: 1px solid #E4E8EE; }
 table.list tr:nth-child(even) td { background: #F3F5F8; }
-table.list tr.offline td, table.list tr.offline td a { color: #888888; }
+table.list tr.offline td, table.list tr.offline td a { color: #5A5A5A; }
 .num { text-align: right; white-space: nowrap; }
+/* Old browsers keep the sizes in the HTML; newer ones get small text at a readable size. */
+font[size="1"] { font-size: 12px; }
+font[size="2"] { font-size: 13px; }
+table.list td.desc font { color: #222222; }
+
 input { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 11px; }
 
 /* Phones: let the 760-wide frame shrink. Old browsers ignore this. */

@@ -7,7 +7,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Marisa's Apps Hotline Server",
   "port": 5500
@@ -132,7 +133,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
   "port": 5500
@@ -257,8 +259,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -394,7 +395,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
   "port": 5500
@@ -405,10 +407,7 @@
   "host": "202.128.66.10",
   "last_seen": "2026-09-29",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "Bill's Bible Basics",
   "port": 5500
@@ -447,6 +446,7 @@
   "host": "23.239.4.205",
   "last_seen": "2026-09-29",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -531,7 +531,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -544,8 +545,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -898,8 +898,7 @@
   "last_seen": "2026-09-29",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500

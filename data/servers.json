@@ -542,6 +542,19 @@
   "name": "Carrier Command Hotline server",
   "port": 5500
  },
+ "45.56.82.226:5500": {
+  "description": "All 2,200 files in the Classic Mac OSX file area",
+  "first_seen": "2026-09-29",
+  "host": "45.56.82.226",
+  "last_seen": "2026-09-29",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
+  ],
+  "name": "Mac OSX Hotline server",
+  "port": 5500
+ },
  "45.56.94.175:5500": {
   "description": "All the files in the Windows XP City file area",
   "first_seen": "2026-09-29",

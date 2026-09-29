@@ -57,6 +57,7 @@ reached is tried again the next month.
 | Hide a server from the list | `config/hidden.txt` |
 | List a server that isn't on any tracker | `config/extra-servers.txt` |
 | Leave a name off the Population page | `config/population-hidden.txt` |
+| Handle a removal request | Issues labeled **removal** come from the form linked on the tracker's pages. Add the server to `config/hidden.txt` (off the list) and/or `config/noindex.txt` (out of the file index and Population), or the name to `config/population-hidden.txt`, then close the issue. |
 | Keep a server out of the file index | `config/noindex.txt`: it drops out of search on the next upload and out of `data/files/` on the next monthly save. (A server owner can also make a folder named `noindex` before it's first indexed.) |
 | Change the landing page | `site/www/index.html` |
 | Change the tracker pages | `site/tracker/` |

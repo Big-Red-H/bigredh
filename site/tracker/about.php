@@ -31,10 +31,12 @@ site, for 30 days, and aren't saved anywhere else. To be left off, ask on the
 index are skipped here too.</p>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Keeping your server out</b></font></p>
-<p>Make a folder named <b>noindex</b> anywhere on your server before it's indexed: when the
-indexer sees it, it stops and records nothing. If your server is already in the index, or you
-want it off the list too, ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>
-and it'll be taken out.</p>
+<p>To take your server off the list, out of the file index or off the Population page, or your
+name off Population, fill in the <a href="<?php echo h(REMOVE_URL); ?>"><b>removal request</b></a>
+on GitHub (it needs a free GitHub account). You can also ask on the
+<a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>.</p>
+<p>To keep a server out of the file index before it's indexed, make a folder named
+<b>noindex</b> anywhere on it: when the indexer sees it, it stops and records nothing.</p>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Getting listed</b></font></p>
 <p>Register your server with any of the trackers above and it shows up here within the hour.</p>

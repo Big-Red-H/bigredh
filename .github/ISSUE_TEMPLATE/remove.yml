@@ -1,0 +1,39 @@
+name: Remove my server or my name
+description: Take your Hotline server off the BigRedH tracker, out of its file index or Population, or take your name off Population.
+title: "Remove: "
+labels: ["removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what to take off [tracker.bigredh.com](http://tracker.bigredh.com/). A maintainer handles it by hand, usually within a few days.
+  - type: input
+    id: address
+    attributes:
+      label: Server address
+      description: "As shown on the tracker, like 12.34.56.78:5500. Leave empty if this is only about your name."
+  - type: input
+    id: server_name
+    attributes:
+      label: Server name
+  - type: checkboxes
+    id: what
+    attributes:
+      label: What should be removed?
+      options:
+        - label: The server, from the server list
+        - label: The server's files, from the file index and search
+        - label: The server, from the Population page
+        - label: My name, from the Population page
+  - type: input
+    id: person
+    attributes:
+      label: Your Hotline name
+      description: Only if you want your name off the Population page.
+  - type: textarea
+    id: proof
+    attributes:
+      label: How can we tell it's yours?
+      description: "For a server: for example, you're its admin on the Hotline Discord, or it now has a folder named noindex. For a name: say which server you use it on."
+    validations:
+      required: true

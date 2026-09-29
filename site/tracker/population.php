@@ -55,7 +55,7 @@ Checked <?php echo h(format_ago(isset($pop['checked_at']) ? $pop['checked_at'] :
 
 <p><font size="1" class="dim">Every few hours the tracker looks at who's on each listed server. Names are
 kept for <?php echo $keepDays; ?> days after they were last seen, and never stored anywhere else.
-To be left off, ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>.</font></p>
+To be left off, send a <a href="<?php echo h(REMOVE_URL); ?>">removal request</a> or ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>.</font></p>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Online now</b></font></p>
 <?php

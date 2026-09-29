@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   check:
@@ -25,10 +26,23 @@ jobs:
             scripts
             data/servers.json
             data/live.json
+            data/files/*/info.json
           sparse-checkout-cone-mode: false
 
       - name: Ask the trackers and check the servers
         run: python3 tracker/update_servers.py
+
+      # A server that came back at a new address under exactly the same name keeps its file
+      # listing: its folder moves to the new address instead of being indexed again.
+      - name: Move file listings of servers that changed address
+        id: moves
+        run: |
+          if [ -s data/moves.json ]; then
+            python3 -c 'import json; [print(m[k].replace(":", "_")) for m in json.load(open("data/moves.json")) for k in ("from", "to")]' |
+              while read -r dir; do git sparse-checkout add "data/files/$dir/"; done
+            python3 tracker/apply_moves.py
+            echo "moved=true" >> "$GITHUB_OUTPUT"
+          fi
 
       # The server list is saved whenever it changes (at most once a day per server); this
       # hour's user counts only once a day, so GitHub keeps a daily snapshot without 24 commits.
@@ -46,3 +60,10 @@ jobs:
           DEPLOY_PATH_WWW: ${{ vars.DEPLOY_PATH_WWW }}
           DEPLOY_PATH_TRACKER: ${{ vars.DEPLOY_PATH_TRACKER }}
         run: scripts/deploy.sh data
+
+      # The search index knows servers by address, so a move needs a full rebuild.
+      - name: Rebuild search after a move
+        if: steps.moves.outputs.moved == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY"

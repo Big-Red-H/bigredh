@@ -68,6 +68,35 @@ def write_json(path, value):
     path.write_text(text, encoding="utf-8")
 
 
+def indexed_servers():
+    """Servers that have a file listing: address -> the name it had when indexed."""
+    found = {}
+    for path in (DATA / "files").glob("*/info.json"):
+        info = load_json(path, {})
+        if info.get("status") in ("ok", "partial", "opted out") and info.get("server"):
+            found[info["server"]] = info.get("name") or ""
+    return found
+
+
+def find_moves(servers, listed_now, indexed):
+    """Servers that came back at a new address under exactly the same name, so their file
+    listing can follow them instead of being indexed again. Only when it's unambiguous: the old
+    address isn't listed any more, no other listed server has that name, exactly one old
+    address has a listing under that name, and the new address has no listing of its own."""
+    moves = []
+    for new in sorted(listed_now):
+        if new in indexed or new not in servers:
+            continue
+        name = servers[new]["name"]
+        if sum(1 for k in listed_now if k in servers and servers[k]["name"] == name) != 1:
+            continue
+        old = [k for k in indexed if k != new and k not in listed_now
+               and name in (indexed[k], servers.get(k, {}).get("name"))]
+        if len(old) == 1:
+            moves.append({"from": old[0], "to": new, "name": name})
+    return moves
+
+
 def main():
     now = datetime.now(timezone.utc)
     today = now.strftime("%Y-%m-%d")
@@ -130,6 +159,20 @@ def main():
     servers = {k: v for k, v in servers.items() if v["last_seen"] >= cutoff and k not in hidden}
 
     listed_now = set(listings) - hidden
+
+    # A server that moved keeps its history here, and its file listing is moved to the new
+    # address by apply_moves.py (see data/moves.json).
+    moves = find_moves(servers, listed_now, indexed_servers())
+    for m in moves:
+        old = servers.pop(m["from"], {})
+        record = servers[m["to"]]
+        record["first_seen"] = min(record["first_seen"], old.get("first_seen", record["first_seen"]))
+        record["previous_addresses"] = sorted(set(old.get("previous_addresses", []) + [m["from"]]))
+        print(f"{m['name']}: moved from {m['from']} to {m['to']}")
+    if moves:
+        write_json(DATA / "moves.json", moves)
+    else:
+        (DATA / "moves.json").unlink(missing_ok=True)
 
     def check(key):
         s = servers[key]

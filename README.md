@@ -46,7 +46,10 @@ copy, so there's no permanent public record of who was online when. Names in
 The site's search runs on an SQLite file built from `data/files/` on every upload. It's never
 saved to git; it can always be rebuilt.
 
-A server stays as it was indexed until someone re-indexes it. A new server that can't be
+A server stays as it was indexed until someone re-indexes it, and its listing is kept even
+after it drops off the trackers. When a server comes back at a new address under exactly the
+same name (and nothing else is listed under that name), the hourly check moves its listing to
+the new address instead of indexing it again; the old address is kept in `previous_addresses`. A new server that can't be
 reached is tried again the next month.
 
 ## Changing things

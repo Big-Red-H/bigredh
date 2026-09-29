@@ -172,8 +172,9 @@ def index_server(key, name, time_limit):
 
 
 def already_indexed(key):
+    # A partial listing (it ran out of time) is tried again next month.
     status = load_json(FILES / folder_name(key) / "info.json", {}).get("status")
-    return status in ("ok", "partial", "opted out")
+    return status in ("ok", "opted out")
 
 
 def planned_servers(everything=False):

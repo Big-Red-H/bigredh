@@ -1,0 +1,48 @@
+name: Hourly server check
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # Shares a queue with the monthly save, so two runs never push at once.
+    concurrency:
+      group: data
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            tracker
+            config
+            scripts
+            data/servers.json
+            data/live.json
+          sparse-checkout-cone-mode: false
+
+      - name: Ask the trackers and check the servers
+        run: python3 tracker/update_servers.py
+
+      # The server list is saved whenever it changes (at most once a day per server); this
+      # hour's user counts only once a day, so GitHub keeps a daily snapshot without 24 commits.
+      - name: Save to GitHub
+        run: |
+          paths="data/servers.json"
+          if [ "$(date -u +%H)" = "00" ]; then paths="$paths data/live.json"; fi
+          scripts/save-data.sh "Server list $(date -u +%Y-%m-%d)" $paths
+
+      - name: Upload to DreamHost
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH_WWW: ${{ vars.DEPLOY_PATH_WWW }}
+          DEPLOY_PATH_TRACKER: ${{ vars.DEPLOY_PATH_TRACKER }}
+        run: scripts/deploy.sh data

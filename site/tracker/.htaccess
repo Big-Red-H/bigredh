@@ -1,0 +1,8 @@
+# Plain HTTP stays plain HTTP: classic Mac OS browsers can't use modern HTTPS.
+DirectoryIndex index.php
+AddDefaultCharset utf-8
+Options -Indexes
+
+<IfModule mod_mime.c>
+    AddType application/json .json
+</IfModule>

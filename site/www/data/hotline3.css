@@ -1,0 +1,54 @@
+.main {font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+	   font-size: 10pt;
+	   line-height: 1.5;}
+
+.alert {font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+        font-size: 10pt;
+        line-height: 1.5;
+	color: #FF0000;}
+		
+.heading { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+		   font-size: 13pt;	
+		   line-height: 1.5;}
+
+.heading1 { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+			font-size: 12pt;}
+
+.heading2 { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+            font-size: 11pt;}
+
+.heading3 { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+            font-size: 9pt;}
+
+.yellow { color: #FFCC33;}
+.yellow1 { color: #CCFF00;}
+.red{ color: #8C1021;} 
+
+.hotline { color: #333399;}
+.news{ color: #333399;}
+.about{ color: #333399;}
+.whatisit{ color: #333399;}
+.support { color: #333399;}
+.hlworld { color: #333399;}
+.howwork { color: #333399;}
+
+.date { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+		color: #6666FF;}
+		
+A { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;}
+
+.links { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+		font-size: 8pt;
+		line-height: 1.5;}
+		
+.sub {font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+	  font-size: 8pt;
+	  line-height: 1.5;}
+
+.btmLinks { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+            font-size: 9pt;
+			color: #FFFFFF;}
+
+A:active {color: #6666FF;}
+A:hover {color: #6666FF;}

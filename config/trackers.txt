@@ -1,0 +1,5 @@
+# Trackers whose lists are merged into BigRedH's, one per line: host or host:port (default 5498).
+hltracker.com
+tracker.preterhuman.net
+hotline.kicks-ass.net
+saddle.dyndns.org

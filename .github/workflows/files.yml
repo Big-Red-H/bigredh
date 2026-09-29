@@ -1,0 +1,98 @@
+name: Monthly file index
+
+on:
+  schedule:
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+    inputs:
+      servers:
+        description: "Only these servers (host:port, separated by spaces). Blank for every listed server."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      servers: ${{ steps.plan.outputs.servers }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            tracker
+            config
+            data/servers.json
+            data/live.json
+          sparse-checkout-cone-mode: false
+      - id: plan
+        env:
+          ONLY: ${{ inputs.servers }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            servers=$(python3 -c 'import json,os; print(json.dumps(os.environ["ONLY"].split()))')
+          else
+            servers=$(python3 tracker/index_files.py --plan)
+          fi
+          echo "servers=$servers" >> "$GITHUB_OUTPUT"
+          echo "$servers"
+
+  # One job per server: a huge server can take hours without holding up the rest, and one that
+  # hangs only loses its own listing.
+  index:
+    needs: plan
+    if: needs.plan.outputs.servers != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        server: ${{ fromJSON(needs.plan.outputs.servers) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            tracker
+            config
+            data/servers.json
+            data/live.json
+          sparse-checkout-cone-mode: false
+      - name: Index ${{ matrix.server }}
+        run: python3 tracker/index_files.py "${{ matrix.server }}" --time-limit 19800
+      - uses: actions/upload-artifact@v4
+        with:
+          name: files-${{ strategy.job-index }}
+          path: data/files/
+          retention-days: 3
+          include-hidden-files: false
+
+  save:
+    needs: index
+    if: always() && needs.index.result != 'skipped'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: data
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: files-*
+          path: results
+          merge-multiple: true
+      - name: Replace the listings that worked
+        run: python3 tracker/merge_results.py results
+      - name: Save to GitHub
+        run: scripts/save-data.sh "File index $(date -u +%Y-%m-%d)" data/files
+      - name: Upload to DreamHost
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH_WWW: ${{ vars.DEPLOY_PATH_WWW }}
+          DEPLOY_PATH_TRACKER: ${{ vars.DEPLOY_PATH_TRACKER }}
+        run: scripts/deploy.sh index

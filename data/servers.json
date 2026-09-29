@@ -161,8 +161,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hotline Tools for Unix",
   "port": 5500
@@ -259,7 +258,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -450,8 +450,7 @@
   "last_seen": "2026-09-29",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Digimon Fans Hotline server",
   "port": 5500
@@ -491,8 +490,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -547,7 +545,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -694,8 +693,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -708,8 +706,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -722,8 +719,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999
@@ -879,6 +875,20 @@
   "name": "HCO3 Network Hotline Server",
   "port": 5500
  },
+ "72.211.238.1:5500": {
+  "description": "fuck what you heard, we press flowers the best",
+  "first_seen": "2026-09-29",
+  "host": "72.211.238.1",
+  "last_seen": "2026-09-29",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Test Pattern 6",
+  "port": 5500
+ },
  "73.163.202.118:5500": {
   "description": "Recreating my old HL server from 1999-2001. Classic Mac stuff.",
   "first_seen": "2026-09-29",
@@ -886,7 +896,8 @@
   "last_seen": "2026-09-29",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500
@@ -913,8 +924,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Palm Fans Hotline server",
   "port": 5500

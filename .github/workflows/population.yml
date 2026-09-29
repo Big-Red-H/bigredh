@@ -22,7 +22,7 @@ jobs:
 
       # The list lives only on the site, never in git, so each run starts from the site's copy.
       - name: Get the current list from the site
-        run: curl -fsS -m 30 -o previous.json http://tracker.bigredh.com/data/population.json || echo '{}' > previous.json
+        run: curl -fsSL -m 30 -o previous.json http://tracker.bigredh.com/data/population.json || echo '{}' > previous.json
 
       - name: See who's on each server
         run: python3 tracker/population.py previous.json

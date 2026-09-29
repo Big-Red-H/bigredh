@@ -214,9 +214,16 @@ class HotlineServer:
         return is_reply, ttype, tid, error, fields
 
     def _request(self, ttype, fields):
-        """Sends a request and waits for its reply, noting anything the server pushes meanwhile."""
+        """Sends a request and waits for its reply, noting anything the server pushes meanwhile.
+
+        A server can ignore a request while it keeps sending chat and user changes, which keeps
+        the connection from ever timing out, so the whole wait has its own limit.
+        """
         tid = self._send(ttype, fields)
+        deadline = time.monotonic() + self.timeout
         while True:
+            if time.monotonic() > deadline:
+                raise HotlineError("no reply")
             is_reply, rtype, rid, error, rfields = self._read_transaction()
             if is_reply and rid == tid:
                 return error, rfields

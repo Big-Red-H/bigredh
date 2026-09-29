@@ -10,8 +10,8 @@ import shutil
 import sys
 from pathlib import Path
 
-from index_files import FILES
-from update_servers import load_json, write_json
+from index_files import FILES, folder_name
+from update_servers import load_json, read_list, write_json
 
 
 def main():
@@ -30,6 +30,13 @@ def main():
             previous.setdefault("status", "failed")
             write_json(target / "info.json", previous)
             print(f"{folder.name}: failed, kept the previous listing ({info.get('last_error')})")
+
+    # Servers added to config/noindex.txt since their listing was saved.
+    for key in read_list("noindex.txt"):
+        target = FILES / folder_name(key)
+        if target.exists():
+            shutil.rmtree(target)
+            print(f"{key}: removed (config/noindex.txt)")
 
 
 if __name__ == "__main__":

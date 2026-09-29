@@ -15,16 +15,17 @@ decoration (welcome lines and dividers) are left out.</p>
 </ul>
 
 <h2>The file index</h2>
-<p>Once a month, BigRedH logs into every listed server as a guest and writes down the name,
-size and kind of each file and folder a guest can see. Nothing is downloaded. To download,
+<p>Once a month, BigRedH logs into each server it hasn't indexed before as a guest and writes
+down the name, size and kind of each file and folder a guest can see. Nothing is downloaded. To download,
 connect to the server with a Hotline client.</p>
 <p>It logs in as <b>BigRedH Indexer</b> and opens one folder at a time with a short pause
 in between.</p>
 
 <h2>Keeping your server out</h2>
-<p>Make a folder named <b>noindex</b> anywhere on your server. The next time the indexer
-sees it, it drops everything it had for your server and stops. You can also ask on the
-<a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a> to be left off the list or the index entirely.</p>
+<p>Make a folder named <b>noindex</b> anywhere on your server before it's indexed: when the
+indexer sees it, it stops and records nothing. If your server is already in the index, or you
+want it off the list too, ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>
+and it'll be taken out.</p>
 
 <h2>Getting listed</h2>
 <p>Register your server with any of the trackers above and it shows up here within the hour.</p>

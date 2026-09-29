@@ -12,11 +12,12 @@ tables, colors set in the HTML, and no JavaScript.
 | When | Workflow | What it does |
 |---|---|---|
 | Every hour | `servers.yml` | Asks the trackers in `config/trackers.txt` for their lists, merges them, checks each server answers, saves the list to GitHub and uploads it. |
-| The 1st of each month | `files.yml` | Logs into every listed server as a guest, records its files and folders, saves them to GitHub and uploads a new search index. |
+| The 1st of each month | `files.yml` | Logs into each new server (one not indexed yet) as a guest, records its files and folders, saves them to GitHub and uploads a new search index. |
 | Every push to `main` | `deploy.yml` | Uploads both sites. |
 
 Any of them can be started by hand from the **Actions** tab (**Run workflow**). The monthly one
-can be given a few `host:port` addresses to index just those servers.
+can be given a few `host:port` addresses to index (or re-index) just those servers, or told to
+re-index everything.
 
 ## The data
 
@@ -33,7 +34,8 @@ Everything is JSON, saved to this repo by the workflows:
 The site's search runs on an SQLite file built from `data/files/` on every upload. It's never
 saved to git; it can always be rebuilt.
 
-A server that can't be reached during the monthly scan keeps last month's listing.
+A server stays as it was indexed until someone re-indexes it. A new server that can't be
+reached is tried again the next month.
 
 ## Changing things
 
@@ -42,7 +44,7 @@ A server that can't be reached during the monthly scan keeps last month's listin
 | Add or remove a tracker | `config/trackers.txt` |
 | Hide a server from the list | `config/hidden.txt` |
 | List a server that isn't on any tracker | `config/extra-servers.txt` |
-| Keep a server out of the file index | `config/noindex.txt` (or the owner makes a folder named `noindex`) |
+| Keep a server out of the file index | `config/noindex.txt`: it drops out of search on the next upload and out of `data/files/` on the next monthly save. (A server owner can also make a folder named `noindex` before it's first indexed.) |
 | Change the landing page | `site/www/index.html` |
 | Change the tracker pages | `site/tracker/` |
 

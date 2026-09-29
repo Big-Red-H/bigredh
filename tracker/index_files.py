@@ -1,8 +1,12 @@
 """Monthly: log into servers as a guest and record every file and folder they show.
 
   python3 tracker/index_files.py 1.2.3.4:5500 [more...]   index these servers
-  python3 tracker/index_files.py --all                    every server listed right now
-  python3 tracker/index_files.py --plan                   print the --all list as JSON (for CI)
+  python3 tracker/index_files.py --new                    listed servers not indexed yet
+  python3 tracker/index_files.py --all                    every listed server, indexed or not
+  python3 tracker/index_files.py --plan [--all]           print that list as JSON (for CI)
+
+The monthly run only does new servers: ones never indexed, or whose earlier tries all failed.
+A server already in the index stays as it is until someone asks for it again.
 
 Each server's listing is written to data/files/<host>_<port>/, as JSON Lines split into parts
 small enough for GitHub (one entry per line, sorted, so a month with few changes makes a small
@@ -49,6 +53,9 @@ def walk(host, port, time_limit):
     notes = []
     queue = deque([()])  # tuples of raw name bytes
     reconnects = 0
+    tries_here = 0
+    skipped = 0
+    folders_done = 0
     deadline = time.monotonic() + time_limit
     server = None
     try:
@@ -70,11 +77,21 @@ def walk(host, port, time_limit):
                     server.close()
                 server = None
                 reconnects += 1
-                if reconnects > RECONNECTS or not entries and isinstance(e, hotline.HotlineError):
+                tries_here += 1
+                if reconnects > RECONNECTS * 4 or not entries and (tries_here > 2 or isinstance(e, hotline.HotlineError) and "refused" in str(e)):
                     raise
-                time.sleep(5 * reconnects)
+                if tries_here > 2 and path:
+                    # One folder that never answers shouldn't cost the rest of the server.
+                    queue.popleft()
+                    skipped += 1
+                    tries_here = 0
+                time.sleep(5 * min(tries_here + 1, 4))
                 continue
             queue.popleft()
+            tries_here = 0
+            folders_done += 1
+            if folders_done % 500 == 0:
+                print(f"  {host}:{port}: {folders_done} folders, {len(entries)} entries, {len(queue)} to go", flush=True)
             if listing is None:
                 continue
             prefix = "/" + "".join(hotline.decode_text(p) + "/" for p in path)
@@ -92,6 +109,8 @@ def walk(host, port, time_limit):
     finally:
         if server:
             server.close()
+    if skipped:
+        notes.append(f"skipped {skipped} folder{'s' if skipped != 1 else ''} that didn't answer")
     return entries, notes
 
 
@@ -152,23 +171,31 @@ def index_server(key, name, time_limit):
     print(f"{key}: {files} files, {info['folders']} folders in {info['seconds']}s {info.get('note', '')}")
 
 
-def planned_servers():
-    """Servers listed right now that answered, minus the ones that asked not to be indexed."""
+def already_indexed(key):
+    status = load_json(FILES / folder_name(key) / "info.json", {}).get("status")
+    return status in ("ok", "partial", "opted out")
+
+
+def planned_servers(everything=False):
+    """Servers listed right now, minus the ones that asked not to be indexed, and (unless
+    everything is asked for) minus the ones already in the index."""
     live = load_json(DATA / "live.json", {}).get("servers", {})
     skip = set(read_list("noindex.txt"))
-    return [k for k, v in sorted(live.items()) if v.get("listed") and k not in skip]
+    return [k for k, v in sorted(live.items())
+            if v.get("listed") and k not in skip and (everything or not already_indexed(k))]
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("servers", nargs="*")
+    parser.add_argument("--new", action="store_true")
     parser.add_argument("--all", action="store_true")
     parser.add_argument("--plan", action="store_true")
     parser.add_argument("--time-limit", type=int, default=5 * 3600, help="seconds per server")
     args = parser.parse_args()
 
     if args.plan:
-        print(json.dumps(planned_servers()))
+        print(json.dumps(planned_servers(args.all)))
         return 0
 
     for key in set(read_list("noindex.txt")):
@@ -177,7 +204,7 @@ def main():
             shutil.rmtree(target)
 
     names = load_json(DATA / "servers.json", {})
-    keys = planned_servers() if args.all else args.servers
+    keys = planned_servers(args.all) if args.all or args.new else args.servers
     for key in keys:
         if key in set(read_list("noindex.txt")):
             print(f"{key}: in config/noindex.txt; skipped")

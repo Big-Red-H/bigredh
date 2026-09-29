@@ -6,9 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       servers:
-        description: "Only these servers (host:port, separated by spaces). Blank for every listed server."
+        description: "Only these servers (host:port, separated by spaces). Blank for new servers."
         required: false
         default: ""
+      everything:
+        description: "Re-index every listed server, not only new ones"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -19,20 +23,25 @@ jobs:
     outputs:
       servers: ${{ steps.plan.outputs.servers }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           sparse-checkout: |
             tracker
             config
             data/servers.json
             data/live.json
+            data/files/*/info.json
           sparse-checkout-cone-mode: false
+      # The monthly run only indexes servers that aren't in the index yet.
       - id: plan
         env:
           ONLY: ${{ inputs.servers }}
+          EVERYTHING: ${{ inputs.everything }}
         run: |
           if [ -n "$ONLY" ]; then
             servers=$(python3 -c 'import json,os; print(json.dumps(os.environ["ONLY"].split()))')
+          elif [ "$EVERYTHING" = "true" ]; then
+            servers=$(python3 tracker/index_files.py --plan --all)
           else
             servers=$(python3 tracker/index_files.py --plan)
           fi
@@ -52,7 +61,7 @@ jobs:
       matrix:
         server: ${{ fromJSON(needs.plan.outputs.servers) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           sparse-checkout: |
             tracker
@@ -62,7 +71,7 @@ jobs:
           sparse-checkout-cone-mode: false
       - name: Index ${{ matrix.server }}
         run: python3 tracker/index_files.py "${{ matrix.server }}" --time-limit 19800
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: files-${{ strategy.job-index }}
           path: data/files/
@@ -78,8 +87,8 @@ jobs:
       group: data
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
         with:
           pattern: files-*
           path: results

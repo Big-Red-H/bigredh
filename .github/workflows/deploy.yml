@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "site/**"
+      - "config/noindex.txt"
       - "tracker/**"
       - "scripts/**"
       - ".github/workflows/deploy.yml"
@@ -19,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Check the PHP
         run: for f in $(find site -name '*.php'); do php -l "$f" > /dev/null || exit 1; done
       - name: Upload both sites to DreamHost

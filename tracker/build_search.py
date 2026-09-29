@@ -10,7 +10,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
-from update_servers import DATA, load_json
+from update_servers import DATA, load_json, read_list
 
 FILES = DATA / "files"
 
@@ -35,7 +35,10 @@ def main():
         );
     """)
     count = 0
+    skip = {k.replace(":", "_") for k in read_list("noindex.txt")}
     for folder in sorted(p for p in FILES.iterdir() if p.is_dir()) if FILES.exists() else []:
+        if folder.name in skip:
+            continue
         info = load_json(folder / "info.json", {})
         key = info.get("server") or folder.name.replace("_", ":")
         db.execute(

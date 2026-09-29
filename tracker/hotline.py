@@ -18,6 +18,7 @@ TRAN_LOGIN = 107
 TRAN_SHOW_AGREEMENT = 109
 TRAN_AGREED = 121
 TRAN_GET_FILE_NAME_LIST = 200
+TRAN_GET_USER_NAME_LIST = 300
 
 FIELD_ERROR_TEXT = 100
 FIELD_USER_NAME = 102
@@ -28,6 +29,7 @@ FIELD_VERSION = 160
 FIELD_SERVER_NAME = 162
 FIELD_FILE_NAME_WITH_INFO = 200
 FIELD_FILE_PATH = 202
+FIELD_USER_NAME_WITH_INFO = 300
 
 # A 1.9 client: old enough that every server knows it, new enough to be offered the agreement.
 CLIENT_VERSION = 190
@@ -268,6 +270,19 @@ class HotlineServer:
         self.agreed = True
         self.agreement_pending = False
 
+    def list_users(self):
+        """Who's online, not counting this session. None if the server won't say."""
+        error, rfields = self._request(TRAN_GET_USER_NAME_LIST, [])
+        if error:
+            return None
+        users = []
+        for ftype, data in rfields:
+            if ftype == FIELD_USER_NAME_WITH_INFO:
+                user = parse_user(data)
+                if user and user["name"] != self.nickname:
+                    users.append(user)
+        return users
+
     def list_folder(self, components):
         """Lists one folder (components are raw name bytes; empty for the root). None if refused."""
         fields = [_field(FIELD_FILE_PATH, encode_path(components))] if components else []
@@ -285,6 +300,14 @@ class HotlineServer:
                 if entry:
                     entries.append(entry)
         return entries
+
+
+def parse_user(data):
+    """One UserNameWithInfo field: user id(2) icon(2) flags(2) name length(2) name."""
+    if len(data) < 8:
+        return None
+    _uid, icon, flags, name_len = struct.unpack(">HHHH", data[:8])
+    return {"name": decode_text(data[8:8 + name_len]).strip(), "icon": icon, "flags": flags}
 
 
 def probe(host, port, timeout=10):

@@ -4,6 +4,7 @@
 #   scripts/deploy.sh all     both sites: pages, this hour's list, and a fresh search index
 #   scripts/deploy.sh data    only this hour's server list (the hourly check)
 #   scripts/deploy.sh index   the server list and a fresh search index (after the monthly scan)
+#   scripts/deploy.sh population   who's online (every few hours; never saved to git)
 #
 # Needs DEPLOY_SSH_KEY, DEPLOY_HOST, DEPLOY_USER, DEPLOY_PATH_WWW and DEPLOY_PATH_TRACKER. When
 # they aren't set yet it says so and stops without failing, so the checks still run and save to
@@ -38,7 +39,7 @@ upload_site() {
     echo "::warning::$to has files this deploy didn't put there, so nothing will be deleted from it. Clear it out, or add a .bigredh-deploy file to it, to allow deletes."
   fi
   rsync -rlvz $delete --delay-updates --chmod=D755,F644 \
-    --exclude /.well-known/ --exclude /.dh-diag --exclude /.bigredh-deploy \
+    --exclude /.well-known/ --exclude /.dh-diag --exclude /.bigredh-deploy --exclude /data/population.json \
     -e "$ssh_cmd" "$from" "$remote:$to/"
   $ssh_cmd "$remote" "touch '$to/.bigredh-deploy'"
 }
@@ -72,8 +73,12 @@ case "$mode" in
     upload_data
     upload_index
     ;;
+  population)
+    $ssh_cmd "$remote" "mkdir -p '$DEPLOY_PATH_TRACKER/data'"
+    rsync -rlvz --chmod=F644 -e "$ssh_cmd" data/population.json "$remote:$DEPLOY_PATH_TRACKER/data/"
+    ;;
   *)
-    echo "usage: $0 all|data|index" >&2
+    echo "usage: $0 all|data|index|population" >&2
     exit 2
     ;;
 esac

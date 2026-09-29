@@ -1,0 +1,37 @@
+name: Population
+
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  population:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            tracker
+            config
+            scripts
+            data/servers.json
+            data/live.json
+          sparse-checkout-cone-mode: false
+
+      # The list lives only on the site, never in git, so each run starts from the site's copy.
+      - name: Get the current list from the site
+        run: curl -fsS -m 30 -o previous.json http://tracker.bigredh.com/data/population.json || echo '{}' > previous.json
+
+      - name: See who's on each server
+        run: python3 tracker/population.py previous.json
+
+      - name: Upload to DreamHost
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH_WWW: ${{ vars.DEPLOY_PATH_WWW }}
+          DEPLOY_PATH_TRACKER: ${{ vars.DEPLOY_PATH_TRACKER }}
+        run: scripts/deploy.sh population

@@ -97,7 +97,7 @@ function page_header($title, $query = '')
 <tr><td id="nav" bgcolor="#111111">
 <form action="search.php" method="get" style="margin:0">
 <font face="Lucida Console, Monaco, Courier New, monospace" size="2">
-<b><a href="./">Server List</a></b> &nbsp; <b><a href="search.php">File Search</a></b> &nbsp; <b><a href="about.php">About</a></b>
+<b><a href="./">Server List</a></b> &nbsp; <b><a href="population.php">Population</a></b> &nbsp; <b><a href="search.php">File Search</a></b> &nbsp; <b><a href="about.php">About</a></b>
 &nbsp; &nbsp; <input type="text" name="q" size="22" value="<?php echo h($query); ?>"> <input type="submit" value="Search Files">
 </font>
 </form>

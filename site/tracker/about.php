@@ -21,6 +21,15 @@ connect to the server with a Hotline client.</p>
 <p>It logs in as <b>BigRedH Indexer</b> and opens one folder at a time with a short pause
 in between.</p>
 
+<h2>Population</h2>
+<p>Every six hours, BigRedH logs into each listed server as <b>BigRedH Tracker</b>, reads the
+user list, and leaves. The <a href="population.php">Population</a> page shows who was on and
+the names seen in the last 30 days, with their icons from the
+<a href="http://hlwiki.com/ik0ns/">Hotline Wiki's icon archive</a>. Names are only kept on this
+site, for 30 days, and aren't saved anywhere else. To be left off, ask on the
+<a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>. Servers that keep out of the file
+index are skipped here too.</p>
+
 <h2>Keeping your server out</h2>
 <p>Make a folder named <b>noindex</b> anywhere on your server before it's indexed: when the
 indexer sees it, it stops and records nothing. If your server is already in the index, or you

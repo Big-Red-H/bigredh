@@ -13,6 +13,7 @@ tables, colors set in the HTML, and no JavaScript.
 |---|---|---|
 | Every hour | `servers.yml` | Asks the trackers in `config/trackers.txt` for their lists, merges them, checks each server answers, saves the list to GitHub and uploads it. |
 | The 1st of each month | `files.yml` | Logs into each new server (one not indexed yet) as a guest, records its files and folders, saves them to GitHub and uploads a new search index. |
+| Every 6 hours | `population.yml` | Logs into each listed server, reads who's online, and uploads the Population page's list. Never saved to git (see below). |
 | Every push to `main` | `deploy.yml` | Uploads both sites. |
 
 Any of them can be started by hand from the **Actions** tab (**Run workflow**). The monthly one
@@ -31,6 +32,11 @@ Everything is JSON, saved to this repo by the workflows:
   A folder is `["/Path/Folder/", items]`, a file is `["/Path/File", bytes, "TYPE", "CREA"]`.
   `info.json` says when it was indexed and how it went.
 
+`data/population.json` (who was online, and the names seen in the last 30 days) is the one thing
+that is **not** saved here: it's uploaded to the site only, and each run starts from the site's
+copy, so there's no permanent public record of who was online when. Names in
+`config/population-hidden.txt` are left off.
+
 The site's search runs on an SQLite file built from `data/files/` on every upload. It's never
 saved to git; it can always be rebuilt.
 
@@ -44,6 +50,7 @@ reached is tried again the next month.
 | Add or remove a tracker | `config/trackers.txt` |
 | Hide a server from the list | `config/hidden.txt` |
 | List a server that isn't on any tracker | `config/extra-servers.txt` |
+| Leave a name off the Population page | `config/population-hidden.txt` |
 | Keep a server out of the file index | `config/noindex.txt`: it drops out of search on the next upload and out of `data/files/` on the next monthly save. (A server owner can also make a folder named `noindex` before it's first indexed.) |
 | Change the landing page | `site/www/index.html` |
 | Change the tracker pages | `site/tracker/` |

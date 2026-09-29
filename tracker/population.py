@@ -14,6 +14,7 @@ import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import hotline
 from update_servers import DATA, load_json, read_list, split_address, write_json
@@ -54,7 +55,7 @@ def main():
     now = datetime.now(timezone.utc)
     stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    previous = load_json(sys.argv[1], {}) if len(sys.argv) > 1 else load_json(DATA / "population.json", {})
+    previous = load_json(Path(sys.argv[1]) if len(sys.argv) > 1 else DATA / "population.json", {})
     servers = load_json(DATA / "servers.json", {})
     live = load_json(DATA / "live.json", {}).get("servers", {})
     skip = set(read_list("noindex.txt")) | set(read_list("hidden.txt"))

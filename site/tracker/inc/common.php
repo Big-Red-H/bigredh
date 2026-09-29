@@ -95,7 +95,7 @@ function page_header($title, $query = '', $front = false)
 <meta name="color-scheme" content="only light">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo h($full); ?></title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css?v=<?php echo (int) @filemtime(__DIR__ . '/../style.css'); ?>">
 </head>
 <body bgcolor="#7F99B3" text="#000000" link="#22228A" vlink="#22228A" alink="#6666FF" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
 <table width="100%" cellpadding="0" cellspacing="0" border="0">

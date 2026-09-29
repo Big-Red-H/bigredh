@@ -3,6 +3,13 @@ DirectoryIndex index.php
 AddDefaultCharset utf-8
 Options -Indexes
 
+# Pages always check for a newer stylesheet or data file instead of trusting an old copy.
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|json)$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+</IfModule>
+
 <IfModule mod_mime.c>
     AddType application/json .json
 </IfModule>

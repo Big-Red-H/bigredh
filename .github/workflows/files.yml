@@ -17,6 +17,12 @@ on:
 permissions:
   contents: write
 
+# GitHub's schedule and the DreamHost timer can both start this on the 1st; the second waits
+# for the first, then only finds the servers that are still missing.
+concurrency:
+  group: file-index
+  cancel-in-progress: false
+
 jobs:
   plan:
     runs-on: ubuntu-latest

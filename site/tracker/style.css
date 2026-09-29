@@ -1,45 +1,27 @@
-/* Old browsers read the colors from the HTML attributes; this only refines them. */
-body {
-    background-color: #222;
-    color: #0f0;
-    margin: 0;
-    padding: 10px 0;
-    font-family: "Lucida Console", Monaco, "Courier New", monospace;
-    font-size: 12px;
-    line-height: 1.4;
-}
-#container {
-    border: 2px solid #f00;
-    max-width: 100%;
-}
-#nav, #footer, .stats {
-    border-top: 1px solid #f00;
-    border-bottom: 1px solid #f00;
-}
-a { color: #0ff; text-decoration: none; }
-a:hover { color: #fff; background-color: #0aa; }
-a.title { color: #0f0; }
-h2 {
-    font-size: 14px;
-    color: #0f0;
-    border-bottom: 1px solid #f00;
-    padding-bottom: 4px;
-    margin: 12px 0 8px 0;
-}
-table.list { border-collapse: collapse; }
-table.list th {
-    text-align: left;
-    color: #0f0;
-    border-bottom: 1px solid #f00;
-}
-table.list td { border-bottom: 1px solid #1a1a1a; vertical-align: top; }
-table.list tr.offline td { color: #080; }
-.dim { color: #7a7; }
+/* The same look as bigredh.com. Old browsers take the colors and fonts from the HTML; this
+   only refines them. */
+:root { color-scheme: only light; }
+body { background-color: #7F99B3; color: #000; margin: 0; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; }
+td, p, li { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; }
+a { color: #333399; }
+a:hover, a:active { color: #6666FF; }
+img { border: 0; }
+p { line-height: 1.5; }
+.heading { margin: 18px 0 6px 0; border-bottom: 1px solid #C9D2DC; padding-bottom: 3px; }
+.nav { margin: 6px 0 10px 0; border-top: 1px solid #BBBBBB; border-bottom: 1px solid #BBBBBB; }
+.stats { margin: 8px 0; border: 1px solid #C9D2DC; }
+.dim, .dim a { color: #777777; }
+table.list { border-collapse: collapse; border: 1px solid #C9D2DC; }
+table.list th { text-align: left; background: #DDDDDD; border-bottom: 1px solid #BBBBBB; padding: 4px; }
+table.list td { padding: 4px; vertical-align: top; border-bottom: 1px solid #E4E8EE; }
+table.list tr:nth-child(even) td { background: #F3F5F8; }
+table.list tr.offline td, table.list tr.offline td a { color: #888888; }
 .num { text-align: right; white-space: nowrap; }
-input { font-family: inherit; font-size: 12px; }
+input { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 11px; }
 
-@media (max-width: 820px) {
-    body { padding: 0; }
-    #container { width: 100%; border-width: 0; }
+/* Phones: let the 760-wide frame shrink. Old browsers ignore this. */
+@media (max-width: 780px) {
+    table.frame, table.panel { width: 100% !important; }
+    img.titlebar, img.banner { width: 100%; height: auto; }
     table.list td.desc, table.list th.desc { display: none; }
 }

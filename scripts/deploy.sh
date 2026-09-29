@@ -39,7 +39,7 @@ upload_site() {
     echo "::warning::$to has files this deploy didn't put there, so nothing will be deleted from it. Clear it out, or add a .bigredh-deploy file to it, to allow deletes."
   fi
   rsync -rlvz $delete --delay-updates --chmod=D755,F644 \
-    --exclude /.well-known/ --exclude /.dh-diag --exclude /.bigredh-deploy --exclude /data/population.json \
+    --exclude /.well-known/ --exclude /.dh-diag --exclude /.bigredh-deploy --exclude /data/ \
     -e "$ssh_cmd" "$from" "$remote:$to/"
   $ssh_cmd "$remote" "touch '$to/.bigredh-deploy'"
 }
@@ -60,11 +60,14 @@ case "$mode" in
   all)
     upload_site site/www/ "$DEPLOY_PATH_WWW"
     rm -rf build/tracker
-    mkdir -p build/tracker/data build/tracker/db
+    mkdir -p build/tracker/db
     cp -R site/tracker/. build/tracker/
-    cp data/servers.json data/live.json build/tracker/data/
     python3 tracker/build_search.py build/tracker/db/files.sqlite
     upload_site build/tracker/ "$DEPLOY_PATH_TRACKER"
+    # data/ belongs to the hourly check and Population, which keep it fresher than the copy in
+    # git, so a deploy only fills it in when it's missing.
+    $ssh_cmd "$remote" "mkdir -p '$DEPLOY_PATH_TRACKER/data'"
+    rsync -rlvz --ignore-existing --chmod=F644 -e "$ssh_cmd" data/servers.json data/live.json "$remote:$DEPLOY_PATH_TRACKER/data/"
     ;;
   data)
     upload_data

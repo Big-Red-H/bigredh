@@ -44,8 +44,8 @@ uasort($people, function ($a, $b) {
 
 page_header('Population');
 ?>
-<h2>Population</h2>
-<table class="stats" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#1a1a1a"><tr><td>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Population</b></font></p>
+<table class="stats" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#EEF1F5"><tr><td>
 <font size="1">
 <b><?php echo $onlineCount; ?></b> people online at the last check |
 <b><?php echo count(isset($pop['people']) ? $pop['people'] : array()); ?></b> names seen in the last <?php echo $keepDays; ?> days |
@@ -57,7 +57,7 @@ Checked <?php echo h(format_ago(isset($pop['checked_at']) ? $pop['checked_at'] :
 kept for <?php echo $keepDays; ?> days after they were last seen, and never stored anywhere else.
 To be left off, ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>.</font></p>
 
-<h2>Online now</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Online now</b></font></p>
 <?php
 $any = false;
 foreach ($online as $key => $list) {
@@ -79,14 +79,14 @@ foreach ($online as $key => $list) {
 <p><font size="2">Nobody was on at the last check.</font></p>
 <?php } ?>
 
-<h2>Seen in the last <?php echo $keepDays; ?> days</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Seen in the last <?php echo $keepDays; ?> days</b></font></p>
 <form action="population.php" method="get">
 <font size="2">Find a name: <input type="text" name="q" size="20" value="<?php echo h($filter); ?>">
 <?php if ($only !== '') { ?><input type="hidden" name="s" value="<?php echo h($only); ?>"><?php } ?>
 <input type="submit" value="Find"><?php if ($filter !== '' || $only !== '') { ?> <a href="population.php">Show everyone</a><?php } ?></font>
 </form>
 <table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">
-<tr>
+<tr bgcolor="#DDDDDD">
 <th width="236"><font size="2">Icon</font></th>
 <th><font size="2">Name</font></th>
 <th><font size="2">Seen on</font></th>

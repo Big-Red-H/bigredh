@@ -51,7 +51,7 @@ if ($q !== '' && $db) {
 
 page_header($q === '' ? 'File Search' : $q, $q);
 ?>
-<h2>File Search</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>File Search</b></font></p>
 <form action="search.php" method="get">
 <font size="2">
 <input type="text" name="q" size="30" value="<?php echo h($q); ?>">
@@ -67,7 +67,7 @@ page_header($q === '' ? 'File Search' : $q, $q);
 <p><font size="2">Search the names of files and folders on every indexed server. Every word you type has to be in the name.</font></p>
 <?php } else { ?>
 <table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">
-<tr>
+<tr bgcolor="#DDDDDD">
 <th><font size="2">Name</font></th>
 <th class="num"><font size="2">Size</font></th>
 <th><font size="2">Where</font></th>

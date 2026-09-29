@@ -34,7 +34,7 @@ if (!$server) {
 
 page_header($server['name']);
 ?>
-<h2><?php echo h($server['name']); ?></h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b><?php echo h($server['name']); ?></b></font></p>
 <p><font size="1">
 <a href="hotline://<?php echo h($key); ?>/"><?php echo h($key); ?></a> |
 <?php echo number_format((int) $server['files']); ?> files, <?php echo number_format((int) $server['folders']); ?> folders,
@@ -58,7 +58,7 @@ foreach (array_filter(explode('/', $path), 'strlen') as $part) {
 </b></font></p>
 
 <table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">
-<tr>
+<tr bgcolor="#DDDDDD">
 <th><font size="2">Name</font></th>
 <th class="num"><font size="2">Size</font></th>
 <th><font size="2">Kind</font></th>

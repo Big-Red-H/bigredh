@@ -3,7 +3,7 @@ require __DIR__ . '/inc/common.php';
 
 page_header('About');
 ?>
-<h2>About the tracker</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>About the tracker</b></font></p>
 <p>BigRedH doesn't run a tracker of its own. Every hour it asks the Hotline trackers below for
 their lists, merges them, and checks that each server answers. Servers a tracker lists for
 decoration (welcome lines and dividers) are left out.</p>
@@ -14,14 +14,14 @@ decoration (welcome lines and dividers) are left out.</p>
 <li>saddle.dyndns.org</li>
 </ul>
 
-<h2>The file index</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>The file index</b></font></p>
 <p>Once a month, BigRedH logs into each server it hasn't indexed before as a guest and writes
 down the name, size and kind of each file and folder a guest can see. Nothing is downloaded. To download,
 connect to the server with a Hotline client.</p>
 <p>It logs in as <b>BigRedH Indexer</b> and opens one folder at a time with a short pause
 in between.</p>
 
-<h2>Population</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Population</b></font></p>
 <p>Every six hours, BigRedH logs into each listed server as <b>BigRedH Tracker</b>, reads the
 user list, and leaves. The <a href="population.php">Population</a> page shows who was on and
 the names seen in the last 30 days, with their icons from the
@@ -30,16 +30,16 @@ site, for 30 days, and aren't saved anywhere else. To be left off, ask on the
 <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>. Servers that keep out of the file
 index are skipped here too.</p>
 
-<h2>Keeping your server out</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Keeping your server out</b></font></p>
 <p>Make a folder named <b>noindex</b> anywhere on your server before it's indexed: when the
 indexer sees it, it stops and records nothing. If your server is already in the index, or you
 want it off the list too, ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>
 and it'll be taken out.</p>
 
-<h2>Getting listed</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Getting listed</b></font></p>
 <p>Register your server with any of the trackers above and it shows up here within the hour.</p>
 
-<h2>The data</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>The data</b></font></p>
 <p>Everything the tracker collects is saved to <a href="<?php echo h(GITHUB_URL); ?>">GitHub</a>
 as JSON: the server list every day, and every server's files every month. This hour's list is
 also at <a href="data/servers.json">servers.json</a> and <a href="data/live.json">live.json</a>.</p>

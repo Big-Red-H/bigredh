@@ -34,9 +34,9 @@ uasort($listed, function ($a, $b) {
     return strcasecmp($a['name'], $b['name']);
 });
 
-page_header('');
+page_header('', '', true);
 ?>
-<table class="stats" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#1a1a1a"><tr><td>
+<table class="stats" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#EEF1F5"><tr><td>
 <font size="1">
 <b><?php echo count(array_filter($servers, function ($s) { return $s['listed']; })); ?></b> servers listed,
 <b><?php echo $answering; ?></b> answering |
@@ -55,7 +55,7 @@ To keep your server out of the file index, make a folder named <b>noindex</b> an
 </form>
 
 <table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">
-<tr>
+<tr bgcolor="#DDDDDD">
 <th><font size="2">Server</font></th>
 <th><font size="2">Address</font></th>
 <th class="desc"><font size="2">Description</font></th>
@@ -64,7 +64,7 @@ To keep your server out of the file index, make a folder named <b>noindex</b> an
 </tr>
 <?php foreach ($listed as $s) {
     $f = isset($files[$s['key']]) ? $files[$s['key']] : null;
-    $color = $s['online'] ? '#00FF00' : '#008800';
+    $color = $s['online'] ? '#000000' : '#888888';
     ?>
 <tr<?php echo $s['online'] ? '' : ' class="offline"'; ?>>
 <td><font size="2" color="<?php echo $color; ?>"><b><?php echo h($s['name']); ?></b><?php echo $s['online'] ? '' : ' <i>(not answering)</i>'; ?></font></td>
@@ -89,7 +89,7 @@ To keep your server out of the file index, make a folder named <b>noindex</b> an
 <?php } ?>
 </table>
 
-<h2>Where the list comes from</h2>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Where the list comes from</b></font></p>
 <p><font size="1">
 <?php
 $trackers = isset($live['trackers']) ? $live['trackers'] : array();

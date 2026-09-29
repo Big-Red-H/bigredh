@@ -33,7 +33,7 @@ remote="$DEPLOY_USER@$DEPLOY_HOST"
 upload_site() {
   local from="$1" to="$2"
   local delete=""
-  if $ssh_cmd "$remote" "mkdir -p '$to' && { test -e '$to/.bigredh-deploy' || test -z \"\$(ls -A '$to' | grep -v -e '^.dh-diag\$' -e '^.well-known\$' -e '^favicon.ico\$')\"; }"; then
+  if $ssh_cmd "$remote" "mkdir -p '$to' && { test -e '$to/.bigredh-deploy' || test -z \"\$(ls -A '$to' | grep -v -e '^.dh-diag\$' -e '^.well-known\$' -e '^favicon\.\(ico\|gif\)\$')\"; }"; then
     delete="--delete"
   else
     echo "::warning::$to has files this deploy didn't put there, so nothing will be deleted from it. Clear it out, or add a .bigredh-deploy file to it, to allow deletes."

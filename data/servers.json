@@ -133,8 +133,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
   "port": 5500
@@ -161,7 +160,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
   "port": 5500
@@ -492,7 +492,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -533,8 +534,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -837,6 +837,20 @@
   ],
   "name": "AnteL0pe's Abode",
   "port": 5500
+ },
+ "64.99.118.65:5555": {
+  "description": "If you're not getting into the real server,  try here.",
+  "first_seen": "2026-09-30",
+  "host": "64.99.118.65",
+  "last_seen": "2026-09-30",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "AnteL0pe's Other Abode",
+  "port": 5555
  },
  "66.209.184.244:5500": {
   "description": "'Be curious always, for knowledge will not acquire you, you must acquire it.'  texts, rare and old operating systems, chat, etc. hl.preterhuman.net",

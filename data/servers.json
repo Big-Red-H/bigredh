@@ -161,7 +161,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
   "port": 5500
@@ -493,7 +494,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -628,6 +630,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-09-30",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -901,6 +904,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-09-30",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -982,7 +986,7 @@
   "description": "",
   "first_seen": "2026-09-29",
   "host": "76.210.4.7",
-  "last_seen": "2026-09-29",
+  "last_seen": "2026-09-30",
   "listed_by": [
    "hltracker.com"
   ],

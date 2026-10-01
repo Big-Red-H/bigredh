@@ -2,7 +2,8 @@
 
   python3 tracker/population.py [previous population.json]
 
-Logs into each listed server as a guest, reads the user list, and leaves. The result goes to
+Logs into each listed server the trackers say has users on it, as a guest, reads the user list,
+and leaves. Servers the trackers list with no users aren't visited. The result goes to
 data/population.json, which is uploaded to the site but never saved to git: the site shows
 the last 30 days, and there's no permanent public record of who was online when.
 
@@ -62,7 +63,10 @@ def main():
     hidden_names = {n.lower() for n in read_list("population-hidden.txt")}
     icons = known_icons()
 
-    keys = [k for k, v in sorted(live.items()) if v.get("listed") and v.get("online") and k not in skip]
+    # Only servers the trackers say have someone on: an empty server has nobody to see, and
+    # leaving it alone means one less login for it.
+    keys = [k for k, v in sorted(live.items())
+            if v.get("listed") and v.get("online") and v.get("users", 0) > 0 and k not in skip]
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(look, keys))
 

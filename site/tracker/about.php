@@ -23,7 +23,8 @@ second, and slower still if the server is slow to answer. Servers on the same ma
 after another, never at once. A very big server is done over more than one visit.</p>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Population</b></font></p>
-<p>Every six hours, BigRedH logs into each listed server as <b>TrackerCheck</b>, reads the
+<p>Every six hours, BigRedH logs into each listed server that the trackers say has users on it (empty servers aren't
+visited) as <b>TrackerCheck</b>, reads the
 user list, and leaves. The <a href="population.php">Population</a> page shows who was on and
 the names seen in the last 30 days, with their icons from the
 <a href="http://hlwiki.com/ik0ns/">Hotline Wiki's icon archive</a>. Names are only kept on this

@@ -13,7 +13,7 @@ tables, colors set in the HTML, and no JavaScript.
 |---|---|---|
 | Every hour | `servers.yml` | Asks the trackers in `config/trackers.txt` for their lists, merges them, checks each server answers, saves the list to GitHub and uploads it. |
 | The 1st of each month | `files.yml` | Logs into each server that's due as a guest (as **TrackerCheck**), records its files and folders, saves them to GitHub and uploads a new search index. Due means never indexed, an unfinished pass, or last indexed over 45 days ago: about every 60 days per server. |
-| Every 6 hours | `population.yml` | Logs into each listed server, reads who's online, and uploads the Population page's list. Never saved to git (see below). |
+| Every 6 hours | `population.yml` | Logs into each listed server the trackers say has users on it (empty servers are left alone), reads who's online, and uploads the Population page's list. Never saved to git (see below). |
 | Every push to `main` | `deploy.yml` | Uploads both sites. |
 
 GitHub's schedules are best effort and often run late or not at all, so a cron job on DreamHost

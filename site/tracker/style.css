@@ -14,13 +14,24 @@ p { line-height: 1.5; }
 table.list { border-collapse: collapse; border: 1px solid #C9D2DC; }
 table.list th { text-align: left; background: #DDDDDD; border-bottom: 1px solid #BBBBBB; padding: 4px; }
 table.list td { padding: 4px; vertical-align: top; border-bottom: 1px solid #E4E8EE; }
-table.list tr:nth-child(even) td { background: #F3F5F8; }
+table.list tr:nth-child(even) td { background-color: #F3F5F8; }
 table.list tr.offline td, table.list tr.offline td a { color: #5A5A5A; }
 .num { text-align: right; white-space: nowrap; }
 /* Old browsers keep the sizes in the HTML; newer ones get small text at a readable size. */
 font[size="1"] { font-size: 12px; }
 font[size="2"] { font-size: 13px; }
 table.list td.desc font { color: #222222; }
+
+/* Names over icons (Population): a faint outline helps over busy banners; long names stop at the
+   banner's edge. Old browsers just get the plain white or black text. */
+.nick-name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+a.nick-white, a.nick-white font { color: #FFFFFF; text-decoration: none; text-shadow: 0 0 2px #000, 0 0 1px #000; }
+a.nick-black, a.nick-black font { color: #000000; text-decoration: none; text-shadow: 0 0 2px #FFF, 0 0 1px #FFF; }
+a.nick-white:hover, a.nick-black:hover { text-decoration: underline; }
+table.nick td { background-repeat: no-repeat; }
+/* The little tables that draw a name over its icon don't take the list's padding, borders or
+   row shading (the shading would cover the icon). */
+table.list table td, table.list table tr:nth-child(n) td { padding: 0; border: 0; background-color: transparent; }
 
 input { font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; font-size: 11px; }
 

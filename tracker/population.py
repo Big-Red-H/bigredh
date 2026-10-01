@@ -11,6 +11,8 @@ The previous file (downloaded from the site by the workflow) carries each person
 forward from one run to the next.
 """
 
+import csv
+import io
 import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -27,19 +29,25 @@ GENERIC = {"", "guest", "unnamed", "unnamed user", "user", "hotline user"}
 
 
 def known_icons():
-    """The icons hlwiki has pictures for, so the page doesn't show broken images."""
+    """The icons hlwiki has pictures for, from its ik0ns.csv: id -> [width, height, name color]
+    ("white" or "black", for a name drawn over the icon 33 pixels in; see hlwiki's Icon Index)."""
     try:
         with urllib.request.urlopen(ICON_LIST, timeout=30) as r:
-            lines = r.read().decode("utf-8", "replace").splitlines()
+            text = r.read().decode("utf-8", "replace")
     except OSError as e:
         print(f"Couldn't read the icon list ({e}); showing no icons this time.", file=sys.stderr)
-        return set()
-    ids = set()
-    for line in lines[1:]:
-        first = line.split(",", 1)[0].strip()
-        if first.lstrip("-").isdigit():
-            ids.add(int(first))
-    return ids
+        return {}
+    icons = {}
+    for row in csv.DictReader(io.StringIO(text)):
+        raw = (row.get("id") or "").strip()
+        if not raw.lstrip("-").isdigit():
+            continue
+        try:
+            size = [int(row["width"]), int(row["height"])]
+        except (KeyError, TypeError, ValueError):
+            size = [232, 18]
+        icons[int(raw)] = size + [row.get("name_color") or "black"]
+    return icons
 
 
 def look(key):
@@ -105,7 +113,9 @@ def main():
         "online": online,
         "checked": checked,
         "people": dict(sorted(people.items(), key=lambda kv: kv[0].lower())),
-        "icons": sorted({p["icon"] for p in people.values() if p["icon"] in icons}),
+        # Size and name color of each icon in use, for drawing names over them.
+        "icons": {str(i): icons[i] for i in sorted({p["icon"] for p in people.values()}
+                                                    | {u["icon"] for us in online.values() for u in us}) if i in icons},
     })
     ok = sum(1 for c in checked.values() if c["ok"])
     print(f"{ok} of {len(keys)} servers answered; {sum(len(v) for v in online.values())} people online, "

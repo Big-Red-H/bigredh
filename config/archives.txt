@@ -1,0 +1,8 @@
+# Archive servers: indexed once, then left alone (they don't change). Monthly runs and "re-index
+# everything" skip them once they have a complete listing; to re-index one anyway, start the
+# monthly workflow by hand with its address. One host:port per line.
+66.209.184.244:5500   # higher intellect (hl.preterhuman.net)
+50.65.99.228:1111     # MAJOR MAC BACKUP
+50.65.99.228:7777     # MAJOR MAC BACKUP - BRONZE
+50.65.99.228:8888     # MAJOR MAC BACKUP - SILVER
+50.65.99.228:9999     # MAJOR MAC BACKUP - GOLD

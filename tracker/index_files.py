@@ -8,6 +8,8 @@
 
 A server is due when it has never been indexed, when its last full index is more than 45 days old,
 or when a pass over it is still unfinished. With a run each month, that's about every 60 days.
+Servers in config/archives.txt never change, so once they have a complete listing they're left
+alone unless named explicitly.
 
 Gentle on purpose: at most one folder request a second, longer if the server is slow to answer,
 and a long wait before reconnecting after an error. A big server can take longer than one run
@@ -245,9 +247,18 @@ def index_server(key, name, time_limit, out_root):
     print(f"{key}: {files} files, {info['folders']} folders in {seconds}s {info.get('note', '')}")
 
 
+def is_archive(key, info):
+    """In config/archives.txt, under this address or one its listing moved from."""
+    archives = set(read_list("archives.txt"))
+    return key in archives or bool(archives & set(info.get("previous_addresses", [])))
+
+
 def is_due(key, now=None):
-    """Never indexed, a pass still unfinished, or the last full index over 45 days old."""
+    """Never indexed, a pass still unfinished, or the last full index over 45 days old (never, for
+    an archive that already has a complete listing)."""
     info = load_json(FILES / folder_name(key) / "info.json", {})
+    if is_archive(key, info) and info.get("status") == "ok" and not info.get("pass"):
+        return False
     if not info or info.get("pass") or info.get("status") in ("failed", "in progress"):
         return info.get("status") != "opted out"
     if info.get("status") == "opted out":
@@ -261,11 +272,18 @@ def is_due(key, now=None):
 
 def planned_servers(everything=False):
     """Servers listed right now that are due (or all of them), minus the ones that asked not to
-    be indexed."""
+    be indexed. Even "all of them" leaves out archives that already have a complete listing:
+    re-indexing one means naming it."""
     live = load_json(DATA / "live.json", {}).get("servers", {})
     skip = set(read_list("noindex.txt"))
-    return [k for k, v in sorted(live.items())
-            if v.get("listed") and k not in skip and (everything or is_due(k))]
+
+    def wanted(k):
+        if not everything:
+            return is_due(k)
+        info = load_json(FILES / folder_name(k) / "info.json", {})
+        return not (is_archive(k, info) and info.get("status") == "ok" and not info.get("pass"))
+
+    return [k for k, v in sorted(live.items()) if v.get("listed") and k not in skip and wanted(k)]
 
 
 def group_by_host(keys):

@@ -1,0 +1,6 @@
+# Servers the Population page leaves out (their files are still indexed): ones whose user list
+# isn't real people. One host:port per line.
+50.65.99.228:1111     # MAJOR MAC BACKUP: the "users" are signs (speeds, web addresses)
+50.65.99.228:7777     # MAJOR MAC BACKUP - BRONZE
+50.65.99.228:8888     # MAJOR MAC BACKUP - SILVER
+50.65.99.228:9999     # MAJOR MAC BACKUP - GOLD

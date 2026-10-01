@@ -59,7 +59,8 @@ def main():
     previous = load_json(Path(sys.argv[1]) if len(sys.argv) > 1 else DATA / "population.json", {})
     servers = load_json(DATA / "servers.json", {})
     live = load_json(DATA / "live.json", {}).get("servers", {})
-    skip = set(read_list("noindex.txt")) | set(read_list("hidden.txt"))
+    # Left out: servers that asked to be, hidden ones, and ones whose "users" aren't people.
+    skip = set(read_list("noindex.txt")) | set(read_list("hidden.txt")) | set(read_list("population-skip.txt"))
     hidden_names = {n.lower() for n in read_list("population-hidden.txt")}
     icons = known_icons()
 
@@ -92,7 +93,7 @@ def main():
     # Forget anyone not seen for KEEP_DAYS, and anyone who has asked to be left off since.
     for name in list(people):
         p = people[name]
-        p["servers"] = {k: t for k, t in p.get("servers", {}).items() if t >= cutoff}
+        p["servers"] = {k: t for k, t in p.get("servers", {}).items() if t >= cutoff and k not in skip}
         if p.get("last_seen", "") < cutoff or not p["servers"] or name.lower() in hidden_names:
             del people[name]
 

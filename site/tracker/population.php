@@ -53,10 +53,17 @@ Checked <?php echo h(format_ago(isset($pop['checked_at']) ? $pop['checked_at'] :
 </font>
 </td></tr></table>
 
+<form action="population.php" method="get">
+<font size="2">Find a name: <input type="text" name="q" size="20" value="<?php echo h($filter); ?>">
+<?php if ($only !== '') { ?><input type="hidden" name="s" value="<?php echo h($only); ?>"><?php } ?>
+<input type="submit" value="Find"><?php if ($filter !== '' || $only !== '') { ?> <a href="population.php">Show everyone</a><?php } ?></font>
+</form>
+
 <p><font size="1" class="dim">Every few hours the tracker looks at who's on each listed server. Names are
 kept for <?php echo $keepDays; ?> days after they were last seen, and never stored anywhere else.
 To be left off, send a <a href="<?php echo h(REMOVE_URL); ?>">removal request</a> or ask on the <a href="https://discord.gg/vdxJHwzfrN">Hotline Discord</a>.</font></p>
 
+<?php ob_start(); ?>
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Online now</b></font></p>
 <?php
 $any = false;
@@ -79,12 +86,8 @@ foreach ($online as $key => $list) {
 <p><font size="2">Nobody was on at the last check.</font></p>
 <?php } ?>
 
+<?php $onlineHtml = ob_get_clean(); ob_start(); ?>
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Seen in the last <?php echo $keepDays; ?> days</b></font></p>
-<form action="population.php" method="get">
-<font size="2">Find a name: <input type="text" name="q" size="20" value="<?php echo h($filter); ?>">
-<?php if ($only !== '') { ?><input type="hidden" name="s" value="<?php echo h($only); ?>"><?php } ?>
-<input type="submit" value="Find"><?php if ($filter !== '' || $only !== '') { ?> <a href="population.php">Show everyone</a><?php } ?></font>
-</form>
 <table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">
 <tr bgcolor="#DDDDDD">
 <th width="236"><font size="2">Icon</font></th>
@@ -110,5 +113,9 @@ foreach ($online as $key => $list) {
 <tr><td colspan="4"><font size="2"><?php echo ($filter !== '' || $only !== '') ? 'Nobody matches that.' : 'Nobody yet.'; ?></font></td></tr>
 <?php } ?>
 </table>
+<?php $seenHtml = ob_get_clean();
+// A name search shows its results first; otherwise who is on right now comes first.
+echo $filter !== '' ? $seenHtml . $onlineHtml : $onlineHtml . $seenHtml;
+?>
 <?php
 page_footer();

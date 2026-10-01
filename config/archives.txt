@@ -6,3 +6,4 @@
 50.65.99.228:7777     # MAJOR MAC BACKUP - BRONZE
 50.65.99.228:8888     # MAJOR MAC BACKUP - SILVER
 50.65.99.228:9999     # MAJOR MAC BACKUP - GOLD
+15.204.93.91:5500     # Newton City Hotline server (files from the Apple Newton City website)

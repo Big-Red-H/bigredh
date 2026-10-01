@@ -2,8 +2,9 @@
 
   python3 tracker/merge_results.py results/
 
-A server that was walked (or opted out) is replaced whole. A server that failed only has its
-info.json updated with the error, so last month's listing stays.
+A finished listing (or an opt-out) replaces the server's folder. An unfinished pass only replaces
+its next/ folder and info.json, so the previous listing stays up until the new one is complete.
+A failure only updates info.json, so the previous listing stays too.
 """
 
 import shutil
@@ -14,23 +15,33 @@ from index_files import FILES, folder_name
 from update_servers import load_json, read_list, write_json
 
 
+def merge_one(result):
+    info = load_json(result / "info.json", {})
+    target = FILES / result.name
+    if info.get("pass"):
+        target.mkdir(parents=True, exist_ok=True)
+        if (target / "next").exists():
+            shutil.rmtree(target / "next")
+        shutil.copytree(result / "next", target / "next")
+        write_json(target / "info.json", info)
+        print(f"{result.name}: {info['pass']['folders_done']} folders so far, {info['pass']['folders_to_go']} to go")
+    elif info.get("status") in ("ok", "partial", "opted out"):
+        if target.exists():
+            shutil.rmtree(target)
+        shutil.copytree(result, target)
+        print(f"{result.name}: {info.get('status')}")
+    else:
+        previous = load_json(target / "info.json", {})
+        previous.update({k: v for k, v in info.items() if k in ("server", "name", "last_attempt", "last_error")})
+        previous.setdefault("status", "failed")
+        write_json(target / "info.json", previous)
+        print(f"{result.name}: failed, kept the previous listing ({info.get('last_error')})")
+
+
 def main():
     results = Path(sys.argv[1])
-    for folder in sorted(p for p in results.iterdir() if p.is_dir()):
-        info = load_json(folder / "info.json", {})
-        target = FILES / folder.name
-        if info.get("status") in ("ok", "partial", "opted out"):
-            if target.exists():
-                shutil.rmtree(target)
-            shutil.copytree(folder, target)
-            print(f"{folder.name}: {info.get('status')}")
-        else:
-            previous = load_json(target / "info.json", {})
-            previous.update({k: v for k, v in info.items() if k in ("server", "name", "last_attempt", "last_error")})
-            previous.setdefault("status", "failed")
-            write_json(target / "info.json", previous)
-            print(f"{folder.name}: failed, kept the previous listing ({info.get('last_error')})")
-
+    for folder in sorted(p for p in results.iterdir() if p.is_dir()) if results.exists() else []:
+        merge_one(folder)
     # Servers added to config/noindex.txt since their listing was saved.
     for key in read_list("noindex.txt"):
         target = FILES / folder_name(key)

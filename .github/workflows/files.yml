@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       servers:
-        description: "Only these servers (host:port, separated by spaces). Blank for new servers."
+        description: "Only these servers (host:port, separated by spaces). Blank for the servers that are due."
         required: false
         default: ""
       everything:
-        description: "Re-index every listed server, not only new ones"
+        description: "Re-index every listed server, not only the ones that are due"
         type: boolean
         default: false
 
@@ -52,6 +52,7 @@ jobs:
           elif [ "$EVERYTHING" = "true" ]; then
             servers=$(python3 tracker/index_files.py --plan --all)
           else
+            # Due: never indexed, an unfinished pass, or last indexed over 45 days ago.
             servers=$(python3 tracker/index_files.py --plan)
           fi
           echo "servers=$servers" >> "$GITHUB_OUTPUT"
@@ -81,15 +82,19 @@ jobs:
             config
             data/servers.json
             data/live.json
+            data/files/*/info.json
+            data/files/*/next/
           sparse-checkout-cone-mode: false
+      # Results go to results/ (one folder per server), never into data/files directly, so the
+      # save job only ever touches the servers this job worked on.
       - name: Index ${{ matrix.server }}
         env:
           SERVERS: ${{ matrix.server }}
-        run: python3 tracker/index_files.py $SERVERS --job-time 19800
+        run: python3 tracker/index_files.py $SERVERS --job-time 19800 --out results
       - uses: actions/upload-artifact@v7
         with:
           name: files-${{ strategy.job-index }}
-          path: data/files/
+          path: results/
           retention-days: 3
           include-hidden-files: false
 

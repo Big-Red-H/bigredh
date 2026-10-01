@@ -12,7 +12,7 @@ tables, colors set in the HTML, and no JavaScript.
 | When | Workflow | What it does |
 |---|---|---|
 | Every hour | `servers.yml` | Asks the trackers in `config/trackers.txt` for their lists, merges them, checks each server answers, saves the list to GitHub and uploads it. |
-| The 1st of each month | `files.yml` | Logs into each new server (one not indexed yet) as a guest, records its files and folders, saves them to GitHub and uploads a new search index. |
+| The 1st of each month | `files.yml` | Logs into each server that's due as a guest (as **TrackerCheck**), records its files and folders, saves them to GitHub and uploads a new search index. Due means never indexed, an unfinished pass, or last indexed over 45 days ago: about every 60 days per server. |
 | Every 6 hours | `population.yml` | Logs into each listed server, reads who's online, and uploads the Population page's list. Never saved to git (see below). |
 | Every push to `main` | `deploy.yml` | Uploads both sites. |
 
@@ -46,8 +46,13 @@ copy, so there's no permanent public record of who was online when. Names in
 The site's search runs on an SQLite file built from `data/files/` on every upload. It's never
 saved to git; it can always be rebuilt.
 
-A server stays as it was indexed until someone re-indexes it, and its listing is kept even
-after it drops off the trackers. When a server comes back at a new address under exactly the
+Indexing is deliberately gentle: at most one folder request a second, slower still if a server
+is slow to answer, a long wait before reconnecting after an error, and the servers on one machine
+one after another, never at once. A big server can take longer than one run allows (higher
+intellect has about 37,000 folders); the run then saves where it stopped in `next/` and the next
+run carries on, while the previous listing stays up until the new one is complete.
+
+A server's listing is kept even after it drops off the trackers. When a server comes back at a new address under exactly the
 same name (and nothing else is listed under that name), the hourly check moves its listing to
 the new address instead of indexing it again; the old address is kept in `previous_addresses`. A new server that can't be
 reached is tried again the next month.

@@ -15,11 +15,12 @@ decoration (welcome lines and dividers) are left out.</p>
 </ul>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>The file index</b></font></p>
-<p>Once a month, BigRedH logs into each server it hasn't indexed before as a guest and writes
-down the name, size and kind of each file and folder a guest can see. Nothing is downloaded. To download,
+<p>Once a month, BigRedH logs into each server that hasn't been indexed in the last 45 days (so
+about every two months) as a guest and writes down the name, size and kind of each file and folder a guest can see. Nothing is downloaded. To download,
 connect to the server with a Hotline client.</p>
-<p>It logs in as <b>TrackerCheck</b> and opens one folder at a time with a short pause
-in between.</p>
+<p>It logs in as <b>TrackerCheck</b> and takes it slowly: one folder at a time, at most one a
+second, and slower still if the server is slow to answer. Servers on the same machine are done one
+after another, never at once. A very big server is done over more than one visit.</p>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Population</b></font></p>
 <p>Every six hours, BigRedH logs into each listed server as <b>TrackerCheck</b>, reads the

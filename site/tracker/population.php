@@ -54,6 +54,52 @@ function server_name($key, $serverNames)
     return isset($serverNames[$key]) ? $serverNames[$key] : $key;
 }
 
+// One name's own page: the icons it's been seen with lately, and where.
+$who = isset($_GET['u']) ? (string) $_GET['u'] : '';
+if ($who !== '') {
+    page_header($who);
+    echo '<p class="heading"><font ' . FONT . ' size="3" color="#8C1021"><b>' . h($who) . '</b></font></p>';
+    if (!isset($people[$who])) {
+        echo '<p><font size="2">Nobody by that name has been seen in the last ' . $keepDays . ' days.</font></p>';
+    } else {
+        $p = $people[$who];
+        $link = page_url('population.php', array('u' => $who));
+        echo user_tag($who, $p['icon'], $icons, $link);
+        echo '<p><font size="2">Last seen ' . h(format_ago($p['last_seen'])) . ', first seen '
+            . h(format_ago(isset($p['first_seen']) ? $p['first_seen'] : $p['last_seen'])) . '.</font></p>';
+
+        // Newest first. Names seen before icons were recorded only have their current one.
+        $history = isset($p['icons']) && $p['icons'] ? $p['icons'] : array((string) $p['icon'] => $p['last_seen']);
+        arsort($history);
+        echo '<p class="heading"><font ' . FONT . ' size="3" color="#8C1021"><b>Icons seen with lately</b></font></p>';
+        echo '<table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">'
+            . '<tr bgcolor="#DDDDDD"><th width="236"><font size="2">Icon</font></th><th><font size="2">Number</font></th>'
+            . '<th class="num"><font size="2">Last used</font></th></tr>';
+        foreach ($history as $iconId => $when) {
+            echo '<tr><td>' . user_tag($who, (int) $iconId, $icons, $link) . '</td>'
+                . '<td><font size="2"><a href="http://hlwiki.com/ik0ns/' . (int) $iconId . '.png">#' . (int) $iconId . '</a>'
+                . ((int) $iconId === (int) $p['icon'] ? ' <span class="dim">(current)</span>' : '') . '</font></td>'
+                . '<td class="num"><font size="1">' . h(format_ago($when)) . '</font></td></tr>';
+        }
+        echo '</table>';
+
+        $servers = $p['servers'];
+        arsort($servers);
+        echo '<p class="heading"><font ' . FONT . ' size="3" color="#8C1021"><b>Seen on</b></font></p>';
+        echo '<table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">'
+            . '<tr bgcolor="#DDDDDD"><th><font size="2">Server</font></th><th class="num"><font size="2">Last seen</font></th></tr>';
+        foreach ($servers as $key => $when) {
+            echo '<tr><td><font size="2"><a href="' . h(page_url('population.php', array('s' => $key))) . '">'
+                . h(server_name($key, $serverNames)) . '</a> <font size="1">(<a href="hotline://' . h($key) . '/">' . h($key) . '</a>)</font></font></td>'
+                . '<td class="num"><font size="1">' . h(format_ago($when)) . '</font></td></tr>';
+        }
+        echo '</table>';
+    }
+    echo '<p><font size="2"><a href="population.php">Back to Population</a></font></p>';
+    page_footer();
+    exit;
+}
+
 $onlineCount = 0;
 foreach ($online as $list) {
     $onlineCount += count($list);
@@ -108,7 +154,7 @@ foreach ($online as $key => $list) {
 <font size="1">(<a href="hotline://<?php echo h($key); ?>/"><?php echo h($key); ?></a>)</font></font></p>
 <table cellpadding="0" cellspacing="1" border="0">
 <?php foreach ($list as $u) { ?>
-<tr><td><?php echo user_tag($u['name'], $u['icon'], $icons, page_url('population.php', array('q' => $u['name']))); ?></td></tr>
+<tr><td><?php echo user_tag($u['name'], $u['icon'], $icons, page_url('population.php', array('u' => $u['name']))); ?></td></tr>
 <?php } ?>
 </table>
 <?php } ?>
@@ -126,7 +172,7 @@ foreach ($online as $key => $list) {
 </tr>
 <?php foreach ($people as $name => $p) { ?>
 <tr>
-<td><?php echo user_tag($name, $p['icon'], $icons, page_url('population.php', array('q' => $name))); ?></td>
+<td><?php echo user_tag($name, $p['icon'], $icons, page_url('population.php', array('u' => $name))); ?></td>
 <td><font size="1"><?php
     $where = array();
     foreach ($p['servers'] as $key => $seen) {

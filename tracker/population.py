@@ -96,12 +96,16 @@ def main():
             p["icon"] = u["icon"]
             p["last_seen"] = stamp
             p["servers"][key] = stamp
+            # Every icon this name has been seen with, and when last, for their own page.
+            p.setdefault("icons", {})[str(u["icon"])] = stamp
         online[key] = sorted(here, key=lambda u: u["name"].lower())
 
     # Forget anyone not seen for KEEP_DAYS, and anyone who has asked to be left off since.
     for name in list(people):
         p = people[name]
         p["servers"] = {k: t for k, t in p.get("servers", {}).items() if t >= cutoff and k not in skip}
+        p["icons"] = {i: t for i, t in p.get("icons", {}).items() if t >= cutoff}
+        p["icons"].setdefault(str(p["icon"]), p.get("last_seen", stamp))
         if p.get("last_seen", "") < cutoff or not p["servers"] or name.lower() in hidden_names:
             del people[name]
 
@@ -114,7 +118,8 @@ def main():
         "checked": checked,
         "people": dict(sorted(people.items(), key=lambda kv: kv[0].lower())),
         # Size and name color of each icon in use, for drawing names over them.
-        "icons": {str(i): icons[i] for i in sorted({p["icon"] for p in people.values()}
+        "icons": {str(i): icons[i] for i in sorted({int(i) for p in people.values() for i in p.get("icons", {})}
+                                                    | {p["icon"] for p in people.values()}
                                                     | {u["icon"] for us in online.values() for u in us}) if i in icons},
     })
     ok = sum(1 for c in checked.values() if c["ok"])

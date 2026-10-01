@@ -82,6 +82,9 @@ define('FONT', 'face="Verdana, Geneva, Helvetica, Arial"');
 function page_header($title, $query = '', $front = false)
 {
     header('Content-Type: text/html; charset=utf-8');
+    // The pages change every hour (and with every update to the site), so browsers always check
+    // for a fresh copy instead of showing one they kept.
+    header('Cache-Control: no-cache');
     $full = $title === '' ? 'BigRedH Hotline Tracker' : $title . ' - BigRedH Hotline Tracker';
     $nav = array(
         './' => 'Server List',

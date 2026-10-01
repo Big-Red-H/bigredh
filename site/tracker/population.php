@@ -5,49 +5,10 @@ $pop = load_json('population.json');
 $people = isset($pop['people']) ? $pop['people'] : array();
 $online = isset($pop['online']) ? $pop['online'] : array();
 $serverNames = isset($pop['server_names']) ? $pop['server_names'] : array();
-// id => [width, height, "white" or "black"] from hlwiki's ik0ns.csv (older files: just ids).
-$icons = array();
-foreach (isset($pop['icons']) ? $pop['icons'] : array() as $k => $v) {
-    if (is_array($v)) {
-        $icons[(int) $k] = $v;
-    } else {
-        $icons[(int) $v] = array(232, 18, 'black');
-    }
-}
+$icons = population_icons($pop);
 $keepDays = isset($pop['keep_days']) ? (int) $pop['keep_days'] : 30;
 $filter = isset($_GET['q']) ? trim((string) $_GET['q']) : '';
 $only = isset($_GET['s']) ? (string) $_GET['s'] : '';
-
-// A name drawn over its icon the way Hotline clients (and Invigoration) show a user list: the icon
-// at its own proportions, 18 pixels tall, and the name starting 33 pixels in, in whichever of
-// white or black hlwiki's icon index says reads better there. A small icon sits at the left with
-// the name beside it. Nested tables, so old browsers line it up too.
-define('NAME_OFFSET', 33);
-
-function user_tag($name, $iconId, $icons, $href)
-{
-    $info = isset($icons[(int) $iconId]) ? $icons[(int) $iconId] : null;
-    $width = $info ? max(1, (int) round($info[0] * 18 / max(1, $info[1]))) : 0;
-    $banner = $width >= 60;
-    $color = ($info && $banner && $info[2] === 'white') ? 'white' : 'black';
-    $src = 'http://hlwiki.com/ik0ns/' . (int) $iconId . '.png';
-    $label = '<a href="' . h($href) . '" class="nick-' . $color . '"><font color="' . ($color === 'white' ? '#FFFFFF' : '#000000')
-        . '" size="2"><b>' . h($name) . '</b></font></a>';
-    $first = $info && !$banner
-        ? '<img src="' . h($src) . '" width="' . $width . '" height="18" alt="" border="0">'
-        : '<img src="images/pix.gif" width="' . NAME_OFFSET . '" height="1" alt="">';
-    $box = max($banner ? $width : 0, 232);
-    $inner = '<table cellpadding="0" cellspacing="0" border="0" width="' . $box . '"><tr>'
-        . '<td width="' . NAME_OFFSET . '" height="18" valign="middle">' . $first . '</td>'
-        . '<td height="18" valign="middle" nowrap><div class="nick-name" style="width:' . ($box - NAME_OFFSET - 4) . 'px">' . $label . '</div></td>'
-        . '</tr></table>';
-    if (!$banner) {
-        return $inner;
-    }
-    return '<table cellpadding="0" cellspacing="0" border="0" class="nick"><tr>'
-        . '<td width="' . $width . '" height="18" background="' . h($src) . '" style="background-size:' . $width . 'px 18px">'
-        . $inner . '</td></tr></table>';
-}
 
 function server_name($key, $serverNames)
 {
@@ -89,7 +50,7 @@ if ($who !== '') {
         echo '<table class="list" width="100%" cellpadding="3" cellspacing="0" border="0">'
             . '<tr bgcolor="#DDDDDD"><th><font size="2">Server</font></th><th class="num"><font size="2">Last seen</font></th></tr>';
         foreach ($servers as $key => $when) {
-            echo '<tr><td><font size="2"><a href="' . h(page_url('population.php', array('s' => $key))) . '">'
+            echo '<tr><td><font size="2"><a href="' . h(page_url('server.php', array('s' => $key))) . '">'
                 . h(server_name($key, $serverNames)) . '</a> <font size="1">(<a href="hotline://' . h($key) . '/">' . h($key) . '</a>)</font></font></td>'
                 . '<td class="num"><font size="1">' . h(format_ago($when)) . '</font></td></tr>';
         }
@@ -150,7 +111,7 @@ foreach ($online as $key => $list) {
     }
     $any = true;
     ?>
-<p><font size="2"><b><?php echo h(server_name($key, $serverNames)); ?></b>
+<p><font size="2"><b><a href="<?php echo h(page_url('server.php', array('s' => $key))); ?>"><?php echo h(server_name($key, $serverNames)); ?></a></b>
 <font size="1">(<a href="hotline://<?php echo h($key); ?>/"><?php echo h($key); ?></a>)</font></font></p>
 <table cellpadding="0" cellspacing="1" border="0">
 <?php foreach ($list as $u) { ?>
@@ -176,7 +137,7 @@ foreach ($online as $key => $list) {
 <td><font size="1"><?php
     $where = array();
     foreach ($p['servers'] as $key => $seen) {
-        $where[] = '<a href="' . h(page_url('population.php', array('s' => $key))) . '">' . h(server_name($key, $serverNames)) . '</a>';
+        $where[] = '<a href="' . h(page_url('server.php', array('s' => $key))) . '">' . h(server_name($key, $serverNames)) . '</a>';
     }
     echo implode(', ', $where);
 ?></font></td>

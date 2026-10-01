@@ -34,7 +34,7 @@ if (!$server) {
 
 page_header($server['name']);
 ?>
-<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b><?php echo h($server['name']); ?></b></font></p>
+<p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b><a href="<?php echo h(page_url('server.php', array('s' => $key))); ?>"><font color="#8C1021"><?php echo h($server['name']); ?></font></a></b></font></p>
 <p><font size="1">
 <a href="hotline://<?php echo h($key); ?>/"><?php echo h($key); ?></a> |
 <?php echo number_format((int) $server['files']); ?> files, <?php echo number_format((int) $server['folders']); ?> folders,

@@ -67,11 +67,11 @@ To keep your server out of the file index, make a folder named <b>noindex</b> an
     $color = $s['online'] ? '#000000' : '#5A5A5A';
     ?>
 <tr<?php echo $s['online'] ? '' : ' class="offline"'; ?>>
-<td><font size="2" color="<?php echo $color; ?>"><b><?php echo h($s['name']); ?></b><?php echo $s['online'] ? '' : ' <i>(not answering)</i>'; ?></font></td>
+<td><font size="2"><b><a href="<?php echo h(page_url('server.php', array('s' => $s['key']))); ?>"><font color="<?php echo $color === '#000000' ? '#22228A' : $color; ?>"><?php echo h($s['name']); ?></font></a></b></font><font size="2" color="<?php echo $color; ?>"><?php echo $s['online'] ? '' : ' <i>(not answering)</i>'; ?></font></td>
 <td><font size="2"><a href="hotline://<?php echo h($s['key']); ?>/"><?php echo h($s['key']); ?></a></font></td>
 <td class="desc"><font size="1" color="<?php echo $color; ?>"><?php echo h($s['description']); ?></font></td>
 <td class="num"><font size="2" color="<?php echo $color; ?>"><?php echo $s['users'] > 0
-    ? '<a href="' . h(page_url('population.php', array('s' => $s['key']))) . '">' . (int) $s['users'] . '</a>'
+    ? '<a href="' . h(page_url('server.php', array('s' => $s['key']))) . '">' . (int) $s['users'] . '</a>'
     : (int) $s['users']; ?></font></td>
 <td class="num"><font size="2"><?php
     if ($f && $f['status'] === 'opted out') {

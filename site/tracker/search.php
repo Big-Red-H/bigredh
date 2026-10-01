@@ -83,7 +83,7 @@ page_header($q === '' ? 'File Search' : $q, $q);
 <td><font size="2"><?php echo h($r['name']); ?></font></td>
 <td class="num"><font size="2"><?php echo h(format_bytes($r['size'])); ?></font></td>
 <?php } ?>
-<td><font size="1"><?php echo h($r['server_name']); ?><br><a href="<?php echo h($folderLink); ?>"><?php echo h($r['parent']); ?></a></font></td>
+<td><font size="1"><a href="<?php echo h(page_url('server.php', array('s' => $r['server']))); ?>"><?php echo h($r['server_name']); ?></a><br><a href="<?php echo h($folderLink); ?>"><?php echo h($r['parent']); ?></a></font></td>
 </tr>
 <?php } ?>
 <?php if (!$rows) { ?>

@@ -170,6 +170,52 @@ function stats_bar($html)
         . '<font ' . FONT . ' size="1">' . $html . '</font></td></tr></table>';
 }
 
+/** Icon sizes and name colors from population.json: id => [width, height, "white" or "black"]. */
+function population_icons($pop)
+{
+    // id => [width, height, "white" or "black"] from hlwiki's ik0ns.csv (older files: just ids).
+    $icons = array();
+    foreach (isset($pop['icons']) ? $pop['icons'] : array() as $k => $v) {
+        if (is_array($v)) {
+            $icons[(int) $k] = $v;
+        } else {
+            $icons[(int) $v] = array(232, 18, 'black');
+        }
+    }
+    return $icons;
+}
+
+// A name drawn over its icon the way Hotline clients (and Invigoration) show a user list: the icon
+// at its own proportions, 18 pixels tall, and the name starting 33 pixels in, in whichever of
+// white or black hlwiki's icon index says reads better there. A small icon sits at the left with
+// the name beside it. Nested tables, so old browsers line it up too.
+define('NAME_OFFSET', 33);
+
+function user_tag($name, $iconId, $icons, $href)
+{
+    $info = isset($icons[(int) $iconId]) ? $icons[(int) $iconId] : null;
+    $width = $info ? max(1, (int) round($info[0] * 18 / max(1, $info[1]))) : 0;
+    $banner = $width >= 60;
+    $color = ($info && $banner && $info[2] === 'white') ? 'white' : 'black';
+    $src = 'http://hlwiki.com/ik0ns/' . (int) $iconId . '.png';
+    $label = '<a href="' . h($href) . '" class="nick-' . $color . '"><font color="' . ($color === 'white' ? '#FFFFFF' : '#000000')
+        . '" size="2"><b>' . h($name) . '</b></font></a>';
+    $first = $info && !$banner
+        ? '<img src="' . h($src) . '" width="' . $width . '" height="18" alt="" border="0">'
+        : '<img src="images/pix.gif" width="' . NAME_OFFSET . '" height="1" alt="">';
+    $box = max($banner ? $width : 0, 232);
+    $inner = '<table cellpadding="0" cellspacing="0" border="0" width="' . $box . '"><tr>'
+        . '<td width="' . NAME_OFFSET . '" height="18" valign="middle">' . $first . '</td>'
+        . '<td height="18" valign="middle" nowrap><div class="nick-name" style="width:' . ($box - NAME_OFFSET - 4) . 'px">' . $label . '</div></td>'
+        . '</tr></table>';
+    if (!$banner) {
+        return $inner;
+    }
+    return '<table cellpadding="0" cellspacing="0" border="0" class="nick"><tr>'
+        . '<td width="' . $width . '" height="18" background="' . h($src) . '" style="background-size:' . $width . 'px 18px">'
+        . $inner . '</td></tr></table>';
+}
+
 // Servers known to the tracker, merged with this hour's check and the file index summary.
 function load_servers()
 {

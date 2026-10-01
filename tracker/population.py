@@ -44,7 +44,7 @@ def known_icons():
 def look(key):
     host, port = split_address(key, hotline.SERVER_PORT)
     try:
-        with hotline.HotlineServer(host, port, nickname="BigRedH Tracker", timeout=20) as server:
+        with hotline.HotlineServer(host, port, nickname="TrackerCheck", timeout=20) as server:
             server.login()
             return key, server.list_users(), None
     except (OSError, hotline.HotlineError) as e:

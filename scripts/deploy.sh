@@ -24,7 +24,17 @@ done
 mkdir -p ~/.ssh
 printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
 chmod 600 ~/.ssh/deploy_key
-ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+for attempt in 1 2 3 4 5; do
+  if ssh-keyscan -T 15 -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts 2>/dev/null && [ -s ~/.ssh/known_hosts ]; then
+    break
+  fi
+  if [ "$attempt" = 5 ]; then
+    echo "::error::Couldn't reach $DEPLOY_HOST to read its SSH host key."
+    exit 1
+  fi
+  echo "Couldn't reach $DEPLOY_HOST yet; trying again."
+  sleep $((attempt * 10))
+done
 ssh_cmd="ssh -i $HOME/.ssh/deploy_key"
 remote="$DEPLOY_USER@$DEPLOY_HOST"
 

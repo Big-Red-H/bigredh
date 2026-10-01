@@ -144,7 +144,7 @@ def parse_file_entry(data):
 class HotlineServer:
     """A guest session on one server."""
 
-    def __init__(self, host, port=SERVER_PORT, nickname="BigRedH Indexer", icon=128, timeout=30):
+    def __init__(self, host, port=SERVER_PORT, nickname="TrackerCheck", icon=128, timeout=30):
         self.host = host
         self.port = port
         self.nickname = nickname

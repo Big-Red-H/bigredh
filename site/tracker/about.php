@@ -18,11 +18,11 @@ decoration (welcome lines and dividers) are left out.</p>
 <p>Once a month, BigRedH logs into each server it hasn't indexed before as a guest and writes
 down the name, size and kind of each file and folder a guest can see. Nothing is downloaded. To download,
 connect to the server with a Hotline client.</p>
-<p>It logs in as <b>BigRedH Indexer</b> and opens one folder at a time with a short pause
+<p>It logs in as <b>TrackerCheck</b> and opens one folder at a time with a short pause
 in between.</p>
 
 <p class="heading"><font <?php echo FONT; ?> size="3" color="#8C1021"><b>Population</b></font></p>
-<p>Every six hours, BigRedH logs into each listed server as <b>BigRedH Tracker</b>, reads the
+<p>Every six hours, BigRedH logs into each listed server as <b>TrackerCheck</b>, reads the
 user list, and leaves. The <a href="population.php">Population</a> page shows who was on and
 the names seen in the last 30 days, with their icons from the
 <a href="http://hlwiki.com/ik0ns/">Hotline Wiki's icon archive</a>. Names are only kept on this

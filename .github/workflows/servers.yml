@@ -20,6 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          # The latest main, in case this run waited behind another that saved something.
+          ref: main
           sparse-checkout: |
             tracker
             config

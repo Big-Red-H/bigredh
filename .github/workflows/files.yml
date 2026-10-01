@@ -31,6 +31,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          # The latest main, not the commit from when this run was created: a run that waited
+          # behind another must see what that one saved.
+          ref: main
           sparse-checkout: |
             tracker
             config
@@ -45,7 +48,7 @@ jobs:
           EVERYTHING: ${{ inputs.everything }}
         run: |
           if [ -n "$ONLY" ]; then
-            servers=$(python3 -c 'import json,os; print(json.dumps(os.environ["ONLY"].split()))')
+            servers=$(python3 tracker/index_files.py --plan $ONLY)
           elif [ "$EVERYTHING" = "true" ]; then
             servers=$(python3 tracker/index_files.py --plan --all)
           else
@@ -54,8 +57,9 @@ jobs:
           echo "servers=$servers" >> "$GITHUB_OUTPUT"
           echo "$servers"
 
-  # One job per server: a huge server can take hours without holding up the rest, and one that
-  # hangs only loses its own listing.
+  # One job per machine (usually one server): a huge server can take hours without holding up the
+  # rest, one that hangs only loses its own listing, and a machine running several servers isn't
+  # logged into several times at once.
   index:
     needs: plan
     if: needs.plan.outputs.servers != '[]'
@@ -69,6 +73,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          # The latest main, not the commit from when this run was created: a run that waited
+          # behind another must see what that one saved.
+          ref: main
           sparse-checkout: |
             tracker
             config
@@ -76,7 +83,9 @@ jobs:
             data/live.json
           sparse-checkout-cone-mode: false
       - name: Index ${{ matrix.server }}
-        run: python3 tracker/index_files.py "${{ matrix.server }}" --time-limit 19800
+        env:
+          SERVERS: ${{ matrix.server }}
+        run: python3 tracker/index_files.py $SERVERS --job-time 19800
       - uses: actions/upload-artifact@v7
         with:
           name: files-${{ strategy.job-index }}
@@ -94,6 +103,8 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main
       - uses: actions/download-artifact@v8
         with:
           pattern: files-*

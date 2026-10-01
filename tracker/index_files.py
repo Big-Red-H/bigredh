@@ -3,7 +3,8 @@
   python3 tracker/index_files.py 1.2.3.4:5500 [more...]   index these servers
   python3 tracker/index_files.py --new                    listed servers not indexed yet
   python3 tracker/index_files.py --all                    every listed server, indexed or not
-  python3 tracker/index_files.py --plan [--all]           print that list as JSON (for CI)
+  python3 tracker/index_files.py --plan [--all] [servers] print that list as JSON (for CI), with
+                                                          the servers on one machine grouped together
 
 The monthly run only does new servers: ones never indexed, or whose earlier tries all failed.
 A server already in the index stays as it is until someone asks for it again.
@@ -186,6 +187,16 @@ def planned_servers(everything=False):
             if v.get("listed") and k not in skip and (everything or not already_indexed(k))]
 
 
+def group_by_host(keys):
+    """One entry per machine ("host:port host:port2"), so a machine's servers are indexed one at a
+    time: several logins at once from the same place can look like a flood and get the indexer
+    banned."""
+    groups = {}
+    for key in keys:
+        groups.setdefault(split_address(key, hotline.SERVER_PORT)[0], []).append(key)
+    return [" ".join(sorted(g)) for _, g in sorted(groups.items())]
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("servers", nargs="*")
@@ -193,10 +204,12 @@ def main():
     parser.add_argument("--all", action="store_true")
     parser.add_argument("--plan", action="store_true")
     parser.add_argument("--time-limit", type=int, default=5 * 3600, help="seconds per server")
+    parser.add_argument("--job-time", type=int, default=0,
+                        help="seconds for all the servers given, shared out between them as they go")
     args = parser.parse_args()
 
     if args.plan:
-        print(json.dumps(planned_servers(args.all)))
+        print(json.dumps(group_by_host(args.servers or planned_servers(args.all))))
         return 0
 
     for key in set(read_list("noindex.txt")):
@@ -206,11 +219,17 @@ def main():
 
     names = load_json(DATA / "servers.json", {})
     keys = planned_servers(args.all) if args.all or args.new else args.servers
-    for key in keys:
+    started = time.monotonic()
+    for n, key in enumerate(keys):
         if key in set(read_list("noindex.txt")):
             print(f"{key}: in config/noindex.txt; skipped")
             continue
-        index_server(key, names.get(key, {}).get("name", key), args.time_limit)
+        limit = args.time_limit
+        if args.job_time:
+            # What's left of the job's time, split between the servers still to go.
+            left = args.job_time - (time.monotonic() - started)
+            limit = max(60, min(limit, int(left / (len(keys) - n))))
+        index_server(key, names.get(key, {}).get("name", key), limit)
     return 0
 
 

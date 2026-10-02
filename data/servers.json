@@ -35,8 +35,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "24CaFE🍰 ☕️",
   "port": 5500
@@ -155,7 +154,7 @@
  },
  "15.204.9.52:5500": {
   "description": "All the files in the MegaMek Fans file area",
-  "first_seen": "2026-10-02",
+  "first_seen": "2026-09-29",
   "host": "15.204.9.52",
   "last_seen": "2026-10-02",
   "listed_by": [
@@ -164,7 +163,10 @@
    "tracker.preterhuman.net"
   ],
   "name": "MegaMek Fans Hotline server",
-  "port": 5500
+  "port": 5500,
+  "previous_addresses": [
+   "173.230.155.113:5500"
+  ]
  },
  "15.204.92.16:5500": {
   "description": "Get our Hotline tools for Unix servers plus other Hotline-related files.",
@@ -174,8 +176,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hotline Tools for Unix",
   "port": 5500
@@ -236,17 +237,6 @@
   "name": "RPG Maker Fans Hotline server",
   "port": 5500
  },
- "173.230.155.113:5500": {
-  "description": "All the files in the MegaMek Fans file area",
-  "first_seen": "2026-09-29",
-  "host": "173.230.155.113",
-  "last_seen": "2026-10-02",
-  "listed_by": [
-   "hltracker.com"
-  ],
-  "name": "MegaMek Fans Hotline server",
-  "port": 5500
- },
  "173.255.212.203:5500": {
   "description": "All the files in the Gimp Fans file area",
   "first_seen": "2026-09-29",
@@ -269,7 +259,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -470,10 +461,8 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Digimon Fans Hotline server",
   "port": 5500
@@ -513,8 +502,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -569,7 +557,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -936,7 +925,8 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500

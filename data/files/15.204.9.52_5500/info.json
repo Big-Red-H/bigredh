@@ -4,7 +4,10 @@
  "folders": 11,
  "indexed_at": "2026-10-01T14:00:48Z",
  "name": "MegaMek Fans Hotline server",
+ "previous_addresses": [
+  "173.230.155.113:5500"
+ ],
  "seconds": 1,
- "server": "173.230.155.113:5500",
+ "server": "15.204.9.52:5500",
  "status": "ok"
 }

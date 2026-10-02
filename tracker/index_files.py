@@ -9,7 +9,8 @@
 A server is due when it has never been indexed, when its last full index is more than 45 days old,
 or when a pass over it is still unfinished. With a run each month, that's about every 60 days.
 Servers in config/archives.txt never change, so once they have a complete listing they're left
-alone unless named explicitly.
+alone unless named explicitly. A server whose new index is exactly the same as its last one is
+added to config/archives.txt automatically. Servers in config/noindex.txt are never indexed.
 
 Gentle on purpose: at most one folder request a second, longer if the server is slow to answer,
 and a long wait before reconnecting after an error. A big server can take longer than one run
@@ -29,6 +30,7 @@ of into data/files directly; that's how CI runs it.
 """
 
 import argparse
+import hashlib
 import json
 import shutil
 import socket
@@ -159,6 +161,24 @@ def write_parts(folder, entries, prefix="part"):
         out.close()
 
 
+def fingerprint(entries):
+    """One hash of a whole listing, to tell whether a server changed since its last index. The
+    same bytes as the part files hold, so it can be worked out again from them."""
+    digest = hashlib.sha256()
+    for entry in sorted(entries, key=lambda e: e[0]):
+        digest.update(json.dumps(entry, ensure_ascii=False, separators=(",", ":")).encode("utf-8") + b"\n")
+    return digest.hexdigest()
+
+
+def fingerprint_folder(folder):
+    digest = hashlib.sha256()
+    for part in sorted(folder.glob("part-*.jsonl")):
+        with open(part, "rb") as f:
+            for line in f:
+                digest.update(line)
+    return digest.hexdigest()
+
+
 def read_entries(folder, pattern):
     entries = []
     for part in sorted(folder.glob(pattern)) if folder.exists() else []:
@@ -230,7 +250,13 @@ def index_server(key, name, time_limit, out_root):
         "status": "partial" if stopped == "entry limit" else "ok",
         "files": files, "folders": len(entries) - files,
         "bytes": sum(e[1] for e in entries if len(e) == 4), "seconds": seconds,
+        "fingerprint": fingerprint(entries),
     }
+    # Exactly the same as last time: it's an archive, and merge_results.py adds it to
+    # config/archives.txt so it isn't indexed again.
+    if (stopped != "entry limit" and old_info.get("status") == "ok"
+            and old_info.get("fingerprint") == info["fingerprint"]):
+        info["unchanged_since"] = old_info.get("indexed_at", "")
     notes = []
     if stopped == "entry limit":
         notes.append("stopped at the entry limit; the listing is partial")
@@ -244,7 +270,8 @@ def index_server(key, name, time_limit, out_root):
         shutil.rmtree(out)
     write_parts(out, entries)
     write_json(out / "info.json", info)
-    print(f"{key}: {files} files, {info['folders']} folders in {seconds}s {info.get('note', '')}")
+    print(f"{key}: {files} files, {info['folders']} folders in {seconds}s {info.get('note', '')}"
+          + (" (unchanged since its last index; now an archive)" if info.get("unchanged_since") else ""))
 
 
 def is_archive(key, info):

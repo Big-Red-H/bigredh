@@ -12,7 +12,19 @@ import sys
 from pathlib import Path
 
 from index_files import FILES, folder_name
-from update_servers import load_json, read_list, write_json
+from update_servers import CONFIG, load_json, read_list, write_json
+
+
+def add_archive(info):
+    """A server whose files didn't change between two indexes goes on the archives list."""
+    key = info.get("server", "")
+    if not key or key in set(read_list("archives.txt")):
+        return
+    line = (f"{key:<21} # {info.get('name', '')}: unchanged between its "
+            f"{info['unchanged_since'][:10]} and {info.get('indexed_at', '')[:10]} indexes (added automatically)\n")
+    with open(CONFIG / "archives.txt", "a", encoding="utf-8") as f:
+        f.write(line)
+    print(f"{key}: unchanged since its last index; added to config/archives.txt")
 
 
 def merge_one(result):
@@ -30,6 +42,8 @@ def merge_one(result):
             shutil.rmtree(target)
         shutil.copytree(result, target)
         print(f"{result.name}: {info.get('status')}")
+        if info.get("unchanged_since"):
+            add_archive(info)
     else:
         previous = load_json(target / "info.json", {})
         previous.update({k: v for k, v in info.items() if k in ("server", "name", "last_attempt", "last_error")})

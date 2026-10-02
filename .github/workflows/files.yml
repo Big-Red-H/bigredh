@@ -118,7 +118,7 @@ jobs:
       - name: Replace the listings that worked
         run: python3 tracker/merge_results.py results
       - name: Save to GitHub
-        run: scripts/save-data.sh "File index $(date -u +%Y-%m-%d)" data/files
+        run: scripts/save-data.sh "File index $(date -u +%Y-%m-%d)" data/files config/archives.txt
       - name: Upload to DreamHost
         env:
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}

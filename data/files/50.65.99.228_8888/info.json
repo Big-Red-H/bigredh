@@ -1,7 +1,13 @@
 {
- "last_attempt": "2026-10-01T14:02:21Z",
- "last_error": "guest login refused: You are temporarily banned on this server.",
  "name": "MAJOR MAC BACKUP - SILVER",
+ "pass": {
+  "folders_done": 3537,
+  "folders_to_go": 1241,
+  "found_so_far": 25348,
+  "note": "",
+  "started": "2026-10-01T22:43:21Z",
+  "updated": "2026-10-01T22:43:21Z"
+ },
  "server": "50.65.99.228:8888",
- "status": "failed"
+ "status": "in progress"
 }

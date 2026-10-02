@@ -1,7 +1,10 @@
 {
- "last_attempt": "2026-10-01T14:05:08Z",
- "last_error": "guest login refused: You are temporarily banned on this server.",
+ "bytes": 33405473086,
+ "files": 75102,
+ "folders": 11773,
+ "indexed_at": "2026-10-01T19:58:21Z",
  "name": "Bob Kiwi's House",
+ "seconds": 11817,
  "server": "73.163.202.118:5500",
- "status": "failed"
+ "status": "ok"
 }

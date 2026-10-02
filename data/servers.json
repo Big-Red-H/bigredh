@@ -293,6 +293,17 @@
   "name": "PHPBB Hosting Hotline server",
   "port": 5500
  },
+ "185.126.82.196:5500": {
+  "description": "DEV Server for Pitbull Pro and its Server and Tracker",
+  "first_seen": "2026-10-02",
+  "host": "185.126.82.196",
+  "last_seen": "2026-10-02",
+  "listed_by": [
+   "hltracker.com"
+  ],
+  "name": "Pitbull DEV Server",
+  "port": 5500
+ },
  "185.126.82.202:5500": {
   "description": "DEV Server for Pitbull Pro and its Server and Tracker",
   "first_seen": "2026-09-29",
@@ -835,6 +846,8 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
@@ -848,7 +861,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Other Abode",
   "port": 5555

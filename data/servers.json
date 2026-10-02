@@ -259,8 +259,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -475,7 +474,6 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -561,8 +559,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -641,7 +638,6 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -929,10 +925,8 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500

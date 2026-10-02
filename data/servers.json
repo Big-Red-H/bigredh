@@ -34,8 +34,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "24CaFE🍰 ☕️",
@@ -48,8 +46,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Dreamcast Fans Hotline server",
@@ -104,8 +100,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Alien Arena FPS Fans",
@@ -118,8 +112,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "BeOS and Haiku Hotline Server",
@@ -132,8 +124,7 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "tracker.preterhuman.net"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
   "port": 5500
@@ -158,8 +149,10 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-02",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MegaMek Fans Hotline server",
   "port": 5500,
@@ -174,8 +167,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
@@ -202,8 +193,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mac OsIX Hotline server",
@@ -244,8 +233,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Gimp Fans Hotline server",
@@ -258,8 +245,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Bomberman Fans Hotline server",
@@ -364,8 +349,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "MagicCap City Hotline server",
@@ -406,8 +389,7 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
   "port": 5500
@@ -433,8 +415,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "YuGiOh City Hotline server",
@@ -461,8 +441,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Digimon Fans Hotline server",
@@ -474,8 +452,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
+   "hltracker.com",
    "tracker.preterhuman.net"
   ],
   "name": "The Apple Media Archive",
@@ -502,8 +479,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Nerf Arena Blast Hotline server",
@@ -544,8 +519,7 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "tracker.preterhuman.net"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -557,8 +531,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Carrier Command Hotline server",
@@ -583,9 +555,7 @@
   "host": "45.56.94.175",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "hltracker.com"
   ],
   "name": "Windows XP City",
   "port": 5500
@@ -597,8 +567,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mille Bornes Game Archives",
@@ -638,8 +606,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
+   "hltracker.com",
    "tracker.preterhuman.net"
   ],
   "name": "Emulators 4 Macs Hotline server",
@@ -772,9 +739,7 @@
   "host": "51.222.85.183",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "hltracker.com"
   ],
   "name": "NovaServer BBS Hotline server",
   "port": 5500
@@ -842,8 +807,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
@@ -870,8 +833,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "higher intellect",
@@ -898,8 +859,6 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
@@ -925,8 +884,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
+   "hltracker.com",
    "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",

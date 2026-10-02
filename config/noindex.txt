@@ -1,2 +1,3 @@
 # Servers whose files are never indexed (the owner asked), one host:port per line.
 # A server can also opt out on its own by having a folder named "noindex" anywhere.
+202.128.66.10:5500    # refuses guest logins ("Incorrect login"), so it can't be indexed

@@ -33,9 +33,9 @@
   "host": "130.62.225.57",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "24CaFE🍰 ☕️",
   "port": 5500
@@ -60,7 +60,6 @@
   "host": "135.148.46.162",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -102,7 +101,6 @@
   "host": "15.204.118.138",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -116,7 +114,6 @@
   "host": "15.204.118.233",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -130,7 +127,6 @@
   "host": "15.204.249.60",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -144,7 +140,6 @@
   "host": "15.204.57.161",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -158,9 +153,9 @@
   "host": "15.204.92.16",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
   "port": 5500
@@ -171,7 +166,6 @@
   "host": "15.204.93.91",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -185,7 +179,6 @@
   "host": "15.204.95.169",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -213,7 +206,6 @@
   "host": "173.230.150.122",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -241,7 +233,6 @@
   "host": "173.255.212.203",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -255,7 +246,6 @@
   "host": "173.255.214.98",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -308,7 +298,6 @@
   "host": "192.155.80.74",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -350,7 +339,6 @@
   "host": "192.155.84.58",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -378,7 +366,6 @@
   "host": "192.81.129.7",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -392,7 +379,6 @@
   "host": "192.81.133.87",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -420,7 +406,6 @@
   "host": "23.239.3.187",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -448,8 +433,10 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-02",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Digimon Fans Hotline server",
   "port": 5500
@@ -490,7 +477,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -529,7 +517,6 @@
   "host": "45.33.41.92",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -543,7 +530,6 @@
   "host": "45.33.51.51",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -570,7 +556,6 @@
   "host": "45.56.94.175",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -583,7 +568,6 @@
   "host": "45.79.111.176",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -625,6 +609,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-02",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -652,7 +637,6 @@
   "host": "45.79.93.184",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -666,7 +650,6 @@
   "host": "50.116.14.184",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -733,7 +716,6 @@
   "host": "51.222.14.233",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -746,7 +728,6 @@
   "host": "51.222.29.15",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -759,7 +740,6 @@
   "host": "51.222.85.183",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -800,7 +780,6 @@
   "host": "51.81.35.250",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -842,9 +821,6 @@
   "host": "64.99.118.65",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Other Abode",
@@ -856,7 +832,6 @@
   "host": "66.209.184.244",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -884,7 +859,6 @@
   "host": "71.230.225.128",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -912,6 +886,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-02",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -939,7 +914,6 @@
   "host": "74.207.243.213",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -967,7 +941,6 @@
   "host": "74.208.191.206",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -981,7 +954,6 @@
   "host": "76.169.2.55",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -993,7 +965,7 @@
   "description": "",
   "first_seen": "2026-09-29",
   "host": "76.210.4.7",
-  "last_seen": "2026-10-01",
+  "last_seen": "2026-10-02",
   "listed_by": [
    "hltracker.com"
   ],
@@ -1030,7 +1002,6 @@
   "host": "96.126.101.62",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

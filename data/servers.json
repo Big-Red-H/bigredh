@@ -133,7 +133,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
   "port": 5500
@@ -150,6 +151,19 @@
    "tracker.preterhuman.net"
   ],
   "name": "Mednafen City Hotline server",
+  "port": 5500
+ },
+ "15.204.9.52:5500": {
+  "description": "All the files in the MegaMek Fans file area",
+  "first_seen": "2026-10-02",
+  "host": "15.204.9.52",
+  "last_seen": "2026-10-02",
+  "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "MegaMek Fans Hotline server",
   "port": 5500
  },
  "15.204.92.16:5500": {
@@ -228,10 +242,7 @@
   "host": "173.230.155.113",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "MegaMek Fans Hotline server",
   "port": 5500
@@ -258,8 +269,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -406,7 +416,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
   "port": 5500
@@ -544,7 +555,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -557,8 +569,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -680,7 +691,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Revolt Fans Hotline server",
   "port": 5500
@@ -924,8 +936,7 @@
   "last_seen": "2026-10-02",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500
@@ -980,7 +991,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Hotline Central Hub",
   "port": 5500

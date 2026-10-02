@@ -7,7 +7,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Marisa's Apps Hotline Server",
   "port": 5500
@@ -132,7 +133,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
   "port": 5500
@@ -157,9 +159,9 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MegaMek Fans Hotline server",
   "port": 5500,
@@ -259,8 +261,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -323,7 +324,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple ][ Fans",
   "port": 5500
@@ -350,7 +352,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Classic Macs OSX Hotline server",
   "port": 5500
@@ -391,7 +394,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Classic Macs Hotline server",
   "port": 5500
@@ -404,7 +408,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
   "port": 5500
@@ -471,7 +476,6 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -529,7 +533,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
   "port": 5500
@@ -542,7 +547,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -555,8 +561,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -609,7 +614,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Mastodon Hosting Hotline server",
   "port": 5500
@@ -634,7 +640,6 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -664,7 +669,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
   "port": 5500
@@ -921,10 +927,8 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500
@@ -937,7 +941,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Mac Bolo Hotline server",
   "port": 5500
@@ -1027,7 +1032,8 @@
   "host": "85.214.130.218",
   "last_seen": "2026-10-02",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "tracker.preterhuman.net"
   ],
   "name": "HeidrunsInn",
   "port": 5500

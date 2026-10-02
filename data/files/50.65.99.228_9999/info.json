@@ -1,13 +1,11 @@
 {
+ "bytes": 8553310343837,
+ "files": 52369,
+ "folders": 7616,
+ "indexed_at": "2026-10-02T08:53:14Z",
  "name": "MAJOR MAC BACKUP - GOLD",
- "pass": {
-  "folders_done": 3621,
-  "folders_to_go": 1169,
-  "found_so_far": 25566,
-  "note": "",
-  "started": "2026-10-02T00:05:50Z",
-  "updated": "2026-10-02T00:05:50Z"
- },
+ "note": "skipped 3 folders that didn't answer",
+ "seconds": 10165,
  "server": "50.65.99.228:9999",
- "status": "in progress"
+ "status": "ok"
 }

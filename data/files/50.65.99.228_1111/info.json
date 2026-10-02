@@ -1,13 +1,10 @@
 {
+ "bytes": 8688884248134,
+ "files": 77625,
+ "folders": 7616,
+ "indexed_at": "2026-10-02T05:05:48Z",
  "name": "MAJOR MAC BACKUP",
- "pass": {
-  "folders_done": 4623,
-  "folders_to_go": 1326,
-  "found_so_far": 58960,
-  "note": "",
-  "started": "2026-10-01T19:58:21Z",
-  "updated": "2026-10-01T19:58:21Z"
- },
+ "seconds": 8091,
  "server": "50.65.99.228:1111",
- "status": "in progress"
+ "status": "ok"
 }

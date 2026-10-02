@@ -1,3 +1,5 @@
-# Servers whose files are never indexed (the owner asked), one host:port per line.
-# A server can also opt out on its own by having a folder named "noindex" anywhere.
+# Servers that are never indexed, permanently: whatever was indexed for them is removed and they're
+# never visited for their files again (nor for Population). The owner asked, or the server can't be
+# indexed. One host:port per line. A server can also opt out by itself, with a folder named
+# "noindex" anywhere on it.
 202.128.66.10:5500    # refuses guest logins ("Incorrect login"), so it can't be indexed

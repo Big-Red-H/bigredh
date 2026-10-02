@@ -46,8 +46,9 @@ File index: <?php echo h(format_ago($lastIndex)); ?>
 </font>
 </td></tr></table>
 
-<p><font size="1" class="dim">Servers are checked every hour. New servers have their files indexed once a month.
-To keep your server out of the file index, make a folder named <b>noindex</b> anywhere on it. To take it off the tracker, send a <a href="<?php echo h(REMOVE_URL); ?>">removal request</a>.</font></p>
+<p><font size="1" class="dim">Servers are checked every hour, and their file lists are indexed gently, about every 60 days.
+<b>Server owners:</b> <a href="<?php echo h(INDEXING_URL); ?>">never index my server, or mark it as an archive</a> |
+<a href="<?php echo h(REMOVE_URL); ?>">take it off the tracker</a> | <a href="about.php">how indexing works</a></font></p>
 
 <form action="./" method="get">
 <font size="2">Filter servers: <input type="text" name="q" size="24" value="<?php echo h($filter); ?>">

@@ -1,0 +1,37 @@
+name: How my server is indexed
+description: Never index your Hotline server, mark it as an archive (indexed once, then left alone), or ask for it to be indexed again.
+title: "Indexing: "
+labels: ["indexing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The BigRedH tracker indexes a server's file list (names and sizes only, nothing is downloaded) about every 60 days, slowly and as a guest named TrackerCheck. Tell us how you'd like yours handled; a maintainer sets it up by hand, usually within a few days.
+  - type: input
+    id: address
+    attributes:
+      label: Server address
+      description: As shown on the tracker, like 12.34.56.78:5500.
+    validations:
+      required: true
+  - type: input
+    id: server_name
+    attributes:
+      label: Server name
+  - type: dropdown
+    id: choice
+    attributes:
+      label: What would you like?
+      options:
+        - "Never index my server (and remove what's indexed now)"
+        - "It's an archive: keep the current index, and don't index it again"
+        - "It has changed: please index it again"
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: How can we tell it's yours?
+      description: For example, you're its admin on the Hotline Discord, or it has a folder named noindex.
+    validations:
+      required: true

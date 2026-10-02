@@ -7,6 +7,8 @@ define('DB_FILE', __DIR__ . '/../db/files.sqlite');
 define('GITHUB_URL', 'https://github.com/Big-Red-H/bigredh');
 // The form for taking a server (or a name) off the tracker.
 define('REMOVE_URL', 'https://github.com/Big-Red-H/bigredh/issues/new?template=remove.yml');
+// The form for a server owner to choose how their server is indexed (never, archive, again).
+define('INDEXING_URL', 'https://github.com/Big-Red-H/bigredh/issues/new?template=indexing.yml');
 
 function h($text)
 {

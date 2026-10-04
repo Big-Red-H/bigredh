@@ -296,6 +296,17 @@
   "name": "PHPBB Hosting Hotline server",
   "port": 5500
  },
+ "184.3.207.151:47937": {
+  "description": "A Hotline Server",
+  "first_seen": "2026-10-04",
+  "host": "184.3.207.151",
+  "last_seen": "2026-10-04",
+  "listed_by": [
+   "hltracker.com"
+  ],
+  "name": "Loop Fixture",
+  "port": 47937
+ },
  "185.126.82.196:5500": {
   "description": "DEV Server for Pitbull Pro and its Server and Tracker",
   "first_seen": "2026-10-02",
@@ -478,6 +489,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-04",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

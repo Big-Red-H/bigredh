@@ -159,7 +159,6 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-05",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -234,7 +233,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "RPG Maker Fans Hotline server",
   "port": 5500
@@ -261,8 +261,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bomberman Fans Hotline server",
   "port": 5500
@@ -462,8 +461,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -488,9 +486,9 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-05",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Digimon Fans Hotline server",
   "port": 5500
@@ -531,7 +529,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -586,8 +585,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -666,7 +664,6 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-05",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -872,7 +869,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
   "port": 5500
@@ -953,10 +951,8 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-05",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500
@@ -983,7 +979,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
   "port": 5500
@@ -1047,7 +1044,8 @@
   "host": "82.33.17.156",
   "last_seen": "2026-10-05",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "tracker.preterhuman.net"
   ],
   "name": "RetroMac",
   "port": 5500
@@ -1072,7 +1070,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Phoca Phans Hotline server",
   "port": 5500

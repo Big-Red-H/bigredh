@@ -234,8 +234,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "RPG Maker Fans Hotline server",
   "port": 5500
@@ -491,8 +490,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Digimon Fans Hotline server",
   "port": 5500
@@ -503,6 +501,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -532,8 +531,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Nerf Arena Blast Hotline server",
   "port": 5500
@@ -668,6 +666,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -873,8 +872,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "AnteL0pe's Abode",
   "port": 5500
@@ -955,6 +953,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -984,8 +983,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Palm Fans Hotline server",
   "port": 5500
@@ -1049,8 +1047,7 @@
   "host": "82.33.17.156",
   "last_seen": "2026-10-05",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "RetroMac",
   "port": 5500
@@ -1075,8 +1072,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Phoca Phans Hotline server",
   "port": 5500

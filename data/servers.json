@@ -133,7 +133,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
   "port": 5500
@@ -158,8 +159,10 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MegaMek Fans Hotline server",
   "port": 5500,
@@ -304,6 +307,20 @@
   "name": "Loop Fixture",
   "port": 47937
  },
+ "185.100.234.224:5500": {
+  "description": "Pear's Hotline server powered by Mobius, running on an M4 MacBook Air on macOS Golden Gate.",
+  "first_seen": "2026-10-05",
+  "host": "185.100.234.224",
+  "last_seen": "2026-10-05",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Pear Hotline Server",
+  "port": 5500
+ },
  "185.126.82.196:5500": {
   "description": "DEV Server for Pitbull Pro and its Server and Tracker",
   "first_seen": "2026-10-02",
@@ -418,7 +435,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
   "port": 5500
@@ -485,6 +503,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -556,7 +575,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -649,6 +669,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -936,6 +957,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-05",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

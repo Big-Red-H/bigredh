@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-05T00:09:30Z",
+ "checked_at": "2026-10-05T00:54:46Z",
  "servers": {
   "104.200.25.101:5500": {
    "listed": true,
@@ -129,7 +129,7 @@
   "192.81.129.7:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 1
   },
   "192.81.133.87:5500": {
    "listed": true,
@@ -284,7 +284,7 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 6
+   "users": 5
   },
   "64.99.118.65:5500": {
    "listed": true,
@@ -344,7 +344,7 @@
   "82.33.17.156:5500": {
    "listed": true,
    "online": true,
-   "users": 0
+   "users": 1
   },
   "85.214.130.218:5500": {
    "listed": true,

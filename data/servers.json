@@ -336,7 +336,7 @@
   "description": "DEV Server for Pitbull Pro and its Server and Tracker",
   "first_seen": "2026-09-29",
   "host": "185.126.82.202",
-  "last_seen": "2026-10-02",
+  "last_seen": "2026-10-06",
   "listed_by": [
    "hltracker.com"
   ],
@@ -503,6 +503,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

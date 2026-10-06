@@ -33,7 +33,6 @@
   "host": "130.62.225.57",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -75,10 +74,8 @@
   "host": "139.162.249.62",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Twin Peaks Fans",
   "port": 5500
@@ -89,7 +86,6 @@
   "host": "15.204.113.251",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -159,6 +155,7 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -188,7 +185,6 @@
   "host": "15.204.93.91",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -346,10 +342,8 @@
   "host": "192.155.80.74",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Apple ][ Fans",
   "port": 5500
@@ -360,10 +354,8 @@
   "host": "192.155.81.82",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Nintendo VirtualBoy Fans",
   "port": 5500
@@ -376,8 +368,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Classic Macs OSX Hotline server",
   "port": 5500
@@ -402,6 +393,7 @@
   "host": "192.81.129.220",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -417,8 +409,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Classic Macs Hotline server",
   "port": 5500
@@ -470,7 +461,6 @@
   "host": "23.239.3.217",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -484,6 +474,7 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -499,8 +490,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "The Apple Media Archive",
   "port": 5500
@@ -511,10 +501,8 @@
   "host": "24.6.82.54",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "The Mobius Strip",
   "port": 5500
@@ -539,7 +527,6 @@
   "host": "45.33.105.155",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -567,10 +554,8 @@
   "host": "45.33.41.92",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -635,10 +620,8 @@
   "host": "45.79.115.32",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Mastodon Hosting Hotline server",
   "port": 5500
@@ -663,6 +646,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -689,10 +673,8 @@
   "host": "45.79.93.184",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "TRON Fans Hotline server",
   "port": 5500
@@ -703,7 +685,6 @@
   "host": "50.116.14.184",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -769,7 +750,6 @@
   "host": "51.222.14.233",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -795,7 +775,6 @@
   "host": "51.222.85.183",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -850,10 +829,8 @@
   "host": "62.116.228.143",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MacDomain",
   "port": 5500
@@ -948,6 +925,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -961,9 +939,9 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Mac Bolo Hotline server",
   "port": 5500
@@ -1002,10 +980,8 @@
   "host": "74.208.191.206",
   "last_seen": "2026-10-06",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hotline Central Hub",
   "port": 5500

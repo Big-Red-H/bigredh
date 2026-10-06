@@ -63,8 +63,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Apple Newton Development Tools",
   "port": 5500
@@ -159,6 +158,7 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -219,7 +219,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Opensim City File Archives",
   "port": 5500
@@ -274,8 +275,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Vectrex City Hotline server",
   "port": 5500
@@ -403,6 +403,7 @@
   "host": "192.81.129.220",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -460,8 +461,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -486,6 +486,7 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -499,6 +500,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -584,8 +586,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Carrier Command Hotline server",
   "port": 5500
@@ -624,8 +625,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Mille Bornes Game Archives",
   "port": 5500
@@ -664,6 +664,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -827,7 +828,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
   "port": 5500
@@ -950,6 +952,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -963,6 +966,7 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-06",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -992,8 +996,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hollywood Dev Fans",
   "port": 5500
@@ -1035,6 +1038,17 @@
    "hltracker.com"
   ],
   "name": "hxd-ng server",
+  "port": 5500
+ },
+ "77.102.51.254:5500": {
+  "description": "DEV Server for Pitbull Pro and its Server and Tracker",
+  "first_seen": "2026-10-06",
+  "host": "77.102.51.254",
+  "last_seen": "2026-10-06",
+  "listed_by": [
+   "hltracker.com"
+  ],
+  "name": "Pitbull DEV Server",
   "port": 5500
  },
  "82.33.17.156:5500": {

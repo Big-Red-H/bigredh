@@ -50,7 +50,6 @@
   "host": "135.148.139.199",
   "last_seen": "2026-10-07",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -162,8 +161,10 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-07",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MegaMek Fans Hotline server",
   "port": 5500,
@@ -249,7 +250,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Gimp Fans Hotline server",
   "port": 5500
@@ -365,7 +367,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nintendo VirtualBoy Fans",
   "port": 5500
@@ -404,6 +407,7 @@
   "host": "192.81.129.220",
   "last_seen": "2026-10-07",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -433,7 +437,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
   "port": 5500
@@ -486,6 +491,7 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-07",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -527,7 +533,6 @@
   "host": "40.160.138.140",
   "last_seen": "2026-10-07",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -665,8 +670,10 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-07",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulators 4 Macs Hotline server",
   "port": 5500
@@ -730,7 +737,6 @@
   "host": "50.65.99.228",
   "last_seen": "2026-10-07",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -744,7 +750,6 @@
   "host": "50.65.99.228",
   "last_seen": "2026-10-07",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -758,7 +763,6 @@
   "host": "50.65.99.228",
   "last_seen": "2026-10-07",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -867,7 +871,6 @@
   "host": "64.99.118.65",
   "last_seen": "2026-10-07",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -951,6 +954,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-07",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -964,6 +968,7 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-07",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

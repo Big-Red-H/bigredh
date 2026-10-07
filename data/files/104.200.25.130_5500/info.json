@@ -5,7 +5,10 @@
  "folders": 3,
  "indexed_at": "2026-10-01T14:00:35Z",
  "name": "Marisa's Apps Hotline Server",
+ "previous_addresses": [
+  "104.200.25.101:5500"
+ ],
  "seconds": 0,
- "server": "104.200.25.101:5500",
+ "server": "104.200.25.130:5500",
  "status": "ok"
 }

@@ -163,7 +163,8 @@
   "last_seen": "2026-10-08",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MegaMek Fans Hotline server",
   "port": 5500,
@@ -366,7 +367,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nintendo VirtualBoy Fans",
   "port": 5500
@@ -667,8 +669,10 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-08",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Emulators 4 Macs Hotline server",
   "port": 5500
@@ -995,8 +999,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hollywood Dev Fans",
   "port": 5500

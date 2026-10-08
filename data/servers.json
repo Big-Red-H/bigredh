@@ -5,7 +5,9 @@
   "host": "104.200.25.130",
   "last_seen": "2026-10-08",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Marisa's Apps Hotline Server",
   "port": 5500,
@@ -382,7 +384,6 @@
   "host": "192.81.129.220",
   "last_seen": "2026-10-08",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -460,7 +461,6 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-08",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -915,7 +915,6 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-08",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],

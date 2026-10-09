@@ -593,6 +593,20 @@
   "name": "Carrier Command Hotline server",
   "port": 5500
  },
+ "45.33.60.245:5500": {
+  "description": "All the files in the SuperTux Cty file area",
+  "first_seen": "2026-10-09",
+  "host": "45.33.60.245",
+  "last_seen": "2026-10-09",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "SuperTux City Hotline server",
+  "port": 5500
+ },
  "45.56.82.226:5500": {
   "description": "All 2,200 files in the Classic Mac OSX file area",
   "first_seen": "2026-09-29",

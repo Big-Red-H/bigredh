@@ -489,6 +489,7 @@
   "host": "23.239.4.205",
   "last_seen": "2026-10-10",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -602,8 +603,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "SuperTux City Hotline server",
   "port": 5500
@@ -749,10 +749,7 @@
   "host": "50.65.99.228",
   "last_seen": "2026-10-10",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -763,10 +760,7 @@
   "host": "50.65.99.228",
   "last_seen": "2026-10-10",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -777,10 +771,7 @@
   "host": "50.65.99.228",
   "last_seen": "2026-10-10",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999
@@ -984,6 +975,7 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-10",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

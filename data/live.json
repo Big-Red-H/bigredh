@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-10T00:10:20Z",
+ "checked_at": "2026-10-10T00:49:15Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -101,11 +101,6 @@
    "online": true,
    "users": 0
   },
-  "185.126.82.202:5500": {
-   "listed": true,
-   "online": false,
-   "users": 1
-  },
   "192.155.80.74:5500": {
    "listed": true,
    "online": true,
@@ -164,7 +159,7 @@
   "24.6.82.54:5500": {
    "listed": true,
    "online": true,
-   "users": 5
+   "users": 3
   },
   "40.160.138.140:5500": {
    "listed": true,
@@ -371,7 +366,7 @@
   "hltracker.com": {
    "error": null,
    "ok": true,
-   "servers": 75
+   "servers": 54
   },
   "hotline.kicks-ass.net": {
    "error": null,

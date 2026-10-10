@@ -80,7 +80,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Twin Peaks Fans",
   "port": 5500
@@ -180,7 +181,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
   "port": 5500
@@ -394,7 +396,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MagicCap City Hotline server",
   "port": 5500
@@ -503,7 +506,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "The Apple Media Archive",
   "port": 5500
@@ -696,7 +700,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Phantasm Phans Hotline server",
   "port": 5500
@@ -885,7 +890,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
   "port": 5500
@@ -940,7 +946,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
   "port": 5500
@@ -965,9 +972,9 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-10",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500
@@ -1036,7 +1043,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "The Domain of Dubs",
   "port": 5500
@@ -1056,7 +1064,7 @@
   "description": "DEV Server for Pitbull Pro and its Server and Tracker",
   "first_seen": "2026-10-06",
   "host": "77.102.51.254",
-  "last_seen": "2026-10-06",
+  "last_seen": "2026-10-10",
   "listed_by": [
    "hltracker.com"
   ],
@@ -1081,7 +1089,8 @@
   "host": "85.214.130.218",
   "last_seen": "2026-10-10",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "tracker.preterhuman.net"
   ],
   "name": "HeidrunsInn",
   "port": 5500

@@ -78,7 +78,6 @@
   "host": "139.162.249.62",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -179,9 +178,6 @@
   "host": "15.204.92.16",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
@@ -394,9 +390,6 @@
   "host": "192.155.84.58",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "MagicCap City Hotline server",
@@ -408,6 +401,7 @@
   "host": "192.81.129.220",
   "last_seen": "2026-10-11",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -477,7 +471,6 @@
   "host": "23.239.3.217",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -503,6 +496,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-11",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -516,7 +510,6 @@
   "host": "24.6.82.54",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -544,7 +537,6 @@
   "host": "45.33.105.155",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -654,7 +646,6 @@
   "host": "45.79.115.32",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -682,6 +673,7 @@
   "host": "45.79.82.77",
   "last_seen": "2026-10-11",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -695,9 +687,6 @@
   "host": "45.79.82.9",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phantasm Phans Hotline server",
@@ -723,9 +712,6 @@
   "host": "50.116.14.184",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Revolt Fans Hotline server",
@@ -871,7 +857,6 @@
   "host": "62.116.228.143",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -928,8 +913,6 @@
   "last_seen": "2026-10-11",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Digital Obsession",
@@ -941,9 +924,6 @@
   "host": "71.230.225.128",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
@@ -966,8 +946,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
+   "hltracker.com",
    "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",
@@ -1035,7 +1014,6 @@
   "host": "76.169.2.55",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1083,7 +1061,6 @@
   "host": "85.214.130.218",
   "last_seen": "2026-10-11",
   "listed_by": [
-   "hltracker.com",
    "tracker.preterhuman.net"
   ],
   "name": "HeidrunsInn",

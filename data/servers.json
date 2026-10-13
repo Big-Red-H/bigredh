@@ -313,6 +313,20 @@
   "name": "PHPBB Hosting Hotline server",
   "port": 5500
  },
+ "173.255.248.152:5500": {
+  "description": "All the files in the Apple IIGS City file area",
+  "first_seen": "2026-10-13",
+  "host": "173.255.248.152",
+  "last_seen": "2026-10-13",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Apple IIGS City Hotline server",
+  "port": 5500
+ },
  "184.3.207.151:47937": {
   "description": "A Hotline Server",
   "first_seen": "2026-10-04",
@@ -515,6 +529,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-13",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

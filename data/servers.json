@@ -223,8 +223,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -789,8 +788,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -803,8 +801,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -817,8 +814,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999

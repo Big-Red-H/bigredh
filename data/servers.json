@@ -658,19 +658,6 @@
   "name": "Mac OSX Hotline server",
   "port": 5500
  },
- "45.56.94.175:5500": {
-  "description": "All the files in the Windows XP City file area",
-  "first_seen": "2026-09-29",
-  "host": "45.56.94.175",
-  "last_seen": "2026-10-15",
-  "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
-  ],
-  "name": "Windows XP City",
-  "port": 5500
- },
  "45.79.111.176:5500": {
   "description": "Get all the best versions of the game Mille Bornes",
   "first_seen": "2026-09-29",
@@ -834,6 +821,22 @@
   ],
   "name": "Zorin City Hotline server",
   "port": 5500
+ },
+ "51.222.143.78:5500": {
+  "description": "All the files in the Windows XP City file area",
+  "first_seen": "2026-09-29",
+  "host": "51.222.143.78",
+  "last_seen": "2026-10-15",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
+  ],
+  "name": "Windows XP City",
+  "port": 5500,
+  "previous_addresses": [
+   "45.56.94.175:5500"
+  ]
  },
  "51.222.29.15:5500": {
   "description": "Files related to the GTA game series",

@@ -5,7 +5,10 @@
  "folders": 6,
  "indexed_at": "2026-10-01T14:01:56Z",
  "name": "Windows XP City",
+ "previous_addresses": [
+  "45.56.94.175:5500"
+ ],
  "seconds": 1,
- "server": "45.56.94.175:5500",
+ "server": "51.222.143.78:5500",
  "status": "ok"
 }

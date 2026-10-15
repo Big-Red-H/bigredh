@@ -991,9 +991,11 @@
   "description": "fuck what you heard, we press flowers the best",
   "first_seen": "2026-09-29",
   "host": "72.211.238.1",
-  "last_seen": "2026-10-11",
+  "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Test Pattern 6",
   "port": 5500

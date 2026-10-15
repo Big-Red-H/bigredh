@@ -80,7 +80,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Twin Peaks Fans",
   "port": 5500
@@ -432,7 +433,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MagicCap City Hotline server",
   "port": 5500
@@ -487,7 +489,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bill's Bible Basics",
   "port": 5500
@@ -535,7 +538,6 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -563,6 +565,7 @@
   "host": "40.160.138.140",
   "last_seen": "2026-10-15",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -632,6 +635,7 @@
   "host": "45.33.60.245",
   "last_seen": "2026-10-15",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -716,7 +720,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Phantasm Phans Hotline server",
   "port": 5500
@@ -821,7 +826,6 @@
   "host": "51.222.143.78",
   "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -977,7 +981,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
   "port": 5500
@@ -988,7 +993,6 @@
   "host": "72.211.238.1",
   "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1002,7 +1006,6 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1016,7 +1019,6 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1074,7 +1076,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "The Domain of Dubs",
   "port": 5500
@@ -1119,7 +1122,8 @@
   "host": "85.214.130.218",
   "last_seen": "2026-10-15",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "tracker.preterhuman.net"
   ],
   "name": "HeidrunsInn",
   "port": 5500

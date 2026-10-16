@@ -385,6 +385,17 @@
   "name": "Pitbull DEV Server",
   "port": 5500
  },
+ "188.245.230.214:5500": {
+  "description": "The Official VesperNet Server",
+  "first_seen": "2026-10-16",
+  "host": "188.245.230.214",
+  "last_seen": "2026-10-16",
+  "listed_by": [
+   "hltracker.com"
+  ],
+  "name": "VesperNet",
+  "port": 5500
+ },
  "192.155.80.74:5500": {
   "description": "Get our selection of 2353 files for fans of the Apple ][ family of computers",
   "first_seen": "2026-09-29",

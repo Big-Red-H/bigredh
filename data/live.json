@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-15T00:09:52Z",
+ "checked_at": "2026-10-16T00:07:43Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -111,17 +111,7 @@
    "online": true,
    "users": 0
   },
-  "185.126.82.202:5500": {
-   "listed": true,
-   "online": false,
-   "users": 1
-  },
   "192.155.80.74:5500": {
-   "listed": true,
-   "online": true,
-   "users": 0
-  },
-  "192.155.81.82:5500": {
    "listed": true,
    "online": true,
    "users": 0
@@ -206,11 +196,6 @@
    "online": true,
    "users": 0
   },
-  "45.56.94.175:5500": {
-   "listed": true,
-   "online": true,
-   "users": 0
-  },
   "45.79.111.176:5500": {
    "listed": true,
    "online": true,
@@ -249,19 +234,24 @@
   "50.65.99.228:7777": {
    "listed": true,
    "online": true,
-   "users": 6
+   "users": 7
   },
   "50.65.99.228:8888": {
    "listed": true,
    "online": true,
-   "users": 6
+   "users": 8
   },
   "50.65.99.228:9999": {
    "listed": true,
    "online": true,
-   "users": 13
+   "users": 15
   },
   "51.222.14.233:5500": {
+   "listed": true,
+   "online": true,
+   "users": 0
+  },
+  "51.222.143.78:5500": {
    "listed": true,
    "online": true,
    "users": 0
@@ -294,7 +284,7 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 9
+   "users": 8
   },
   "64.99.118.65:5500": {
    "listed": true,
@@ -315,6 +305,11 @@
    "listed": true,
    "online": true,
    "users": 1
+  },
+  "72.211.238.1:5500": {
+   "listed": true,
+   "online": true,
+   "users": 0
   },
   "73.163.202.118:5500": {
    "listed": true,
@@ -346,11 +341,6 @@
    "online": true,
    "users": 0
   },
-  "76.210.4.7:5500": {
-   "listed": true,
-   "online": true,
-   "users": 1
-  },
   "82.33.17.156:5500": {
    "listed": true,
    "online": true,
@@ -359,7 +349,7 @@
   "85.214.130.218:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 3
   },
   "96.126.101.62:5500": {
    "listed": true,
@@ -371,7 +361,7 @@
   "hltracker.com": {
    "error": null,
    "ok": true,
-   "servers": 75
+   "servers": 70
   },
   "hotline.kicks-ass.net": {
    "error": null,

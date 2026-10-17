@@ -37,8 +37,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "24CaFE🍰 ☕️",
@@ -79,8 +77,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Twin Peaks Fans",
@@ -443,8 +439,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "MagicCap City Hotline server",
@@ -550,8 +544,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "The Apple Media Archive",
@@ -674,9 +666,7 @@
   "host": "45.56.94.175",
   "last_seen": "2026-10-17",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "hltracker.com"
   ],
   "name": "Golf Games Fans Hotline server",
   "port": 5500
@@ -744,8 +734,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phantasm Phans Hotline server",
@@ -772,8 +760,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Revolt Fans Hotline server",
@@ -950,8 +936,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
@@ -1006,8 +990,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
@@ -1019,6 +1001,7 @@
   "host": "72.211.238.1",
   "last_seen": "2026-10-17",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1033,8 +1016,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",
@@ -1046,6 +1027,7 @@
   "host": "74.207.241.148",
   "last_seen": "2026-10-17",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1088,8 +1070,6 @@
   "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hotline Central Hub",
@@ -1113,7 +1093,7 @@
   "description": "",
   "first_seen": "2026-09-29",
   "host": "76.210.4.7",
-  "last_seen": "2026-10-16",
+  "last_seen": "2026-10-17",
   "listed_by": [
    "hltracker.com"
   ],

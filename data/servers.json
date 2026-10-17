@@ -668,6 +668,19 @@
   "name": "Mac OSX Hotline server",
   "port": 5500
  },
+ "45.56.94.175:5500": {
+  "description": "All the files in the Golf Games Fans file area",
+  "first_seen": "2026-10-17",
+  "host": "45.56.94.175",
+  "last_seen": "2026-10-17",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
+  ],
+  "name": "Golf Games Fans Hotline server",
+  "port": 5500
+ },
  "45.79.111.176:5500": {
   "description": "Get all the best versions of the game Mille Bornes",
   "first_seen": "2026-09-29",

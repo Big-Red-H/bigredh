@@ -223,8 +223,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -500,8 +499,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bill's Bible Basics",
   "port": 5500
@@ -572,7 +570,7 @@
   "port": 5500
  },
  "40.160.138.140:5500": {
-  "description": "All the files in the NAB file area",
+  "description": "All the files in the Golf Games Fans file area",
   "first_seen": "2026-09-29",
   "host": "40.160.138.140",
   "last_seen": "2026-10-17",
@@ -582,7 +580,7 @@
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
-  "name": "Nerf Arena Blast Hotline server",
+  "name": "Golf Games Fans Hotline server",
   "port": 5500
  },
  "45.33.105.155:5500": {
@@ -649,8 +647,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "SuperTux City Hotline server",
   "port": 5500
@@ -798,8 +795,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -812,8 +808,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -826,8 +821,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999
@@ -1019,9 +1013,9 @@
   "host": "72.211.238.1",
   "last_seen": "2026-10-17",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Test Pattern 6",
   "port": 5500

@@ -50,6 +50,7 @@
   "host": "135.148.139.199",
   "last_seen": "2026-10-18",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -221,7 +222,8 @@
   "last_seen": "2026-10-18",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -317,7 +319,8 @@
   "last_seen": "2026-10-18",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -386,6 +389,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-10-18",
   "listed_by": [
+   "hltracker.com",
    "tracker.preterhuman.net"
   ],
   "name": "VesperNet",
@@ -641,6 +645,7 @@
   "host": "45.33.60.245",
   "last_seen": "2026-10-18",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -790,7 +795,8 @@
   "last_seen": "2026-10-18",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -802,7 +808,8 @@
   "last_seen": "2026-10-18",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -840,7 +847,9 @@
   "host": "51.222.143.78",
   "last_seen": "2026-10-18",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Windows XP City",
   "port": 5500,
@@ -1008,8 +1017,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Test Pattern 6",
   "port": 5500

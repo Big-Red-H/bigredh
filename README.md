@@ -20,7 +20,8 @@ GitHub's schedules are best effort and often run late or not at all, so a cron j
 starts each workflow on time (`~/bin/run-workflow.sh`, with its token in
 `~/editor-config/dispatch.env`; `crontab -l` shows the times). The token is a fine-grained one
 for the Big-Red-H repos with only **Actions: Read and write**. GitHub's own schedules stay as a
-backup.
+backup. Population's backup stands down when a run already happened in the last 4 hours, since
+GitHub's runs come hours late and each run is another login on every server it visits.
 
 Any of them can be started by hand from the **Actions** tab (**Run workflow**). The monthly one
 can be given a few `host:port` addresses to index (or re-index) just those servers, or told to

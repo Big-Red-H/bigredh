@@ -5,12 +5,34 @@ on:
     - cron: "41 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   population:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
+      # GitHub's schedule is only a backup for the DreamHost cron, and it runs hours late, so
+      # it stands down when a run already happened recently: each extra run is another
+      # login on every server, and some servers relay those joins elsewhere.
+      - name: Skip if the cron already ran
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          since=$(date -u -d '-4 hours' +%Y-%m-%dT%H:%M:%SZ)
+          recent=$(gh run list -R "$GITHUB_REPOSITORY" --workflow population.yml --limit 20 \
+            --json databaseId,createdAt,conclusion \
+            --jq "[.[] | select(.databaseId != $GITHUB_RUN_ID and .createdAt > \"$since\" and .conclusion != \"skipped\" and .conclusion != \"cancelled\")] | length")
+          if [ "$recent" -gt 0 ]; then
+            echo "Already ran since $since; skipping."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/checkout@v7
+        if: env.SKIP != '1'
         with:
           # The latest main, in case this run waited behind another that saved something.
           ref: main
@@ -24,12 +46,15 @@ jobs:
 
       # The list lives only on the site, never in git, so each run starts from the site's copy.
       - name: Get the current list from the site
+        if: env.SKIP != '1'
         run: curl -fsSL -m 30 -o previous.json http://tracker.bigredh.com/data/population.json || echo '{}' > previous.json
 
       - name: See who's on each server
+        if: env.SKIP != '1'
         run: python3 tracker/population.py previous.json
 
       - name: Upload to DreamHost
+        if: env.SKIP != '1'
         env:
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}

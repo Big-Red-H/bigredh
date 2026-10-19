@@ -391,8 +391,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-10-19",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -549,6 +548,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-10-19",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1018,6 +1018,7 @@
   "host": "72.211.238.1",
   "last_seen": "2026-10-19",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

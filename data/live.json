@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-19T00:07:45Z",
+ "checked_at": "2026-10-20T00:07:25Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -134,7 +134,7 @@
   "192.81.129.7:5500": {
    "listed": true,
    "online": true,
-   "users": 0
+   "users": 1
   },
   "192.81.133.87:5500": {
    "listed": true,
@@ -149,7 +149,7 @@
   "23.95.32.112:5500": {
    "listed": true,
    "online": true,
-   "users": 1
+   "users": 0
   },
   "24.6.82.54:5500": {
    "listed": true,
@@ -229,17 +229,17 @@
   "50.65.99.228:7777": {
    "listed": true,
    "online": true,
-   "users": 7
+   "users": 8
   },
   "50.65.99.228:8888": {
    "listed": true,
    "online": true,
-   "users": 14
+   "users": 16
   },
   "50.65.99.228:9999": {
    "listed": true,
    "online": true,
-   "users": 3
+   "users": 5
   },
   "51.222.14.233:5500": {
    "listed": true,
@@ -279,7 +279,7 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 5
+   "users": 8
   },
   "64.99.118.65:5500": {
    "listed": true,
@@ -329,7 +329,7 @@
   "74.208.191.206:5500": {
    "listed": true,
    "online": true,
-   "users": 4
+   "users": 5
   },
   "76.169.2.55:5500": {
    "listed": true,
@@ -356,7 +356,7 @@
   "hltracker.com": {
    "error": null,
    "ok": true,
-   "servers": 68
+   "servers": 67
   },
   "hotline.kicks-ass.net": {
    "error": null,

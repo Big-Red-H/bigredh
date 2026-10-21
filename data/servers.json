@@ -499,7 +499,10 @@
   "host": "202.128.66.10",
   "last_seen": "2026-10-21",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Bill's Bible Basics",
   "port": 5500
@@ -575,7 +578,6 @@
   "host": "40.160.138.140",
   "last_seen": "2026-10-21",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -849,7 +851,6 @@
   "host": "51.222.143.78",
   "last_seen": "2026-10-21",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],
@@ -1030,7 +1031,6 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-21",
   "listed_by": [
-   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

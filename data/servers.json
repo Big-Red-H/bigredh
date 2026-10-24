@@ -582,6 +582,20 @@
   "name": "Golf Games Fans Hotline server",
   "port": 5500
  },
+ "40.160.151.241:5500": {
+  "description": "Files for the Hollywood development environment",
+  "first_seen": "2026-10-24",
+  "host": "40.160.151.241",
+  "last_seen": "2026-10-24",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Hollywood Dev Fans",
+  "port": 5500
+ },
  "45.33.105.155:5500": {
   "description": "Support and files related to the board game \"Go\"",
   "first_seen": "2026-09-29",
@@ -1069,8 +1083,6 @@
   "last_seen": "2026-10-24",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hollywood Dev Fans",

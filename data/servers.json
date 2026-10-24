@@ -162,6 +162,7 @@
   "host": "15.204.9.52",
   "last_seen": "2026-10-24",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -584,7 +585,7 @@
  },
  "40.160.151.241:5500": {
   "description": "Files for the Hollywood development environment",
-  "first_seen": "2026-10-24",
+  "first_seen": "2026-09-29",
   "host": "40.160.151.241",
   "last_seen": "2026-10-24",
   "listed_by": [
@@ -594,7 +595,10 @@
    "tracker.preterhuman.net"
   ],
   "name": "Hollywood Dev Fans",
-  "port": 5500
+  "port": 5500,
+  "previous_addresses": [
+   "74.207.245.110:5500"
+  ]
  },
  "45.33.105.155:5500": {
   "description": "Support and files related to the board game \"Go\"",
@@ -1042,6 +1046,7 @@
   "host": "73.163.202.118",
   "last_seen": "2026-10-24",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -1074,18 +1079,6 @@
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
-  "port": 5500
- },
- "74.207.245.110:5500": {
-  "description": "Files for the Hollywood development environment",
-  "first_seen": "2026-09-29",
-  "host": "74.207.245.110",
-  "last_seen": "2026-10-24",
-  "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
-  ],
-  "name": "Hollywood Dev Fans",
   "port": 5500
  },
  "74.208.191.206:5500": {

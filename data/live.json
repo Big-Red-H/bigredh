@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-26T00:07:44Z",
+ "checked_at": "2026-10-26T00:22:06Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -105,6 +105,11 @@
    "listed": true,
    "online": true,
    "users": 0
+  },
+  "185.126.82.196:5500": {
+   "listed": true,
+   "online": false,
+   "users": 1
   },
   "188.245.230.214:5500": {
    "listed": true,
@@ -341,6 +346,11 @@
    "online": true,
    "users": 0
   },
+  "76.210.4.7:5500": {
+   "listed": true,
+   "online": true,
+   "users": 0
+  },
   "82.33.17.156:5500": {
    "listed": true,
    "online": true,
@@ -361,17 +371,17 @@
   "hltracker.com": {
    "error": null,
    "ok": true,
-   "servers": 66
+   "servers": 76
   },
   "hotline.kicks-ass.net": {
    "error": null,
    "ok": true,
-   "servers": 69
+   "servers": 56
   },
   "saddle.dyndns.org": {
    "error": null,
    "ok": true,
-   "servers": 69
+   "servers": 56
   },
   "tracker.preterhuman.net": {
    "error": null,

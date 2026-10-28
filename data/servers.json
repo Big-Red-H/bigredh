@@ -70,6 +70,8 @@
   "last_seen": "2026-10-28",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "24CaFE🍰 ☕️",
@@ -1102,6 +1104,17 @@
    "tracker.preterhuman.net"
   ],
   "name": "Bob Kiwi's House",
+  "port": 5500
+ },
+ "73.210.168.136:5500": {
+  "description": "FileXChange",
+  "first_seen": "2026-10-28",
+  "host": "73.210.168.136",
+  "last_seen": "2026-10-28",
+  "listed_by": [
+   "hltracker.com"
+  ],
+  "name": "Joe's Server",
   "port": 5500
  },
  "74.207.241.148:5500": {

@@ -5,7 +5,10 @@
  "folders": 19,
  "indexed_at": "2026-10-01T14:02:00Z",
  "name": "Mille Bornes Game Archives",
+ "previous_addresses": [
+  "45.79.111.176:5500"
+ ],
  "seconds": 2,
- "server": "45.79.111.176:5500",
+ "server": "40.160.153.42:5500",
  "status": "ok"
 }

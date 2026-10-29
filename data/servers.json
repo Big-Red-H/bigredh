@@ -98,6 +98,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Apple Newton Development Tools",
@@ -295,6 +297,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Gimp Fans Hotline server",
@@ -307,6 +311,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Bomberman Fans Hotline server",
@@ -319,6 +325,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Vectrex City Hotline server",
@@ -525,6 +533,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
@@ -574,6 +584,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "The Apple Media Archive",
@@ -626,7 +638,7 @@
  },
  "40.160.153.42:5500": {
   "description": "Get all the best versions of the game Mille Bornes",
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-09-29",
   "host": "40.160.153.42",
   "last_seen": "2026-10-29",
   "listed_by": [
@@ -636,7 +648,10 @@
    "tracker.preterhuman.net"
   ],
   "name": "Mille Bornes Game Archives",
-  "port": 5500
+  "port": 5500,
+  "previous_addresses": [
+   "45.79.111.176:5500"
+  ]
  },
  "40.160.47.85:5500": {
   "description": "All the files in the Newton-re City file area",
@@ -645,6 +660,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Newton-re City Hotline server",
@@ -671,6 +688,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
@@ -697,6 +716,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Carrier Command Hotline server",
@@ -740,18 +761,6 @@
    "saddle.dyndns.org"
   ],
   "name": "Golf Games Fans Hotline server",
-  "port": 5500
- },
- "45.79.111.176:5500": {
-  "description": "Get all the best versions of the game Mille Bornes",
-  "first_seen": "2026-09-29",
-  "host": "45.79.111.176",
-  "last_seen": "2026-10-29",
-  "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
-  ],
-  "name": "Mille Bornes Game Archives",
   "port": 5500
  },
  "45.79.115.32:5500": {
@@ -910,7 +919,9 @@
   "host": "51.222.143.78",
   "last_seen": "2026-10-29",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Windows XP City",
   "port": 5500,
@@ -1007,6 +1018,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
@@ -1216,6 +1229,8 @@
   "last_seen": "2026-10-29",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phoca Phans Hotline server",

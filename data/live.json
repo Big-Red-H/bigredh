@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-30T00:07:36Z",
+ "checked_at": "2026-10-31T00:07:43Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -139,7 +139,7 @@
   "192.81.129.7:5500": {
    "listed": true,
    "online": true,
-   "users": 1
+   "users": 2
   },
   "192.81.133.87:5500": {
    "listed": true,
@@ -164,7 +164,7 @@
   "24.6.82.54:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 3
   },
   "40.160.138.140:5500": {
    "listed": true,
@@ -249,17 +249,17 @@
   "50.65.99.228:7777": {
    "listed": true,
    "online": true,
-   "users": 8
+   "users": 0
   },
   "50.65.99.228:8888": {
    "listed": true,
-   "online": false,
-   "users": 30
+   "online": true,
+   "users": 0
   },
   "50.65.99.228:9999": {
    "listed": true,
-   "online": false,
-   "users": 7
+   "online": true,
+   "users": 0
   },
   "51.222.14.233:5500": {
    "listed": true,
@@ -299,7 +299,7 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 7
+   "users": 6
   },
   "64.99.118.65:5500": {
    "listed": true,
@@ -344,7 +344,7 @@
   "74.208.191.206:5500": {
    "listed": true,
    "online": true,
-   "users": 7
+   "users": 6
   },
   "76.169.2.55:5500": {
    "listed": true,
@@ -354,7 +354,7 @@
   "76.210.4.7:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 0
   },
   "82.33.17.156:5500": {
    "listed": true,

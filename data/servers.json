@@ -262,6 +262,8 @@
   "last_seen": "2026-11-01",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -565,10 +567,7 @@
   "host": "202.128.66.10",
   "last_seen": "2026-11-01",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "Armageddon Server",
   "port": 5500

@@ -1,7 +1,11 @@
 {
- "last_attempt": "2026-10-01T19:58:22Z",
- "last_error": "timed out",
+ "bytes": 329461809,
+ "files": 31,
+ "fingerprint": "3a59f508c11bd7cbd75330bd282d4791786cc888823de0275f66668b69c7da57",
+ "folders": 14,
+ "indexed_at": "2026-11-01T13:58:30Z",
  "name": "IRC Fans Hotline server",
+ "seconds": 15,
  "server": "192.81.129.220:5500",
- "status": "failed"
+ "status": "ok"
 }

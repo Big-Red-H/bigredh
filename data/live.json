@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-01T00:07:25Z",
+ "checked_at": "2026-11-02T00:08:06Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -124,7 +124,7 @@
   "192.155.82.217:5500": {
    "listed": true,
    "online": true,
-   "users": 0
+   "users": 1
   },
   "192.155.84.58:5500": {
    "listed": true,
@@ -146,11 +146,6 @@
    "online": true,
    "users": 0
   },
-  "202.128.66.10:5500": {
-   "listed": true,
-   "online": true,
-   "users": 1
-  },
   "23.239.3.217:5500": {
    "listed": true,
    "online": true,
@@ -164,7 +159,7 @@
   "24.6.82.54:5500": {
    "listed": true,
    "online": true,
-   "users": 4
+   "users": 2
   },
   "40.160.138.140:5500": {
    "listed": true,
@@ -254,12 +249,12 @@
   "50.65.99.228:8888": {
    "listed": true,
    "online": true,
-   "users": 1
+   "users": 2
   },
   "50.65.99.228:9999": {
    "listed": true,
    "online": true,
-   "users": 5
+   "users": 6
   },
   "51.222.14.233:5500": {
    "listed": true,
@@ -299,12 +294,12 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 4
+   "users": 9
   },
   "64.99.118.65:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 0
   },
   "66.209.184.244:5500": {
    "listed": true,
@@ -315,11 +310,6 @@
    "listed": true,
    "online": true,
    "users": 37
-  },
-  "71.230.225.128:5500": {
-   "listed": true,
-   "online": true,
-   "users": 1
   },
   "72.211.238.1:5500": {
    "listed": true,
@@ -336,15 +326,10 @@
    "online": true,
    "users": 0
   },
-  "74.207.243.213:5500": {
-   "listed": true,
-   "online": true,
-   "users": 0
-  },
   "74.208.191.206:5500": {
    "listed": true,
    "online": true,
-   "users": 6
+   "users": 7
   },
   "76.169.2.55:5500": {
    "listed": true,
@@ -354,7 +339,7 @@
   "76.210.4.7:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 0
   },
   "82.33.17.156:5500": {
    "listed": true,
@@ -376,22 +361,22 @@
   "hltracker.com": {
    "error": null,
    "ok": true,
-   "servers": 77
+   "servers": 74
   },
   "hotline.kicks-ass.net": {
    "error": null,
    "ok": true,
-   "servers": 70
+   "servers": 66
   },
   "saddle.dyndns.org": {
    "error": null,
    "ok": true,
-   "servers": 70
+   "servers": 66
   },
   "tracker.preterhuman.net": {
    "error": null,
    "ok": true,
-   "servers": 69
+   "servers": 66
   }
  }
 }

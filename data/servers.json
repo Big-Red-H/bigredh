@@ -196,6 +196,20 @@
   "name": "BeOS and Haiku Hotline Server",
   "port": 5500
  },
+ "15.204.119.111:5500": {
+  "description": "All the files in the Zorin City file area",
+  "first_seen": "2026-11-03",
+  "host": "15.204.119.111",
+  "last_seen": "2026-11-03",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Zorin City Hotline server",
+  "port": 5500
+ },
  "15.204.249.60:5500": {
   "description": "Files for the Sony PSP & PSVita",
   "first_seen": "2026-09-29",
@@ -262,6 +276,8 @@
   "last_seen": "2026-11-03",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -566,6 +582,8 @@
   "last_seen": "2026-11-03",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",

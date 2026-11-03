@@ -277,7 +277,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
   "port": 5500
@@ -472,7 +473,8 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-03",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "tracker.preterhuman.net"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -581,7 +583,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
   "port": 5500
@@ -629,6 +632,7 @@
   "host": "23.95.32.112",
   "last_seen": "2026-11-03",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
@@ -948,6 +952,7 @@
   "host": "51.222.143.78",
   "last_seen": "2026-11-03",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
   ],

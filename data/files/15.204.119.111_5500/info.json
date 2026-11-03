@@ -5,7 +5,10 @@
  "folders": 4,
  "indexed_at": "2026-10-01T14:02:26Z",
  "name": "Zorin City Hotline server",
+ "previous_addresses": [
+  "51.222.14.233:5500"
+ ],
  "seconds": 1,
- "server": "51.222.14.233:5500",
+ "server": "15.204.119.111:5500",
  "status": "ok"
 }

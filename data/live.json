@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-06T00:07:44Z",
+ "checked_at": "2026-11-06T00:14:58Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -366,17 +366,17 @@
   "hotline.kicks-ass.net": {
    "error": null,
    "ok": true,
-   "servers": 65
+   "servers": 67
   },
   "saddle.dyndns.org": {
    "error": null,
    "ok": true,
-   "servers": 65
+   "servers": 67
   },
   "tracker.preterhuman.net": {
    "error": null,
    "ok": true,
-   "servers": 67
+   "servers": 66
   }
  }
 }

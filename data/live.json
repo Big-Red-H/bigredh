@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-07T00:07:45Z",
+ "checked_at": "2026-11-07T00:56:05Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -151,11 +151,6 @@
    "online": true,
    "users": 0
   },
-  "202.128.66.10:5500": {
-   "listed": true,
-   "online": false,
-   "users": 1
-  },
   "23.239.3.217:5500": {
    "listed": true,
    "online": true,
@@ -294,12 +289,12 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 8
+   "users": 7
   },
   "64.99.118.65:5500": {
    "listed": true,
    "online": true,
-   "users": 3
+   "users": 2
   },
   "66.209.184.244:5500": {
    "listed": true,
@@ -324,7 +319,7 @@
   "74.208.191.206:5500": {
    "listed": true,
    "online": true,
-   "users": 7
+   "users": 6
   },
   "76.169.2.55:5500": {
    "listed": true,
@@ -339,7 +334,7 @@
   "85.214.130.218:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 1
   },
   "96.126.101.62:5500": {
    "listed": true,
@@ -356,17 +351,17 @@
   "hotline.kicks-ass.net": {
    "error": null,
    "ok": true,
-   "servers": 65
+   "servers": 66
   },
   "saddle.dyndns.org": {
    "error": null,
    "ok": true,
-   "servers": 65
+   "servers": 66
   },
   "tracker.preterhuman.net": {
    "error": null,
    "ok": true,
-   "servers": 67
+   "servers": 65
   }
  }
 }

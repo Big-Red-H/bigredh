@@ -154,8 +154,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Twin Peaks Fans",
   "port": 5500
@@ -183,8 +182,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Amiga City Hotline server",
   "port": 5500
@@ -209,8 +207,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "BeOS and Haiku Hotline Server",
   "port": 5500
@@ -557,6 +554,8 @@
   "host": "202.128.66.10",
   "last_seen": "2026-11-07",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
@@ -580,8 +579,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Android GamePlayer Club Hotline",
   "port": 5500
@@ -644,8 +642,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hollywood Dev Fans",
   "port": 5500,
@@ -714,8 +711,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "CanDo for the Amiga",
   "port": 5500
@@ -817,8 +813,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "TRON Fans Hotline server",
   "port": 5500
@@ -971,8 +966,7 @@
   "last_seen": "2026-11-07",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MacDomain",
   "port": 5500

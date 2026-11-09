@@ -684,6 +684,19 @@
   "name": "Newton-re City Hotline server",
   "port": 5500
  },
+ "40.160.84.120:5500": {
+  "description": "All the files in the Teeworldsw Fans file area",
+  "first_seen": "2026-11-09",
+  "host": "40.160.84.120",
+  "last_seen": "2026-11-09",
+  "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Teeworlds Fans Hotline server",
+  "port": 5500
+ },
  "45.33.105.155:5500": {
   "description": "Support and files related to the board game \"Go\"",
   "first_seen": "2026-09-29",

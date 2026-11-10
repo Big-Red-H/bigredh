@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-09T00:53:17Z",
+ "checked_at": "2026-11-10T00:10:41Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -116,11 +116,6 @@
    "online": true,
    "users": 0
   },
-  "188.245.230.214:5500": {
-   "listed": true,
-   "online": true,
-   "users": 0
-  },
   "192.155.80.74:5500": {
    "listed": true,
    "online": true,
@@ -169,7 +164,7 @@
   "24.6.82.54:5500": {
    "listed": true,
    "online": true,
-   "users": 3
+   "users": 2
   },
   "40.160.138.140:5500": {
    "listed": true,
@@ -187,6 +182,11 @@
    "users": 0
   },
   "40.160.47.85:5500": {
+   "listed": true,
+   "online": true,
+   "users": 0
+  },
+  "40.160.84.120:5500": {
    "listed": true,
    "online": true,
    "users": 0
@@ -254,7 +254,7 @@
   "50.65.99.228:8888": {
    "listed": true,
    "online": true,
-   "users": 13
+   "users": 14
   },
   "50.65.99.228:9999": {
    "listed": true,
@@ -294,7 +294,7 @@
   "62.116.228.143:5500": {
    "listed": true,
    "online": true,
-   "users": 8
+   "users": 4
   },
   "64.99.118.65:5500": {
    "listed": true,
@@ -304,11 +304,6 @@
   "66.209.184.244:5500": {
    "listed": true,
    "online": false,
-   "users": 1
-  },
-  "72.211.238.1:5500": {
-   "listed": true,
-   "online": true,
    "users": 1
   },
   "73.163.202.118:5500": {
@@ -324,7 +319,7 @@
   "74.208.191.206:5500": {
    "listed": true,
    "online": true,
-   "users": 6
+   "users": 7
   },
   "76.169.2.55:5500": {
    "listed": true,
@@ -339,7 +334,7 @@
   "85.214.130.218:5500": {
    "listed": true,
    "online": true,
-   "users": 2
+   "users": 3
   },
   "96.126.101.62:5500": {
    "listed": true,
@@ -366,7 +361,7 @@
   "tracker.preterhuman.net": {
    "error": null,
    "ok": true,
-   "servers": 67
+   "servers": 64
   }
  }
 }

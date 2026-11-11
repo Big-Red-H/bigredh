@@ -293,8 +293,7 @@
   "last_seen": "2026-11-11",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Palm Fans Hotline server",
   "port": 5500
@@ -678,7 +677,8 @@
   "host": "40.160.84.120",
   "last_seen": "2026-11-11",
   "listed_by": [
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Teeworlds Fans Hotline server",
   "port": 5500

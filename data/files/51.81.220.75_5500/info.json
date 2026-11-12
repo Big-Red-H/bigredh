@@ -5,7 +5,10 @@
  "folders": 11,
  "indexed_at": "2026-10-01T14:02:12Z",
  "name": "TRON Fans Hotline server",
+ "previous_addresses": [
+  "45.79.93.184:5500"
+ ],
  "seconds": 2,
- "server": "45.79.93.184:5500",
+ "server": "51.81.220.75:5500",
  "status": "ok"
 }

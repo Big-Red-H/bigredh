@@ -292,6 +292,8 @@
   "host": "15.204.93.91",
   "last_seen": "2026-11-12",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -476,9 +478,10 @@
   "description": "Files related to the Nintendo VirtualBoy",
   "first_seen": "2026-09-29",
   "host": "192.155.81.82",
-  "last_seen": "2026-10-15",
+  "last_seen": "2026-11-12",
   "listed_by": [
-   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Nintendo VirtualBoy Fans",
@@ -555,11 +558,22 @@
   "host": "202.128.66.10",
   "last_seen": "2026-11-12",
   "listed_by": [
+   "tracker.preterhuman.net"
+  ],
+  "name": "Armageddon Server",
+  "port": 5500
+ },
+ "23.239.3.187:5500": {
+  "description": "All the files in the YuGiOh server",
+  "first_seen": "2026-11-12",
+  "host": "23.239.3.187",
+  "last_seen": "2026-11-12",
+  "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
-  "name": "Armageddon Server",
+  "name": "YuGiOh City Hotline server",
   "port": 5500
  },
  "23.239.3.217:5500": {
@@ -665,6 +679,8 @@
   "host": "40.160.84.120",
   "last_seen": "2026-11-12",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Teeworlds Fans Hotline server",
@@ -798,19 +814,6 @@
   "name": "Phantasm Phans Hotline server",
   "port": 5500
  },
- "45.79.93.184:5500": {
-  "description": "All the files from the TRON Fans website",
-  "first_seen": "2026-09-29",
-  "host": "45.79.93.184",
-  "last_seen": "2026-11-12",
-  "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
-  ],
-  "name": "TRON Fans Hotline server",
-  "port": 5500
- },
  "50.116.14.184:5500": {
   "description": "All the files in the Revolt Fans file area",
   "first_seen": "2026-09-29",
@@ -941,14 +944,19 @@
  },
  "51.81.220.75:5500": {
   "description": "All the files from the TRON Fans website",
-  "first_seen": "2026-11-12",
+  "first_seen": "2026-09-29",
   "host": "51.81.220.75",
   "last_seen": "2026-11-12",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
-  "port": 5500
+  "port": 5500,
+  "previous_addresses": [
+   "45.79.93.184:5500"
+  ]
  },
  "51.81.35.250:5500": {
   "description": "Get files for MS Bob on modern hardware. We provide .VDI files with Bob preloaded",

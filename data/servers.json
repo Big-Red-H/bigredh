@@ -411,7 +411,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -638,7 +639,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Mille Bornes Game Archives",
   "port": 5500,
@@ -666,8 +668,7 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Teeworlds Fans Hotline server",
   "port": 5500
@@ -844,7 +845,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -856,7 +858,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -868,7 +871,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999

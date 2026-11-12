@@ -167,7 +167,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Digital Obsession",
   "port": 5500,
@@ -291,8 +292,6 @@
   "host": "15.204.93.91",
   "last_seen": "2026-11-12",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -410,7 +409,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -637,7 +637,8 @@
   "last_seen": "2026-11-12",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Mille Bornes Game Archives",
   "port": 5500,
@@ -664,8 +665,6 @@
   "host": "40.160.84.120",
   "last_seen": "2026-11-12",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Teeworlds Fans Hotline server",

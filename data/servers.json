@@ -167,7 +167,8 @@
   "last_seen": "2026-11-13",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Digital Obsession",
   "port": 5500,
@@ -249,6 +250,8 @@
   "host": "15.204.57.161",
   "last_seen": "2026-11-13",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mednafen City Hotline server",
@@ -316,7 +319,8 @@
   "last_seen": "2026-11-13",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -407,7 +411,8 @@
   "last_seen": "2026-11-13",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -555,8 +560,6 @@
   "host": "23.239.3.187",
   "last_seen": "2026-11-13",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "YuGiOh City Hotline server",
@@ -637,7 +640,8 @@
   "last_seen": "2026-11-13",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Mille Bornes Game Archives",
   "port": 5500,
@@ -691,7 +695,8 @@
   "last_seen": "2026-11-13",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
   "port": 5500
@@ -920,6 +925,8 @@
   "host": "51.81.187.57",
   "last_seen": "2026-11-13",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -931,8 +938,6 @@
   "host": "51.81.220.75",
   "last_seen": "2026-11-13",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -947,6 +952,8 @@
   "host": "51.81.35.250",
   "last_seen": "2026-11-13",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Microsoft Bob Server",

@@ -3,7 +3,7 @@
   "description": "All the small apps I have created",
   "first_seen": "2026-09-29",
   "host": "104.200.25.130",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -112,7 +112,7 @@
   "description": "24/7 Japanese UTF8",
   "first_seen": "2026-09-29",
   "host": "130.62.225.57",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -125,7 +125,7 @@
   "description": "All the files in the Dreamcast Fans file area",
   "first_seen": "2026-09-29",
   "host": "135.148.139.199",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -138,7 +138,7 @@
   "description": "Tools for use in developing Newton apps",
   "first_seen": "2026-09-29",
   "host": "135.148.46.162",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -151,7 +151,7 @@
   "description": "Files, videos, and music from the Twin Peaks series",
   "first_seen": "2026-09-29",
   "host": "139.162.249.62",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -164,10 +164,11 @@
   "description": "the stickytack server, now also running as D.O.",
   "first_seen": "2026-09-29",
   "host": "148.75.172.147",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Digital Obsession",
   "port": 5500,
@@ -179,7 +180,7 @@
   "description": "All 9,345 files in the Amiga City file area that have been downloaded 1.5 million times!",
   "first_seen": "2026-09-29",
   "host": "15.204.113.251",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -192,7 +193,7 @@
   "description": "Get our Alien Arena FPS files here",
   "first_seen": "2026-09-29",
   "host": "15.204.118.138",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -205,7 +206,7 @@
   "description": "All 45 files in the BeOS and Haiku fans file area",
   "first_seen": "2026-09-29",
   "host": "15.204.118.233",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -218,7 +219,7 @@
   "description": "All the files in the Zorin City file area",
   "first_seen": "2026-09-29",
   "host": "15.204.119.111",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -234,7 +235,7 @@
   "description": "Files for the Sony PSP & PSVita",
   "first_seen": "2026-09-29",
   "host": "15.204.249.60",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -247,8 +248,10 @@
   "description": "All the files in the Mednafen City file area",
   "first_seen": "2026-09-29",
   "host": "15.204.57.161",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mednafen City Hotline server",
@@ -258,7 +261,7 @@
   "description": "All the files in the MegaMek Fans file area",
   "first_seen": "2026-09-29",
   "host": "15.204.9.52",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -274,8 +277,10 @@
   "description": "Get our Hotline tools for Unix servers plus other Hotline-related files.",
   "first_seen": "2026-09-29",
   "host": "15.204.92.16",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
@@ -285,10 +290,8 @@
   "description": "All the files in the Classic Macs OSX file area",
   "first_seen": "2026-09-29",
   "host": "15.204.93.91",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -298,8 +301,10 @@
   "description": "All the files in the Classic Mac OsIX file area",
   "first_seen": "2026-09-29",
   "host": "15.204.95.169",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mac OsIX Hotline server",
@@ -309,10 +314,11 @@
   "description": "Files from the Apple Newton City website",
   "first_seen": "2026-10-12",
   "host": "158.69.59.24",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -321,7 +327,7 @@
   "description": "All the files in the Opensim City file archives",
   "first_seen": "2026-09-29",
   "host": "158.69.63.199",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -334,7 +340,7 @@
   "description": "All the files in the RPG Maker Fans file area",
   "first_seen": "2026-09-29",
   "host": "173.230.150.122",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -347,7 +353,7 @@
   "description": "All the files in the Gimp Fans file area",
   "first_seen": "2026-09-29",
   "host": "173.255.212.203",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -360,7 +366,7 @@
   "description": "All the files in the Bomberman Fans file area",
   "first_seen": "2026-09-29",
   "host": "173.255.214.98",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -373,7 +379,7 @@
   "description": "All the files in the Vectrex City file area",
   "first_seen": "2026-09-29",
   "host": "173.255.218.155",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -400,10 +406,11 @@
   "description": "All the files in the Apple IIGS City file area",
   "first_seen": "2026-10-13",
   "host": "173.255.248.152",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -434,7 +441,7 @@
   "description": "The Official VesperNet Server",
   "first_seen": "2026-10-16",
   "host": "188.245.230.214",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "tracker.preterhuman.net"
   ],
@@ -445,7 +452,7 @@
   "description": "Get our selection of 2353 files for fans of the Apple ][ family of computers",
   "first_seen": "2026-09-29",
   "host": "192.155.80.74",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -458,7 +465,7 @@
   "description": "Files related to the Nintendo VirtualBoy",
   "first_seen": "2026-09-29",
   "host": "192.155.81.82",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -471,7 +478,7 @@
   "description": "All 2,200 files in the Classic Macs OSX file area",
   "first_seen": "2026-09-29",
   "host": "192.155.82.217",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -484,8 +491,10 @@
   "description": "All the files in the MagicCap City file area",
   "first_seen": "2026-09-29",
   "host": "192.155.84.58",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "MagicCap City Hotline server",
@@ -495,7 +504,7 @@
   "description": "All the files in the IRC Fans file area",
   "first_seen": "2026-09-29",
   "host": "192.81.129.220",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -508,7 +517,7 @@
   "description": "All 14,393 files in the Classic Macs file area that have been downloaded 1.3 million times!",
   "first_seen": "2026-09-29",
   "host": "192.81.129.7",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -521,8 +530,10 @@
   "description": "Files related to Emulators",
   "first_seen": "2026-09-29",
   "host": "192.81.133.87",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
@@ -532,7 +543,7 @@
   "description": "Retro server from the early 1990s. Piles  of old files and much  more!",
   "first_seen": "2026-09-29",
   "host": "202.128.66.10",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -545,10 +556,8 @@
   "description": "All the files in the YuGiOh server",
   "first_seen": "2026-11-12",
   "host": "23.239.3.187",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "YuGiOh City Hotline server",
@@ -558,7 +567,7 @@
   "description": "server6All the files in the Andr",
   "first_seen": "2026-09-29",
   "host": "23.239.3.217",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -571,7 +580,7 @@
   "description": "Apple keynotes, commercials, and promo videos from the 1980s to today",
   "first_seen": "2026-09-29",
   "host": "23.95.32.112",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -584,8 +593,10 @@
   "description": "Home of the Mobius Hotline server",
   "first_seen": "2026-09-29",
   "host": "24.6.82.54",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "The Mobius Strip",
@@ -595,7 +606,7 @@
   "description": "All the files in the Golf Games Fans file area",
   "first_seen": "2026-09-29",
   "host": "40.160.138.140",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -608,7 +619,7 @@
   "description": "Files for the Hollywood development environment",
   "first_seen": "2026-09-29",
   "host": "40.160.151.241",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -624,10 +635,11 @@
   "description": "Get all the best versions of the game Mille Bornes",
   "first_seen": "2026-09-29",
   "host": "40.160.153.42",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Mille Bornes Game Archives",
   "port": 5500,
@@ -639,7 +651,7 @@
   "description": "All the files in the Newton-re City file area",
   "first_seen": "2026-10-27",
   "host": "40.160.47.85",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -652,10 +664,8 @@
   "description": "All the files in the Teeworldsw Fans file area",
   "first_seen": "2026-11-09",
   "host": "40.160.84.120",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Teeworlds Fans Hotline server",
@@ -665,8 +675,10 @@
   "description": "Support and files related to the board game \"Go\"",
   "first_seen": "2026-09-29",
   "host": "45.33.105.155",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Go Players City",
@@ -676,10 +688,11 @@
   "description": "All the files in the Android City file area",
   "first_seen": "2026-09-29",
   "host": "45.33.33.43",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
   "port": 5500
@@ -688,7 +701,7 @@
   "description": "Files for the Amiga CanDo programming language",
   "first_seen": "2026-09-29",
   "host": "45.33.41.92",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -701,7 +714,7 @@
   "description": "All the files in the Carrier Command Fans Hotline server",
   "first_seen": "2026-09-29",
   "host": "45.33.51.51",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -714,7 +727,7 @@
   "description": "All the files in the SuperTux Cty file area",
   "first_seen": "2026-10-09",
   "host": "45.33.60.245",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -727,7 +740,7 @@
   "description": "All 2,200 files in the Classic Mac OSX file area",
   "first_seen": "2026-09-29",
   "host": "45.56.82.226",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
@@ -752,8 +765,10 @@
   "description": "All the files in the Mastodon Hosting file area",
   "first_seen": "2026-09-29",
   "host": "45.79.115.32",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mastodon Hosting Hotline server",
@@ -763,7 +778,7 @@
   "description": "All the files in the Emulators 4 Macs file area",
   "first_seen": "2026-09-29",
   "host": "45.79.82.77",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -776,8 +791,10 @@
   "description": "Downloads for fans of the Phantasm movie series",
   "first_seen": "2026-09-29",
   "host": "45.79.82.9",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phantasm Phans Hotline server",
@@ -787,7 +804,7 @@
   "description": "All the files in the Revolt Fans file area",
   "first_seen": "2026-09-29",
   "host": "50.116.14.184",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -800,7 +817,7 @@
   "description": "Your Archiving Resource\r'With a particular focus on Macintosh users'",
   "first_seen": "2026-09-29",
   "host": "50.65.99.228",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "tracker.preterhuman.net"
   ],
@@ -811,7 +828,7 @@
   "description": "Your Archiving Resource 'With a particular focus on Macintosh users",
   "first_seen": "2026-09-29",
   "host": "50.65.99.228",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -824,7 +841,7 @@
   "description": "Your Archiving Resource 'With a particular focus on Macintosh users",
   "first_seen": "2026-09-29",
   "host": "50.65.99.228",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -837,7 +854,7 @@
   "description": "Your Archiving Resource 'With a particular focus on Macintosh users",
   "first_seen": "2026-09-29",
   "host": "50.65.99.228",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -850,7 +867,7 @@
   "description": "All the files in the Windows XP City file area",
   "first_seen": "2026-09-29",
   "host": "51.222.143.78",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
@@ -865,7 +882,7 @@
   "description": "Files related to the GTA game series",
   "first_seen": "2026-09-29",
   "host": "51.222.29.15",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
@@ -877,7 +894,7 @@
   "description": "All the files in the NovaServer BBS file area",
   "first_seen": "2026-09-29",
   "host": "51.222.85.183",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org"
@@ -889,8 +906,10 @@
   "description": "Server for the online text-based strategy games Wolfpack Empire & Imperium",
   "first_seen": "2026-09-29",
   "host": "51.81.187.128",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Empire Directory",
@@ -900,8 +919,10 @@
   "description": "Files for the Hot Shots Golf (Everybody's golf) game series",
   "first_seen": "2026-09-29",
   "host": "51.81.187.57",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -911,10 +932,8 @@
   "description": "All the files from the TRON Fans website",
   "first_seen": "2026-09-29",
   "host": "51.81.220.75",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -927,8 +946,10 @@
   "description": "Get files for MS Bob on modern hardware. We provide .VDI files with Bob preloaded",
   "first_seen": "2026-09-29",
   "host": "51.81.35.250",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Microsoft Bob Server",
@@ -938,7 +959,7 @@
   "description": "Home of Mac OS 9 Lives, System 7 Today, MacDomain and VesperNet on Hotline",
   "first_seen": "2026-09-29",
   "host": "62.116.228.143",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -951,7 +972,7 @@
   "description": "Looking for Hotline nostalgia? Since 1998 (with 2 huge gaps). | Use a 1.2.3 client ffs | theabode.ath.cx | 1 gbps up/down",
   "first_seen": "2026-09-29",
   "host": "64.99.118.65",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -977,7 +998,7 @@
   "description": "'Be curious always, for knowledge will not acquire you, you must acquire it.'  texts, rare and old operating systems, chat, etc. hl.preterhuman.net",
   "first_seen": "2026-09-29",
   "host": "66.209.184.244",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -1004,10 +1025,8 @@
   "description": "fuck what you heard, we press flowers the best",
   "first_seen": "2026-09-29",
   "host": "72.211.238.1",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Test Pattern 6",
@@ -1017,7 +1036,7 @@
   "description": "Recreating my old HL server from 1999-2001. Classic Mac stuff.",
   "first_seen": "2026-09-29",
   "host": "73.163.202.118",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -1041,8 +1060,10 @@
   "description": "All the files in the Mac Bolo file area",
   "first_seen": "2026-09-29",
   "host": "74.207.241.148",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mac Bolo Hotline server",
@@ -1066,7 +1087,7 @@
   "description": "From VivaHX!, HLWiki, BigRedH, HLTracker and HLServer. :) Welcome home!",
   "first_seen": "2026-09-29",
   "host": "74.208.191.206",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -1079,7 +1100,7 @@
   "description": "Running mobius on a rescued 2011 iMac because I can!",
   "first_seen": "2026-09-29",
   "host": "76.169.2.55",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
@@ -1103,7 +1124,7 @@
   "description": "A Classic Macintosh focused Hotline server, drop-in and say hello ** Now with added Dogcow **. Powered by Mobius and Mobius GPT Bot.",
   "first_seen": "2026-09-29",
   "host": "82.33.17.156",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "tracker.preterhuman.net"
   ],
@@ -1114,7 +1135,7 @@
   "description": "Heidrun Client and Server now on github.com/franckjej/heidrun",
   "first_seen": "2026-09-29",
   "host": "85.214.130.218",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "tracker.preterhuman.net"
   ],
@@ -1125,7 +1146,7 @@
   "description": "All the files in the Phoca Phans file area",
   "first_seen": "2026-09-29",
   "host": "96.126.101.62",
-  "last_seen": "2026-11-13",
+  "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",

@@ -292,6 +292,8 @@
   "host": "15.204.93.91",
   "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -558,6 +560,8 @@
   "host": "23.239.3.187",
   "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "YuGiOh City Hotline server",
@@ -666,7 +670,8 @@
   "host": "40.160.84.120",
   "last_seen": "2026-11-14",
   "listed_by": [
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Teeworlds Fans Hotline server",
   "port": 5500
@@ -934,6 +939,8 @@
   "host": "51.81.220.75",
   "last_seen": "2026-11-14",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -1027,7 +1034,8 @@
   "host": "72.211.238.1",
   "last_seen": "2026-11-14",
   "listed_by": [
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Test Pattern 6",
   "port": 5500

@@ -547,8 +547,6 @@
   "host": "202.128.66.10",
   "last_seen": "2026-11-14",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
@@ -671,7 +669,8 @@
   "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Teeworlds Fans Hotline server",
   "port": 5500
@@ -1035,7 +1034,8 @@
   "last_seen": "2026-11-14",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Test Pattern 6",
   "port": 5500

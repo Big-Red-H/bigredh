@@ -5,8 +5,6 @@
   "host": "104.200.25.130",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Marisa's Apps Hotline Server",
@@ -140,8 +138,6 @@
   "host": "135.148.46.162",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Apple Newton Development Tools",
@@ -167,8 +163,7 @@
   "last_seen": "2026-11-17",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Digital Obsession",
   "port": 5500,
@@ -182,8 +177,6 @@
   "host": "15.204.113.251",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Amiga City Hotline server",
@@ -195,8 +188,6 @@
   "host": "15.204.118.138",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Alien Arena FPS Fans",
@@ -237,8 +228,6 @@
   "host": "15.204.249.60",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Sony PSP / PSVita Fans Archives",
@@ -279,8 +268,6 @@
   "host": "15.204.92.16",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
@@ -520,8 +507,6 @@
   "host": "192.81.133.87",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
@@ -533,6 +518,8 @@
   "host": "202.128.66.10",
   "last_seen": "2026-11-17",
   "listed_by": [
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
@@ -583,8 +570,6 @@
   "host": "24.6.82.54",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "The Mobius Strip",
@@ -742,8 +727,6 @@
   "host": "45.79.115.32",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mastodon Hosting Hotline server",
@@ -755,8 +738,6 @@
   "host": "45.79.82.77",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Emulators 4 Macs Hotline server",
@@ -768,8 +749,6 @@
   "host": "45.79.82.9",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phantasm Phans Hotline server",
@@ -806,8 +785,7 @@
   "last_seen": "2026-11-17",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -819,8 +797,7 @@
   "last_seen": "2026-11-17",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -832,8 +809,7 @@
   "last_seen": "2026-11-17",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999
@@ -883,8 +859,6 @@
   "host": "51.81.187.128",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Empire Directory",
@@ -896,8 +870,6 @@
   "host": "51.81.187.57",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -925,8 +897,6 @@
   "host": "51.81.35.250",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Microsoft Bob Server",
@@ -1127,8 +1097,6 @@
   "host": "96.126.101.62",
   "last_seen": "2026-11-17",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phoca Phans Hotline server",

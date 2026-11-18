@@ -293,7 +293,8 @@
   "last_seen": "2026-11-18",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
   "port": 5500
@@ -546,7 +547,8 @@
   "last_seen": "2026-11-18",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -883,8 +885,6 @@
   "host": "51.81.187.128",
   "last_seen": "2026-11-18",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Empire Directory",
@@ -896,8 +896,6 @@
   "host": "51.81.187.57",
   "last_seen": "2026-11-18",
   "listed_by": [
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -1005,7 +1003,8 @@
   "last_seen": "2026-11-18",
   "listed_by": [
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Test Pattern 6",
   "port": 5500

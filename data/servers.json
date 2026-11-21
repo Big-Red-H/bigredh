@@ -448,8 +448,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-21",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -851,7 +850,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -864,7 +864,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -877,7 +878,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999

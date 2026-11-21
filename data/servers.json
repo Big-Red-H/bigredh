@@ -934,8 +934,6 @@
   "last_seen": "2026-11-21",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Empire Directory",
@@ -948,8 +946,6 @@
   "last_seen": "2026-11-21",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -962,6 +958,8 @@
   "last_seen": "2026-11-21",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -1064,6 +1062,8 @@
   "last_seen": "2026-11-21",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
@@ -1212,5 +1212,65 @@
   ],
   "name": "Phoca Phans Hotline server",
   "port": 5500
+ },
+ "97.120.68.8:20544": {
+  "description": "Chat, files and old Mac stuff",
+  "first_seen": "2026-11-21",
+  "host": "97.120.68.8",
+  "last_seen": "2026-11-21",
+  "listed_by": [
+   "hltracker.com",
+   "tracker.preterhuman.net"
+  ],
+  "name": "The Rusty Modem",
+  "port": 20544
+ },
+ "97.120.68.8:32110": {
+  "description": "Chat, files and old Mac stuff",
+  "first_seen": "2026-11-21",
+  "host": "97.120.68.8",
+  "last_seen": "2026-11-21",
+  "listed_by": [
+   "hltracker.com",
+   "tracker.preterhuman.net"
+  ],
+  "name": "The Rusty Modem",
+  "port": 32110
+ },
+ "97.120.68.8:32933": {
+  "description": "Chat, files and old Mac stuff",
+  "first_seen": "2026-11-21",
+  "host": "97.120.68.8",
+  "last_seen": "2026-11-21",
+  "listed_by": [
+   "hltracker.com",
+   "tracker.preterhuman.net"
+  ],
+  "name": "The Rusty Modem",
+  "port": 32933
+ },
+ "97.120.68.8:37486": {
+  "description": "Chat, files and old Mac stuff",
+  "first_seen": "2026-11-21",
+  "host": "97.120.68.8",
+  "last_seen": "2026-11-21",
+  "listed_by": [
+   "hltracker.com",
+   "tracker.preterhuman.net"
+  ],
+  "name": "The Rusty Modem",
+  "port": 37486
+ },
+ "97.120.68.8:43711": {
+  "description": "Chat, files and old Mac stuff",
+  "first_seen": "2026-11-21",
+  "host": "97.120.68.8",
+  "last_seen": "2026-11-21",
+  "listed_by": [
+   "hltracker.com",
+   "tracker.preterhuman.net"
+  ],
+  "name": "The Rusty Modem",
+  "port": 43711
  }
 }

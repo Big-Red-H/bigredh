@@ -962,8 +962,6 @@
   "last_seen": "2026-11-21",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -1160,6 +1158,7 @@
   "host": "76.169.2.55",
   "last_seen": "2026-11-21",
   "listed_by": [
+   "hltracker.com",
    "hotline.kicks-ass.net",
    "saddle.dyndns.org",
    "tracker.preterhuman.net"

@@ -290,6 +290,8 @@
   "last_seen": "2026-11-22",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -546,8 +548,6 @@
   "last_seen": "2026-11-22",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
@@ -921,8 +921,6 @@
   "last_seen": "2026-11-22",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Empire Directory",
@@ -935,8 +933,6 @@
   "last_seen": "2026-11-22",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -949,6 +945,8 @@
   "last_seen": "2026-11-22",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -1051,6 +1049,8 @@
   "last_seen": "2026-11-22",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",
@@ -1491,6 +1491,18 @@
   ],
   "name": "The Rusty Modem",
   "port": 41948
+ },
+ "97.120.68.8:43452": {
+  "description": "Chat, files and old Mac stuff",
+  "first_seen": "2026-11-22",
+  "host": "97.120.68.8",
+  "last_seen": "2026-11-22",
+  "listed_by": [
+   "hltracker.com",
+   "tracker.preterhuman.net"
+  ],
+  "name": "The Rusty Modem",
+  "port": 43452
  },
  "97.120.68.8:43711": {
   "description": "Chat, files and old Mac stuff",

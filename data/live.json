@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-23T00:09:35Z",
+ "checked_at": "2026-11-23T00:50:36Z",
  "servers": {
   "104.200.25.130:5500": {
    "listed": true,
@@ -366,17 +366,17 @@
   "hltracker.com": {
    "error": null,
    "ok": true,
-   "servers": 75
+   "servers": 17
   },
   "hotline.kicks-ass.net": {
    "error": null,
    "ok": true,
-   "servers": 66
+   "servers": 68
   },
   "saddle.dyndns.org": {
    "error": null,
    "ok": true,
-   "servers": 66
+   "servers": 68
   },
   "tracker.preterhuman.net": {
    "error": null,

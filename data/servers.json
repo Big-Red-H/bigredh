@@ -288,6 +288,8 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -333,6 +335,20 @@
    "tracker.preterhuman.net"
   ],
   "name": "Opensim City File Archives",
+  "port": 5500
+ },
+ "168.119.164.202:5500": {
+  "description": "Since 1998 - also on chatonly.org:6667 (IRC)",
+  "first_seen": "2026-11-24",
+  "host": "168.119.164.202",
+  "last_seen": "2026-11-24",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Chatonly.org",
   "port": 5500
  },
  "173.230.150.122:5500": {
@@ -544,8 +560,6 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Armageddon Server",
@@ -933,8 +947,6 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -947,6 +959,8 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -1060,6 +1074,8 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "HCO3 Network Hotline Server",

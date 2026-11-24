@@ -109,6 +109,20 @@
   "name": "My Hotline server",
   "port": 5599
  },
+ "129.146.246.38:5500": {
+  "description": "Hotline 2.0 server - hl.htln.fyi",
+  "first_seen": "2026-11-24",
+  "host": "129.146.246.38",
+  "last_seen": "2026-11-24",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
+  ],
+  "name": "Hotline 2.0",
+  "port": 5500
+ },
  "130.62.225.57:5500": {
   "description": "24/7 Japanese UTF8",
   "first_seen": "2026-09-29",
@@ -288,6 +302,8 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -947,8 +963,6 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hot Shots Golf Fans",
@@ -961,6 +975,8 @@
   "last_seen": "2026-11-24",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",

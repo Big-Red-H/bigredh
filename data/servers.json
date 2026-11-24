@@ -117,8 +117,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hotline 2.0",
   "port": 5500
@@ -463,8 +462,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-24",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -589,8 +587,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -731,7 +728,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
   "port": 5500
@@ -772,7 +770,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "SuperTux City Hotline server",
   "port": 5500
@@ -1091,8 +1090,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "HCO3 Network Hotline Server",
   "port": 5500

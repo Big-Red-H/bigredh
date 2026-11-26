@@ -116,7 +116,8 @@
   "last_seen": "2026-11-26",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Hotline 2.0",
   "port": 5500
@@ -300,6 +301,8 @@
   "last_seen": "2026-11-26",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -470,8 +473,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-26",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -596,8 +598,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -984,6 +985,8 @@
   "last_seen": "2026-11-26",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "TRON Fans Hotline server",
@@ -1097,7 +1100,8 @@
   "last_seen": "2026-11-26",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "HCO3 Network Hotline Server",
   "port": 5500

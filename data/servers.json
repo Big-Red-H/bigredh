@@ -84,8 +84,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hotline 2.0",
   "port": 5500
@@ -110,7 +109,10 @@
   "host": "135.148.139.199",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Dreamcast Fans Hotline server",
   "port": 5500
@@ -221,6 +223,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mednafen City Hotline server",
@@ -250,6 +254,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Hotline Tools for Unix",
@@ -291,7 +297,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -303,6 +310,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Opensim City File Archives",
@@ -357,6 +366,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Bomberman Fans Hotline server",
@@ -384,7 +395,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -428,8 +440,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -454,7 +465,10 @@
   "host": "192.155.81.82",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Nintendo VirtualBoy Fans",
   "port": 5500
@@ -522,6 +536,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Emulator Fan Site",
@@ -549,8 +565,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -590,9 +605,24 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "The Mobius Strip",
+  "port": 5500
+ },
+ "24.69.118.68:5500": {
+  "description": "Just to transfer files from my mac to PC",
+  "first_seen": "2026-11-27",
+  "host": "24.69.118.68",
+  "last_seen": "2026-11-27",
+  "listed_by": [
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
+  ],
+  "name": "AquaAngel Server",
   "port": 5500
  },
  "40.160.138.140:5500": {
@@ -649,6 +679,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Newton-re City Hotline server",
@@ -672,6 +704,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Go Players City",
@@ -685,7 +719,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
   "port": 5500
@@ -726,7 +761,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "SuperTux City Hotline server",
   "port": 5500
@@ -750,6 +786,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Mastodon Hosting Hotline server",
@@ -762,6 +800,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Emulators 4 Macs Hotline server",
@@ -814,7 +854,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -827,7 +868,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -840,7 +882,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999
@@ -867,7 +910,9 @@
   "host": "51.222.29.15",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "GTA Fans",
   "port": 5500
@@ -878,7 +923,9 @@
   "host": "51.222.85.183",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com"
+   "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "NovaServer BBS Hotline server",
   "port": 5500
@@ -917,10 +964,7 @@
   "host": "51.81.220.75",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "TRON Fans Hotline server",
   "port": 5500,
@@ -935,6 +979,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Microsoft Bob Server",
@@ -972,6 +1018,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "AnteL0pe's Abode",
@@ -1041,7 +1089,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Test Pattern 6",
   "port": 5500
@@ -1149,6 +1198,17 @@
   "name": "Pitbull DEV Server",
   "port": 5500
  },
+ "77.102.51.254:5800": {
+  "description": "DEV Server for Pitbull Pro and its Server and Tracker",
+  "first_seen": "2026-11-27",
+  "host": "77.102.51.254",
+  "last_seen": "2026-11-27",
+  "listed_by": [
+   "hltracker.com"
+  ],
+  "name": "Pitbull Test Server",
+  "port": 5800
+ },
  "82.33.17.156:5500": {
   "description": "A Classic Macintosh focused Hotline server, drop-in and say hello ** Now with added Dogcow **. Powered by Mobius and Mobius GPT Bot.",
   "first_seen": "2026-09-29",
@@ -1180,6 +1240,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Phoca Phans Hotline server",

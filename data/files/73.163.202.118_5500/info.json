@@ -6,9 +6,10 @@
  "indexed_at": "2026-10-01T19:58:21Z",
  "name": "Bob Kiwi's House",
  "previous_addresses": [
+  "73.135.179.81:5500",
   "73.163.202.118:5500"
  ],
  "seconds": 11817,
- "server": "73.135.179.81:5500",
+ "server": "73.163.202.118:5500",
  "status": "ok"
 }

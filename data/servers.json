@@ -83,7 +83,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
-   "tracker.preterhuman.net"
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org"
   ],
   "name": "Hotline 2.0",
   "port": 5500
@@ -267,6 +268,8 @@
   "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
+   "hotline.kicks-ass.net",
+   "saddle.dyndns.org",
    "tracker.preterhuman.net"
   ],
   "name": "Palm Fans Hotline server",
@@ -437,8 +440,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -545,7 +547,7 @@
   "description": "Retro server from the early 1990s. Piles  of old files and much  more!",
   "first_seen": "2026-09-29",
   "host": "202.128.66.10",
-  "last_seen": "2026-11-26",
+  "last_seen": "2026-11-27",
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
@@ -563,8 +565,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -963,8 +964,7 @@
   "host": "51.81.220.75",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "TRON Fans Hotline server",
   "port": 5500,
@@ -1103,8 +1103,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Bob Kiwi's House",
   "port": 5500,

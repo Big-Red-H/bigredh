@@ -84,8 +84,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "Hotline 2.0",
   "port": 5500
@@ -298,7 +297,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Newton City Hotline server",
   "port": 5500
@@ -395,7 +395,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Apple IIGS City Hotline server",
   "port": 5500
@@ -439,8 +440,7 @@
   "host": "188.245.230.214",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "VesperNet",
   "port": 5500
@@ -565,8 +565,7 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "saddle.dyndns.org"
   ],
   "name": "YuGiOh City Hotline server",
   "port": 5500
@@ -720,7 +719,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "Android City Hotline Server",
   "port": 5500
@@ -761,7 +761,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "SuperTux City Hotline server",
   "port": 5500
@@ -853,7 +854,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - BRONZE",
   "port": 7777
@@ -866,7 +868,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - SILVER",
   "port": 8888
@@ -879,7 +882,8 @@
   "listed_by": [
    "hltracker.com",
    "hotline.kicks-ass.net",
-   "saddle.dyndns.org"
+   "saddle.dyndns.org",
+   "tracker.preterhuman.net"
   ],
   "name": "MAJOR MAC BACKUP - GOLD",
   "port": 9999
@@ -960,10 +964,7 @@
   "host": "51.81.220.75",
   "last_seen": "2026-11-27",
   "listed_by": [
-   "hltracker.com",
-   "hotline.kicks-ass.net",
-   "saddle.dyndns.org",
-   "tracker.preterhuman.net"
+   "hltracker.com"
   ],
   "name": "TRON Fans Hotline server",
   "port": 5500,
